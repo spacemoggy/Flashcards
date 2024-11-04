@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html, Input, Output, callback
 import pandas as pd 
 import plotly.express as px 
+import utils
 
 #declare a global variable to keep track of which row I'm on
 nRowCounter = 0
@@ -63,7 +64,7 @@ app.layout = html.Div([
 ])
 
 #import the csv file
-df = pd.read_csv('wordList 2024-10-07.csv', encoding='latin1')
+df = utils.load_word_list('wordList 2024-10-07.csv')
 #print(df)
 
 #################

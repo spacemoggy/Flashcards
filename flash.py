@@ -3,6 +3,7 @@ from dash import dcc, html, Input, Output, callback
 import pandas as pd 
 import plotly.express as px 
 import utils
+import layout_utils
 
 #declare a global variable to keep track of which row I'm on
 nRowCounter = 0
@@ -17,18 +18,9 @@ app.layout = html.Div([
         html.Div([
             html.Label('Prior flashcard'),
             html.Div([
-                html.Div([
-                    html.Label('English word'),
-                    dcc.Input(id='prior-english', type='text', style={'width': '150px'}),
-                ], style={'display': 'inline-block', 'padding': '10px'}),
-                html.Div([
-                    html.Label('French word'),
-                    dcc.Input(id='prior-french', type='text', style={'width': '150px'}),
-                ], style={'display': 'inline-block', 'padding': '10px'}),
-                html.Div([
-                    html.Label('Clue'),
-                    dcc.Textarea(id='prior-clue', rows=3, style={'width': '300px'}),
-                ], style={'display': 'inline-block', 'padding': '10px'}),
+                layout_utils.create_flashcard_display('English word', 'prior-english'),
+                layout_utils.create_flashcard_display('French word', 'prior-french'),
+                layout_utils.create_flashcard_display('Clue', 'prior-clue', display_style={'width': '300px', 'background-color': 'lightgrey'}, rows=3),
             ], style={'display': 'flex', 'flex-direction': 'row'}),
         ]),
     ], style={'padding': '10px'}),
@@ -38,18 +30,9 @@ app.layout = html.Div([
         html.Div([
             html.Label('Current flashcard'),
             html.Div([
-                html.Div([
-                    html.Label('English word'),
-                    dcc.Input(id='current-english', type='text', style={'width': '150px'}),
-                ], style={'display': 'inline-block', 'padding': '10px'}),
-                html.Div([
-                    html.Label('French word'),
-                    dcc.Input(id='current-french', type='text', style={'width': '150px'}),
-                ], style={'display': 'inline-block', 'padding': '10px'}),
-                html.Div([
-                    html.Label('Clue'),
-                    dcc.Textarea(id='current-clue', rows=3, style={'width': '300px'}),
-                ], style={'display': 'inline-block', 'padding': '10px'}),
+                layout_utils.create_flashcard_display('English word', 'current-english'),
+                layout_utils.create_flashcard_display('French word', 'current-french'),
+                layout_utils.create_flashcard_display('Clue', 'current-clue', display_style={'width': '300px', 'background-color': 'lightgrey'}, rows=3),
             ], style={'display': 'flex', 'flex-direction': 'row'}),
         ]),
     ], style={'padding': '10px'}),
@@ -63,20 +46,20 @@ app.layout = html.Div([
     ], style={'display': 'flex', 'justify-content': 'space-around', 'padding-top': '20px'})
 ])
 
-#import the csv file
+# Load the CSV file
 df = utils.load_word_list('wordList 2024-10-07.csv')
-#print(df)
 
 #################
 ### CALLBACKS ###
 #################
 
-#Next Button
+# Next Button
 @app.callback(
-    [Output('current-english', 'value'),
-     Output('prior-english'  , 'value'),
-     Output('prior-french'  , 'value'),
-     Output('prior-clue'  , 'value')],
+    [Output('current-english', 'children'),
+     Output('current-clue'  , 'children'),
+     Output('prior-english'  , 'children'),
+     Output('prior-french'  , 'children'),
+     Output('prior-clue'  , 'children')],
     Input('next-button', 'n_clicks')
 )
 def update_output(n_clicks):
@@ -86,42 +69,42 @@ def update_output(n_clicks):
 
     # Handle the initial state where n_clicks is None
     if n_clicks is None:
-        return [''] * 4
+        return [''] * 5
 
     #set the current_row variable to be the dataframe row corresponding to the n_clicks (need to adjust for zero indexing)
-    current_row = df.iloc[n_clicks - 1]
+    current_row = df.iloc[nRowCounter - 1]
 
     #set the prior_row to be blanks if it's the first click
     if n_clicks == 1:
         prior_row = pd.Series(['']* len(df.columns), index=df.columns)
     #otherwise, set it to be the dataframe row prior to current row
     else:
-        prior_row = df.iloc[n_clicks - 2]
+        prior_row = df.iloc[nRowCounter - 2]
 
-    #english_word = current_row['English']
-    return current_row['English'], prior_row['English'], prior_row['French'], prior_row['Clue']
+    print(f'nRowCounter in Next function is {nRowCounter}')
+    return (current_row['English'],
+    '', 
+    prior_row['English'], 
+    prior_row['French'], 
+    prior_row['Clue'])
 
-#Clue Button
+# Clue Button
 @app.callback(
-    Output('current-clue', 'value'),
-    Input('clue-button', 'n_clicks')
+    Output('current-clue', 'children', allow_duplicate=True),
+    Input('clue-button', 'n_clicks'),
+    prevent_initial_call=True
 )
 def update_clue(n_clicks):
     global nRowCounter
-
     # Handle the initial state where n_clicks is None
     if n_clicks is None:
-        return ['None']
-
-    #set the current_row variable to be the dataframe row corresponding to the n_rowCounter (need to adjust for zero indexing)
-    current_row = df.iloc[nRowCounter - 1]
+        return 'None'
+    #set the current_row variable to be the dataframe row corresponding to the nRowCounter (need to adjust for zero indexing)
+    current_row = df.iloc[nRowCounter-1]
+    print(f'nRowCounter in Clue function is {nRowCounter}')
     print(current_row['Clue'])
-
-    #return current_row['Clue']
-    return('hello')
+    return current_row['Clue']
 
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-#a test change for github

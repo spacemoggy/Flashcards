@@ -1,15 +1,20 @@
+print('flash.py starting')
+import main.buttons_showAnswer as buttons_showAnswer
+import test.testImport as testImport
 import dash
 from dash import dcc, html, Input, Output, callback
 import pandas as pd 
 import plotly.express as px 
-import utils
-import layout_utils
+import main.utils as utils
+import main.layout_utils as layout_utils
 
 #declare a global variable to keep track of which row I'm on
 nRowCounter = 0
 
 # Initialize the Dash app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, suppress_callback_exceptions=True)
+
+
 
 # Define the layout
 app.layout = html.Div([
@@ -53,40 +58,7 @@ df = utils.load_word_list('wordList 2024-10-07.csv')
 ### CALLBACKS ###
 #################
 
-# Next Button
-@app.callback(
-    [Output('current-english', 'children'),
-     Output('current-clue'  , 'children'),
-     Output('prior-english'  , 'children'),
-     Output('prior-french'  , 'children'),
-     Output('prior-clue'  , 'children')],
-    Input('next-button', 'n_clicks')
-)
-def update_output(n_clicks):
-    # increment the nRowCounter variable to keep track of which flashcard we're on
-    global nRowCounter
-    nRowCounter += 1
 
-    # Handle the initial state where n_clicks is None
-    if n_clicks is None:
-        return [''] * 5
-
-    #set the current_row variable to be the dataframe row corresponding to the n_clicks (need to adjust for zero indexing)
-    current_row = df.iloc[nRowCounter - 1]
-
-    #set the prior_row to be blanks if it's the first click
-    if n_clicks == 1:
-        prior_row = pd.Series(['']* len(df.columns), index=df.columns)
-    #otherwise, set it to be the dataframe row prior to current row
-    else:
-        prior_row = df.iloc[nRowCounter - 2]
-
-    print(f'nRowCounter in Next function is {nRowCounter}')
-    return (current_row['English'],
-    '', 
-    prior_row['English'], 
-    prior_row['French'], 
-    prior_row['Clue'])
 
 # Clue Button
 @app.callback(
@@ -105,6 +77,17 @@ def update_clue(n_clicks):
     print(current_row['Clue'])
     return current_row['Clue']
 
+#import the callbacks from buttons_nextFlashcard.py
+#import buttons_nextFlashcard
+#from buttons_nextFlashcard import *
+
+#import the callbacks from buttons_showAnswer.py
+#from buttons_showAnswer import *
+import main.buttons_showAnswer as buttons_showAnswer
+import test.testImport as testImport
+
+
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True)
+

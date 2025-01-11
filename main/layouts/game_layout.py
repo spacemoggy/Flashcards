@@ -33,17 +33,17 @@ def create_layout():
                 # Prior flashcard row
                 dbc.Row([
                     dbc.Col(html.H5("Prior flashcard"), width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-english"), style={"min-height": "72px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-french") , style={"min-height": "72px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-clue")   , style={"min-height": "72px"}), width=4)
+                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-english")                          , style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-french")                           , style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-clue", style={"padding": "0.5rem"}), style={"min-height": "120px"}), width=4)
                 ], className="align-items-center mb-3"),
                 
                 # Current flashcard row
                 dbc.Row([
                     dbc.Col(html.H5("Current flashcard"), width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-english"), style={"min-height": "72px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-french") , style={"min-height": "72px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-clue")   , style={"min-height": "72px"}), width=4)
+                    dbc.Col(dbc.Card(dbc.CardBody(id="current-english")                          , style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="current-french")                           , style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="current-clue", style={"padding": "0.5rem"}), style={"min-height": "120px"}), width=4)
                 ], className="align-items-center mb-4"),
                 
                 # spacer div

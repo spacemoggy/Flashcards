@@ -38,7 +38,10 @@ def next_flashcard(n_clicks, old_index):
     # Get current word
     current_english = df.iloc[current_index]['English']
     current_french = ""  # Start empty, will be shown with Show Answer button
-    current_clue = ""    # Start empty, will be shown with Clue button
+    
+    # Check if clue exists and set indicator
+    current_clue_populated = df.iloc[current_index]['Clue']
+    current_clue = "*****" if pd.notna(current_clue_populated) and current_clue_populated.strip() else ""
     
     return [
         current_english,  # current-english

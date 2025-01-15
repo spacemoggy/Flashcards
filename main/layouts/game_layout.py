@@ -2,11 +2,12 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 
-def create_layout():
+def create_layout(df):
     return html.Div(
         [  # List of children starts here
             # Store component for state management
             dcc.Store(id='game-state', data=0),
+            dcc.Store(id='word-data', data=df.to_dict('records')),
             
             html.Div(style={'height': '2rem'}),  # Spacer div
             dbc.Container([

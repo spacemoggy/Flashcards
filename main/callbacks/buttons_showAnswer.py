@@ -1,19 +1,19 @@
 from dash import Input, Output, State, callback
 import pandas as pd
-import utils
 
 @callback(
     Output('current-french', 'children', allow_duplicate=True),
     Input('show-answer-button', 'n_clicks'),
-    State('game-state', 'data'),
+    [State('game-state', 'data'),
+     State('word-data', 'data')],
     prevent_initial_call=True
 )
-def show_answer(n_clicks, current_index):
+def show_answer(n_clicks, current_index, word_data):
     if n_clicks is None:
         return ""
         
-    # Load word list
-    df = utils.load_word_list('main/wordList 2024-10-07.csv')
+    # Convert to DataFrame
+    df = pd.DataFrame(word_data)
     
     # Get current word's French translation
     current_french = df.iloc[current_index]['French']

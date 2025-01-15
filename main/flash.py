@@ -14,6 +14,9 @@ import callbacks.buttons_showAnswer as buttons_showAnswer
 import callbacks.buttons_clue as buttons_clue
 import dash_bootstrap_components as dbc
 
+# Load the CSV file
+df = utils.load_word_list('main/wordList 2024-10-07.csv')
+
 # Initialize the Dash app
 app = dash.Dash(__name__, 
     suppress_callback_exceptions=True,
@@ -23,14 +26,8 @@ app = dash.Dash(__name__,
     ]
 )
 
-# Use the new layout
-app.layout = game_layout.create_layout()
-
-# Load the CSV file
-df = utils.load_word_list('main/wordList 2024-10-07.csv')
-
-
-
+# Use the new layout with word data
+app.layout = game_layout.create_layout(df)
 
 # Run the app
 if __name__ == '__main__':

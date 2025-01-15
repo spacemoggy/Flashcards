@@ -16,11 +16,12 @@ import utils
     Input('next-card-button', 'n_clicks'),
     
     # State
-    State('game-state', 'data')
+    State('game-state', 'data'),
+    State('word-data', 'data')
 )
-def next_flashcard(n_clicks, old_index):
-    # Load word list
-    df = utils.load_word_list('main/wordList 2024-10-07.csv')
+def next_flashcard(n_clicks, old_index, word_data):
+    # Convert to DataFrame
+    df = pd.DataFrame(word_data)
     
     # Handle initial load
     if n_clicks is None:

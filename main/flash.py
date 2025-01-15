@@ -11,6 +11,7 @@ import utils as utils
 import layouts.game_layout as game_layout
 import callbacks.buttons_nextFlashcard as buttons_nextFlashcard
 import callbacks.buttons_showAnswer as buttons_showAnswer
+import callbacks.buttons_clue as buttons_clue
 import dash_bootstrap_components as dbc
 
 # Initialize the Dash app

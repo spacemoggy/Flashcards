@@ -8,6 +8,7 @@ def create_layout(df):
             # Store component for state management
             dcc.Store(id='game-state', data=0),
             dcc.Store(id='word-data', data=df.to_dict('records')),
+            dcc.Store(id='start-time', data=None),
             
             html.Div(style={'height': '2rem'}),  # Spacer div
             dbc.Container([
@@ -33,18 +34,26 @@ def create_layout(df):
                 
                 # Prior flashcard row
                 dbc.Row([
-                    dbc.Col(html.H5("Prior flashcard"), width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-english")                          , style={"min-height": "120px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-french")                           , style={"min-height": "120px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-clue", style={"padding": "0.5rem"}), style={"min-height": "120px"}), width=4)
+                    dbc.Col([
+                        html.H5("Prior flashcard"),
+                        dbc.Card(dbc.CardBody(id="prior-time", style={"padding": "0.5rem"}), 
+                                style={"min-height": "40px", "width": "70%"})
+                    ], width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-english"), style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-french"),  style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="prior-clue"),    style={"min-height": "120px"}), width=4)
                 ], className="align-items-center mb-3"),
                 
                 # Current flashcard row
                 dbc.Row([
-                    dbc.Col(html.H5("Current flashcard"), width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-english")                          , style={"min-height": "120px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-french")                           , style={"min-height": "120px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-clue", style={"padding": "0.5rem"}), style={"min-height": "120px"}), width=4)
+                    dbc.Col([
+                        html.H5("Current flashcard"),
+                        dbc.Card(dbc.CardBody(id="current-time", style={"padding": "0.5rem"}), 
+                                style={"min-height": "40px", "width": "70%"})
+                    ], width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="current-english"), style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="current-french"),  style={"min-height": "120px"}), width=3),
+                    dbc.Col(dbc.Card(dbc.CardBody(id="current-clue"),    style={"min-height": "120px"}), width=4)
                 ], className="align-items-center mb-4"),
                 
                 # spacer div

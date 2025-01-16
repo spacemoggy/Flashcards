@@ -11,6 +11,7 @@ import time
      Output('prior-french', 'children'),
      Output('prior-clue', 'children'),
      Output('prior-time', 'children'),
+     Output('prior-time', 'style'),
      Output('game-state', 'data'),
      Output('start-time', 'data')],
     Input('next-card-button', 'n_clicks'),
@@ -32,6 +33,7 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
         prior_french = ""
         prior_clue = ""
         elapsed_time = ""
+        time_style = {"padding": "0.5rem"}
     else:
         current_index = (old_index + 1) % len(df)
         # Get prior word
@@ -39,7 +41,23 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
         prior_french = df.iloc[old_index]['French']
         prior_clue = df.iloc[old_index]['Clue']
         # Calculate elapsed time
-        elapsed_time = f"{time.time() - start_time:.1f}s" if start_time else ""
+        elapsed_seconds = time.time() - start_time if start_time else 0
+        elapsed_time = f"{elapsed_seconds:.1f}s"
+        
+        # Set color based on time
+        if elapsed_seconds < 1.5:
+            bg_color = "#90EE90"      # Light green
+        elif elapsed_seconds < 2.7:
+            bg_color = "#FFEB3B"      # Pure yellow
+        elif elapsed_seconds < 5:
+            bg_color = "#FF6200"      # Pure intense orange
+        else:
+            bg_color = "#DDA0DD"      # Plum
+            
+        time_style = {
+            "padding": "0.5rem",
+            "background-color": bg_color
+        }
     
     # Get current word
     current_english = df.iloc[current_index]['English']
@@ -47,7 +65,7 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
     
     # Check if clue exists and set indicator
     current_clue_populated = df.iloc[current_index]['Clue']
-    current_clue = "*****" if pd.notna(current_clue_populated) and current_clue_populated.strip() else ""
+    current_clue = "*****" if isinstance(current_clue_populated, str) and current_clue_populated.strip() else ""
     
     return [
         current_english,  # current-english
@@ -57,6 +75,7 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
         prior_french,     # prior-french
         prior_clue,      # prior-clue
         elapsed_time,     # prior-time
+        time_style,      # prior-time style
         current_index,    # game-state
         new_start_time   # start-time
     ]

@@ -6,7 +6,7 @@ TIME_GREEN = 1.5
 TIME_YELLOW = 2.7
 TIME_PURPLE = 5.0
 DEFAULT_TIME = 10.0
-TARGET_TIME = 300
+TARGET_TIME = 100
 
 # Category definitions
 def get_category(time):

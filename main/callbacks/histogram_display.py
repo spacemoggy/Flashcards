@@ -2,6 +2,24 @@ from dash import callback, Output, Input
 import plotly.express as px
 import pandas as pd
 
+# Time thresholds (matching buttons_nextFlashcard.py)
+TIME_GREEN = 1.5
+TIME_YELLOW = 2.7
+TIME_PURPLE = 5.0
+
+def get_bar_colors(times):
+    colors = []
+    for t in times:
+        if t < TIME_GREEN:
+            colors.append("#90EE90")      # Light green
+        elif t < TIME_YELLOW:
+            colors.append("#FFEB3B")      # Pure yellow
+        elif t < TIME_PURPLE:
+            colors.append("#FF6200")      # Pure intense orange
+        else:
+            colors.append("#DDA0DD")      # Plum
+    return colors
+
 @callback(
     Output('time-histogram', 'figure'),
     Input('word-data', 'data')
@@ -16,10 +34,13 @@ def update_histogram(word_data):
     # Create bar chart
     fig = px.bar(
         df,
-        y='session_time',  # Using session_time for bar heights
-        range_y=[0, 10],   # Fixed range for consistency
-        height=80          # Match layout height
+        y='session_time',
+        range_y=[0, 5],    # Changed from 10 to 5
+        height=100         # Increased from 80 to 100
     )
+    
+    # Update bar colors
+    fig.update_traces(marker_color=get_bar_colors(df['session_time']))
     
     # Update layout
     fig.update_layout(

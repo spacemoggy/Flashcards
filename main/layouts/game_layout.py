@@ -12,17 +12,30 @@ def create_layout(df):
             
             html.Div(style={'height': '2rem'}),  # Spacer div
             dbc.Container([
-                # Logo row
+                # Logo and histogram row
                 dbc.Row([
-                    dbc.Col(html.Img(
-                        src='assets/Logo 2025-01-03.png', 
-                        style={
-                            'height'       : '100px',
-                            'border-radius': '15px',
-                            'border'       : '2px solid #0d6efd'
-                        }
-                    ), width=12, className="text-center")
-                ], className="mb-4"),
+                    # Logo column
+                    dbc.Col(
+                        html.Img(
+                            src='assets/Logo 2025-01-03.png', 
+                            style={
+                                'height': '80px',
+                                'border-radius': '15px',
+                                'border': '2px solid #0d6efd'
+                            }
+                        ), 
+                        width=3
+                    ),
+                    # Histogram column
+                    dbc.Col(
+                        dcc.Graph(
+                            id='time-histogram',
+                            config={'displayModeBar': False},
+                            style={'height': '80px'}
+                        ),
+                        width=9
+                    )
+                ], className="mb-4 align-items-center"),
                 
                 # Headers row
                 dbc.Row([

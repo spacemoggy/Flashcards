@@ -13,7 +13,8 @@ import time
      Output('prior-time', 'children'),
      Output('prior-time', 'style'),
      Output('game-state', 'data'),
-     Output('start-time', 'data')],
+     Output('start-time', 'data'),
+     Output('word-data', 'data')],
     Input('next-card-button', 'n_clicks'),
     [State('game-state', 'data'),
      State('word-data', 'data'),
@@ -40,9 +41,13 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
         prior_english = df.iloc[old_index]['English']
         prior_french = df.iloc[old_index]['French']
         prior_clue = df.iloc[old_index]['Clue']
-        # Calculate elapsed time
-        elapsed_seconds = time.time() - start_time if start_time else 0
+        
+        # Calculate elapsed time (capped at 10 seconds)
+        elapsed_seconds = min(time.time() - start_time, 10) if start_time else 0
         elapsed_time = f"{elapsed_seconds:.1f}s"
+        
+        # Store the time in DataFrame
+        df.at[old_index, 'session_time'] = elapsed_seconds
         
         # Set color based on time
         if elapsed_seconds < 1.5:
@@ -68,14 +73,15 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
     current_clue = "*****" if isinstance(current_clue_populated, str) and current_clue_populated.strip() else ""
     
     return [
-        current_english,  # current-english
-        current_french,   # current-french
-        current_clue,     # current-clue
-        prior_english,    # prior-english
-        prior_french,     # prior-french
-        prior_clue,      # prior-clue
-        elapsed_time,     # prior-time
-        time_style,      # prior-time style
-        current_index,    # game-state
-        new_start_time   # start-time
+        current_english,    # current-english
+        current_french,     # current-french
+        current_clue,       # current-clue
+        prior_english,      # prior-english
+        prior_french,       # prior-french
+        prior_clue,        # prior-clue
+        elapsed_time,       # prior-time
+        time_style,        # prior-time style
+        current_index,      # game-state
+        new_start_time,     # start-time
+        df.to_dict('records')  # word-data
     ]

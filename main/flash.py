@@ -14,6 +14,7 @@ import callbacks.buttons_showAnswer as buttons_showAnswer
 import callbacks.buttons_clue as buttons_clue
 import dash_bootstrap_components as dbc
 import card_selection  # Add this import at the top with other imports
+import callbacks.debug_display as debug_display  # Add this import
 
 # Load the CSV file
 full_df = utils.load_word_list('main/wordList 2024-10-07.csv')

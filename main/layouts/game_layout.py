@@ -66,11 +66,15 @@ def create_layout(df):
                         dbc.Button("Clue"          , id="clue-button"       , color="secondary", className="me-2"),
                         dbc.Button("Show answer"   , id="show-answer-button", color="secondary", className="me-2")
                     ], width=12, className="text-center")
-                ])
+                ]),
+
+                # Debug div - add this
+                html.Div(id='debug-div', style={'margin-top': '20px'})
             ])
         ],
         style={'background': 'linear-gradient(to bottom, #e0e0e0, #ffffff)', 'min-height': '100vh', 'font-family': 'Roboto, sans-serif'}
     )
+
 
 # For standalone testing
 if __name__ == '__main__':

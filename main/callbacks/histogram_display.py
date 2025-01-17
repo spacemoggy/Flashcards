@@ -9,6 +9,10 @@ import pandas as pd
 def update_histogram(word_data):
     df = pd.DataFrame(word_data)
     
+    # If session_time doesn't exist yet, create it with zeros
+    if 'session_time' not in df.columns:
+        df['session_time'] = 0
+    
     # Create bar chart
     fig = px.bar(
         df,

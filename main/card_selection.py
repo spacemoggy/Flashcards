@@ -19,6 +19,19 @@ def get_category(time):
     else:
         return 'purple'
 
+def select_study_cards_for_testing(df):
+    """
+    Temporary version for testing - just returns first 3 cards
+    """
+    # Create a copy to avoid modifying original
+    df = df.copy()
+    
+    # Fill any missing durations
+    df['Duration'] = df['Duration'].fillna(DEFAULT_TIME)
+    
+    # Just return first 3 cards
+    return df.head(3)
+
 def select_study_cards(df):
     """
     Select cards for study session based on time ratios.

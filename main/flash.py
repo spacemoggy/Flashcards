@@ -16,10 +16,12 @@ import dash_bootstrap_components as dbc
 import card_selection  # Add this import at the top with other imports
 import callbacks.debug_display as debug_display  # Add this import
 import callbacks.histogram_display as histogram_display  # Make sure this is here
+import callbacks.update_durations as update_durations  # Add this import
 
 # Load the CSV file
 full_df = utils.load_word_list('main/wordList 2024-10-07.csv')
-study_df = card_selection.select_study_cards(full_df)
+study_df = card_selection.select_study_cards(full_df)  # Normal version
+# study_df = card_selection.select_study_cards_for_testing(full_df)  # Testing version
 
 # Initialize the Dash app
 app = dash.Dash(__name__, 

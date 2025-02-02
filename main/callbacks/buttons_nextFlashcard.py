@@ -1,6 +1,7 @@
 from dash import Input, Output, State, callback
 import pandas as pd
 import time
+from . import update_durations
 
 @callback(
     # Outputs
@@ -63,6 +64,10 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
             "padding": "0.5rem",
             "background-color": bg_color
         }
+        
+        # If we've wrapped around to the start, update durations
+        if current_index == 0:
+            update_durations.update_durations(df)
     
     # Get current word
     current_english = df.iloc[current_index]['English']

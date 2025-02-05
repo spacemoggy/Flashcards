@@ -20,4 +20,4 @@ def update_durations(study_df):
         full_df.loc[mask, 'Duration'] = new_duration
     
     # Save the updated full CSV
-    full_df.to_csv('main/wordList 2024-10-07.csv', index=False) 
+    full_df.to_csv('main/wordList 2024-10-07.csv', index=False, encoding='utf-8') 

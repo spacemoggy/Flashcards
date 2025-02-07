@@ -57,17 +57,45 @@ def create_layout(df):
                     dbc.Col(dbc.Card(dbc.CardBody(id="prior-clue"),    style={"min-height": "120px"}), width=4)
                 ], className="align-items-center mb-3"),
                 
-                # Current flashcard row
-                dbc.Row([
-                    dbc.Col([
-                        html.H5("Current flashcard"),
-                        dbc.Card(dbc.CardBody(id="current-time", style={"padding": "0.5rem"}), 
-                                style={"min-height": "40px", "width": "70%"})
-                    ], width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-english"), style={"min-height": "120px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-french"),  style={"min-height": "120px"}), width=3),
-                    dbc.Col(dbc.Card(dbc.CardBody(id="current-clue"),    style={"min-height": "120px"}), width=4)
-                ], className="align-items-center mb-4"),
+                # Current flashcard section with overlay
+                html.Div([  # Container for positioning
+                    # Current flashcard row
+                    dbc.Row([
+                        dbc.Col([
+                            html.H5("Current flashcard"),
+                            dbc.Card(dbc.CardBody(id="current-time", style={"padding": "0.5rem"}), 
+                                    style={"min-height": "40px", "width": "70%"})
+                        ], width=2, style={"padding-right": "0px", "margin-right": "-30px"}),
+                        dbc.Col(dbc.Card(dbc.CardBody(id="current-english"), style={"min-height": "120px"}), width=3),
+                        dbc.Col(dbc.Card(dbc.CardBody(id="current-french"),  style={"min-height": "120px"}), width=3),
+                        dbc.Col(dbc.Card(dbc.CardBody(id="current-clue"),    style={"min-height": "120px"}), width=4)
+                    ], className="align-items-center mb-4"),
+                    
+                    # Completion overlay
+                    html.Div([
+                        html.H3("Round Complete!", className="text-center mb-3"),
+                        html.P("Cards reviewed this round", className="text-center"),
+                        dbc.Button(
+                            "Start New Round", 
+                            id="start-new-round-button", 
+                            color="primary",
+                            className="d-block mx-auto"
+                        )
+                    ], 
+                    id="completion-div",
+                    style={
+                        "display": "none",
+                        "position": "absolute",
+                        "top": "0",
+                        "left": "0",
+                        "width": "100%",
+                        "height": "100%",
+                        "background": "linear-gradient(135deg, #e0f7fa 0%, #80deea 100%)",  # Soft aqua gradient
+                        "border-radius": "0.5rem",
+                        "padding": "2rem",
+                        "box-shadow": "0 0 10px rgba(0,0,0,0.1)"
+                    })
+                ], style={"position": "relative"}),  # Enable absolute positioning of overlay
                 
                 # spacer div
                 html.Div(style={'height': '2rem'}),
@@ -81,7 +109,7 @@ def create_layout(df):
                     ], width=12, className="text-center")
                 ]),
 
-                # Debug div - add this
+                # Debug div
                 html.Div(id='debug-div', style={'margin-top': '20px'})
             ])
         ],

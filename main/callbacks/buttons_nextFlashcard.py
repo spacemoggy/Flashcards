@@ -15,13 +15,15 @@ from . import update_durations
      Output('prior-time', 'style'),
      Output('game-state', 'data'),
      Output('start-time', 'data'),
-     Output('word-data', 'data')],
+     Output('word-data', 'data'),
+     Output('completion-div', 'style')],
     Input('next-card-button', 'n_clicks'),
     [State('game-state', 'data'),
      State('word-data', 'data'),
-     State('start-time', 'data')]
+     State('start-time', 'data'),
+     State('completion-div', 'style')]
 )
-def next_flashcard(n_clicks, old_index, word_data, start_time):
+def next_flashcard(n_clicks, old_index, word_data, start_time, completion_style):
     # Convert to DataFrame
     df = pd.DataFrame(word_data)
     
@@ -65,17 +67,28 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
             "background-color": bg_color
         }
         
-        # If we've wrapped around to the start, update durations
-        if current_index == 0:
+        # If we've reached the end (current_index = 0) but not on initial load (n_clicks not None)
+        # This distinguishes between:
+        # 1. Starting the app (current_index = 0, n_clicks = None)
+        # 2. Completing a round (current_index = 0, n_clicks has value)
+        # When round is complete:
+        # - Update the durations in the CSV file
+        # - Show the completion overlay
+        if current_index == 0 and n_clicks is not None:
             update_durations.update_durations(df)
+            completion_style["display"] = "block"
     
-    # Get current word
-    current_english = df.iloc[current_index]['English']
-    current_french = ""  # Start empty, will be shown with Show Answer button
-    
-    # Check if clue exists and set indicator
-    current_clue_populated = df.iloc[current_index]['Clue']
-    current_clue = "*****" if isinstance(current_clue_populated, str) and current_clue_populated.strip() else ""
+    # Get current word (only if not at end)
+    if current_index == 0:
+        current_english = ""
+        current_french = ""
+        current_clue = ""
+    else:
+        current_english = df.iloc[current_index]['English']
+        current_french = ""  # Start empty, will be shown with Show Answer button
+        # Check if clue exists and set indicator
+        current_clue_populated = df.iloc[current_index]['Clue']
+        current_clue = "*****" if isinstance(current_clue_populated, str) and current_clue_populated.strip() else ""
     
     return [
         current_english,    # current-english
@@ -88,5 +101,6 @@ def next_flashcard(n_clicks, old_index, word_data, start_time):
         time_style,        # prior-time style
         current_index,      # game-state
         new_start_time,     # start-time
-        df.to_dict('records')  # word-data
+        df.to_dict('records'),  # word-data
+        completion_style    # completion-div style
     ]

@@ -1,6 +1,7 @@
 from dash import Input, Output, State, callback
 import pandas as pd
 import time
+from datetime import datetime
 from . import update_durations
 
 @callback(
@@ -38,6 +39,22 @@ def next_flashcard(n_clicks, old_index, word_data, start_time, completion_style)
         prior_clue = ""
         elapsed_time = ""
         time_style = {"padding": "0.5rem"}
+        
+        # Show first card on initial load
+        current_row = df.iloc[current_index]
+        current_english = current_row['English']
+        current_french = ""  # Start empty, will be shown with Show Answer button
+        # Check if clue exists and set indicator
+        clue_value = current_row['Clue']  # Get the raw clue value
+        clue_text = clue_value.strip() if isinstance(clue_value, str) else ""  # Strip if it's a string, else empty
+        clue_is_string = isinstance(clue_value, str)  # Is it a string type?
+        
+        if clue_text and clue_is_string:  # Checks first if anything is populated in clue, then if what's populated is a string
+            current_clue = "*****"
+        else:
+            current_clue = ""  # Show asterisks only if there's actual clue text
+
+            
     else:
         current_index = (old_index + 1) % len(df)
         # Get prior word
@@ -49,8 +66,9 @@ def next_flashcard(n_clicks, old_index, word_data, start_time, completion_style)
         elapsed_seconds = min(time.time() - start_time, 10) if start_time else 0
         elapsed_time = f"{elapsed_seconds:.1f}s"
         
-        # Store the time in DataFrame
+        # Store the time and timestamp in DataFrame
         df.at[old_index, 'session_time'] = elapsed_seconds
+        df.at[old_index, 'timestamp'] = datetime.now().isoformat()
         
         # Set color based on time
         if elapsed_seconds < 1.5:
@@ -73,22 +91,31 @@ def next_flashcard(n_clicks, old_index, word_data, start_time, completion_style)
         # 2. Completing a round (current_index = 0, n_clicks has value)
         # When round is complete:
         # - Update the durations in the CSV file
+        # - Save learning history for this round
         # - Show the completion overlay
         if current_index == 0 and n_clicks is not None:
             update_durations.update_durations(df)
+            update_durations.update_result_log(df)
             completion_style["display"] = "block"
     
-    # Get current word (only if not at end)
-    if current_index == 0:
+    # Get current word (only if not at end of round)
+    if current_index == 0 and n_clicks is not None:  # Only clear if it's end of round
         current_english = ""
         current_french = ""
         current_clue = ""
     else:
-        current_english = df.iloc[current_index]['English']
+        current_row = df.iloc[current_index]
+        current_english = current_row['English']
         current_french = ""  # Start empty, will be shown with Show Answer button
         # Check if clue exists and set indicator
-        current_clue_populated = df.iloc[current_index]['Clue']
-        current_clue = "*****" if isinstance(current_clue_populated, str) and current_clue_populated.strip() else ""
+        clue_value = current_row['Clue']  # Get the raw clue value
+        clue_text = clue_value.strip() if isinstance(clue_value, str) else ""  # Strip if it's a string, else empty
+        clue_is_string = isinstance(clue_value, str)  # Is it a string type?
+        
+        if clue_text and clue_is_string:  # Checks first if anything is populated in clue, then if what's populated is a string
+            current_clue = "*****"
+        else:
+            current_clue = ""  # Show asterisks only if there's actual clue text
     
     return [
         current_english,    # current-english

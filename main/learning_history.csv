@@ -1,0 +1,46 @@
+timestamp,english,french,clue,expected_duration,actual_duration,used_clue,batch_size,position_in_batch,session_id
+2025-02-12T20:36:48.761321,the motorboat,le bateau à moteur,,1.994000076,2.3161630630493164,False,23,0,2025-02-12-203646
+2025-02-12T20:36:51.482217,the toy,le jouet,,1.984799836,2.723905086517334,False,23,1,2025-02-12-203646
+2025-02-12T20:36:53.322540,to meet (up),(se) rencontrer,"whenever I meet up with my friend Ron, he does the cups-and-balls game with me on a tray and I always lose. It's a con - a Ron-con-tray",3.946954445158994,1.8413493633270264,False,23,2,2025-02-12-203646
+2025-02-12T20:36:55.414716,the sail,la voile,Picture Eliza Doolittle enunciating,2.7355626807654345,2.093172788619995,False,23,3,2025-02-12-203646
+2025-02-12T20:36:57.043326,the hang-gliding,le deltaplane,,2.70487379353794,1.627615213394165,False,23,4,2025-02-12-203646
+2025-02-12T20:36:59.071473,the rogue/thug,le voyou,"the Welsh policeman grabs the thug by the ear and says ""Come on now boyo""",2.0,2.029142379760742,False,23,5,2025-02-12-203646
+2025-02-12T20:37:02.289073,the garden fork,la fourche de jardin,,2.527611197,3.217599868774414,False,23,6,2025-02-12-203646
+2025-02-12T20:37:07.388989,the bank holiday,le jour férié,"Imagine your alarm goes off, and at that moment your fairy godmother appears to grant a wish - you wish it was a Bank Holiday (a fairy day)",2.904453102085325,5.099915981292725,False,23,7,2025-02-12-203646
+2025-02-12T20:37:09.457669,the purse,le porte-monnaie,,2.9241376655428013,2.069676637649536,False,23,8,2025-02-12-203646
+2025-02-12T20:37:11.001287,to make a mistake,se tromper,"In the orchestra, the room goes silent as the conductor raises his batton and counts us in. I trump my trumpet a bar too early. Everyone looks at me, and I say ""I made a mistake ok??!""",2.823533614217608,1.5446090698242188,False,23,9,2025-02-12-203646
+2025-02-12T20:37:24.521709,to taste,goûter,"I taste the maple syrup, and my Canadian host says ""Good, eh?""",1.837999992,10.0,True,23,10,2025-02-12-203646
+2025-02-12T20:37:33.608012,the fingernail,l'ongle,when I can log in to my VPN using just my fingernail it will be like a non-digital dongle - an ongle,1.771599979,9.086302995681763,True,23,11,2025-02-12-203646
+2025-02-12T20:37:35.703438,the car-boot,le coffre,The guy accidentally locked in the boot coughs politely to alert the driver - he is the cougher,2.9794654669147067,2.0944302082061768,False,23,12,2025-02-12-203646
+2025-02-12T20:37:37.058667,the journey,le voyage,,2.70132638404232,1.3582212924957275,False,23,13,2025-02-12-203646
+2025-02-12T20:37:38.537650,the tax,le impôt,"the King wants to spend some money, so he goes to the tax jar and says ""what's in the in-pot?""",2.918405367730356,1.4789836406707764,False,23,14,2025-02-12-203646
+2025-02-12T20:37:40.223727,the parrot,le perroquet,"debt collector comes to my door….it's Rocky with a  parrot on his shoulder….the parrot shouts ""Pay Rocky!""",2.001475337,1.6870746612548828,False,23,15,2025-02-12-203646
+2025-02-12T20:37:45.994787,the frog,la grenouille,"The eel fisherman has seen a frog for the first time, and describes it as a 'green, new eel'",1.870719978,5.772058010101318,False,23,16,2025-02-12-203646
+2025-02-12T20:37:47.978670,to get by,se débrouiller,"I feel really depressed through the night, but then the sun comes up and I make a cup of tea, and as things now don't look so bad I say to myself ""Day - Brew - yay!""",2.8451131413428694,1.985398530960083,False,23,17,2025-02-12-203646
+2025-02-12T20:37:49.887175,the house-wife,la femme au foyer,picture a house-wife waiting for her husband at the foyer,2.920891630274653,1.9085052013397217,False,23,18,2025-02-12-203646
+2025-02-12T20:37:52.392438,the breakfast,le petit déjeuner,,3.131764279471503,2.506261110305786,False,23,19,2025-02-12-203646
+2025-02-12T20:37:54.167060,the honey,le miel,It's a bee's meal,1.931456105,1.775620937347412,False,23,20,2025-02-12-203646
+2025-02-12T20:37:57.125475,the ice cream,la glace,,1.758335855,2.959411382675171,False,23,21,2025-02-12-203646
+2025-02-12T20:37:59.245057,the dormitory,le dortoir,the family have so many dortoirs (daughters) they need a dormitory,2.7082209984461465,2.1205809116363525,False,23,22,2025-02-12-203646
+2025-02-12T21:00:14.662039,the hairbrush,la brosse à cheveux,,2.454400037,10.0,False,22,0,2025-02-12-210011
+2025-02-12T21:00:17.075027,the horse,le cheval,,1.730399991,2.415980339050293,False,22,1,2025-02-12-210011
+2025-02-12T21:00:19.339410,the ticket office,le guichet,"At the stage-coach ticket-office, the cowboy outside says ""Don't be shy, just go i' and shay you wan' a ticket""",2.9525611422680043,2.264383554458618,False,22,2,2025-02-12-210011
+2025-02-12T21:00:21.614487,the bank holiday,le jour férié,"Imagine your alarm goes off, and at that moment your fairy godmother appears to grant a wish - you wish it was a Bank Holiday (a fairy day)",3.270363581953225,2.2760746479034424,False,22,3,2025-02-12-210011
+2025-02-12T21:00:23.556520,the purse,le porte-monnaie,,2.781727494227257,1.942033052444458,False,22,4,2025-02-12-210011
+2025-02-12T21:00:26.770198,the market,le marché,,2.131082008,3.212678909301758,False,22,5,2025-02-12-210011
+2025-02-12T21:00:30.496875,the pony,le poney,,2.224039357,3.7276761531829834,False,22,6,2025-02-12-210011
+2025-02-12T21:00:32.755276,stingy,avare ,"the stingy man never, ever buys his round",3.514643315092016,2.2584004402160645,False,22,7,2025-02-12-210011
+2025-02-12T21:00:36.183070,the house-wife,la femme au foyer,picture a house-wife waiting for her husband at the foyer,2.752160558785498,3.427795648574829,False,22,8,2025-02-12-210011
+2025-02-12T21:00:38.103480,the fingernail,l'ongle,when I can log in to my VPN using just my fingernail it will be like a non-digital dongle - an ongle,2.99071714844696,1.9214074611663818,False,22,9,2025-02-12-210011
+2025-02-12T21:00:40.863158,take off [aeroplane],décoller,"The plane is towed on take-off by bats at night, and during the day by a very strong dog, the day-colly",2.6160129321998595,2.760673761367798,False,22,10,2025-02-12-210011
+2025-02-12T21:00:42.809826,the badger,le blaireau,"a group of Tories are waiting to hunt Tony Blair; they hear a sound in the undergrowth and are disappointed when it's just a badger: ""It's Blair!...oh.""",1.969035894,1.9481852054595947,False,22,11,2025-02-12-210011
+2025-02-12T21:00:44.656218,the shark,le requin,"I taunt the shark by saying he can't get in the sea on a cold day. He tip-toes in, and says ""You see? I - brrrr - can""",2.810596137656318,1.8478870391845703,False,22,12,2025-02-12-210011
+2025-02-12T21:00:47.636752,the breakfast,le petit déjeuner,,3.027513751277217,2.9814019203186035,False,22,13,2025-02-12-210011
+2025-02-12T21:00:50.736470,to taste,goûter,"I taste the maple syrup, and my Canadian host says ""Good, eh?""",3.198333326666667,3.1013476848602295,False,22,14,2025-02-12-210011
+2025-02-12T21:00:53.921490,the advert,la publicité,,1.894000064,3.1860251426696777,False,22,15,2025-02-12-210011
+2025-02-12T21:00:56.796099,the wall,le mur,,2.0432132164411416,2.875606060028076,False,22,16,2025-02-12-210011
+2025-02-12T21:00:58.468652,the duvet,la couette,"The pigeon, looking at my duvet stuffed with pigeon feathers, asks me what I did with the rest of his friends. Coo? Et.",2.993141605906191,1.6725528240203857,False,22,17,2025-02-12-210011
+2025-02-12T21:01:00.634015,to get by,se débrouiller,"I feel really depressed through the night, but then the sun comes up and I make a cup of tea, and as things now don't look so bad I say to myself ""Day - Brew - yay!""",2.7018273729457385,2.165867805480957,False,22,18,2025-02-12-210011
+2025-02-12T21:01:02.299543,the car-boot,le coffre,The guy accidentally locked in the boot coughs politely to alert the driver - he is the cougher,2.831959590463285,1.6665236949920654,False,22,19,2025-02-12-210011
+2025-02-12T21:01:04.319016,the hose,le tuyau d'arrosage,"the arrow-sage doesn't need his garden watering for him while practicing archery, as he is wise enough to do it himself with a hose",2.002000058,2.019473075866699,False,22,20,2025-02-12-210011
+2025-02-12T21:01:07.523305,the raspberry,la framboise,Just think of the McSherry children (Fran's boys) blowing raspberries,2.635774371578064,3.2047362327575684,False,22,21,2025-02-12-210011

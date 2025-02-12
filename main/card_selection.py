@@ -1,5 +1,6 @@
 import pandas as pd
 import random
+from datetime import datetime
 
 # Time thresholds (in seconds)
 TIME_GREEN = 1.5
@@ -40,7 +41,10 @@ def select_study_cards(df):
         df (pandas.DataFrame): Full flashcard dataset
         
     Returns:
-        pandas.DataFrame: Selected subset of cards for study
+        pandas.DataFrame: Selected subset of cards for study, with added columns:
+            - used_clue: Tracks if clue was used
+            - session_id: Unique ID for this study session
+            - timestamp: When each card was completed
     """
     # Create a copy to avoid modifying original
     df = df.copy()
@@ -92,6 +96,13 @@ def select_study_cards(df):
     
     # Combine all selected cards
     if selected_cards:
-        return pd.concat(selected_cards)
+        study_df = pd.concat(selected_cards)
+        
+        # Initialize tracking columns
+        study_df['used_clue'] = False
+        study_df['session_id'] = datetime.now().strftime('%Y-%m-%d-%H%M%S')
+        study_df['timestamp'] = None
+        
+        return study_df
     else:
         return pd.DataFrame()  # Return empty DataFrame if no cards selected

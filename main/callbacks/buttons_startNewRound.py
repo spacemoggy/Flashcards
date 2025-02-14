@@ -2,6 +2,7 @@ from dash import Input, Output, State, callback, no_update
 import pandas as pd
 import utils
 import card_selection
+from datetime import datetime
 
 @callback(
     [Output('word-data',        'data',     allow_duplicate=True),
@@ -19,8 +20,9 @@ def start_new_round(n_clicks, completion_style):
     full_df = utils.load_word_list('main/wordList 2024-10-07.csv')
     new_df = card_selection.select_study_cards(full_df)
     
-    # Initialize used_clue column
+    # Initialize tracking columns
     new_df['used_clue'] = False
+    new_df['session_id'] = datetime.now().strftime('%Y-%m-%d-%H%M%S')
     
     # Hide completion overlay
     completion_style["display"] = "none"

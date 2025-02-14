@@ -2,7 +2,8 @@ from dash import Input, Output, State, callback
 import pandas as pd
 import time
 from datetime import datetime
-from . import update_durations
+import data_updates.update_durations as update_durations
+import utils
 
 @callback(
     # Outputs
@@ -92,10 +93,17 @@ def next_flashcard(n_clicks, old_index, word_data, start_time, completion_style)
         # When round is complete:
         # - Update the durations in the CSV file
         # - Save learning history for this round
+        # - Record today's duration distribution
         # - Show the completion overlay
         if current_index == 0 and n_clicks is not None:
+            # First update the durations in the CSV file
             update_durations.update_durations(df)
             update_durations.update_result_log(df)
+            
+            # Then load the updated CSV for distribution calculation
+            full_df = utils.load_word_list('main/wordList 2024-10-07.csv')
+            update_durations.update_duration_distribution(full_df)
+            
             completion_style["display"] = "block"
     
     # Get current word (only if not at end of round)

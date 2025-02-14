@@ -14,15 +14,21 @@ def create_layout(df):
             dbc.Container([
                 # Logo and histogram row
                 dbc.Row([
-                    # Logo column
+                    # Logo column with link
                     dbc.Col(
-                        html.Img(
-                            src='assets/Logo 2025-01-03.png', 
-                            style={
-                                'height': '80px',
-                                'border-radius': '15px',
-                                'border': '2px solid #0d6efd'
-                            }
+                        html.A(
+                            html.Img(
+                                src='assets/Logo 2025-01-03.png', 
+                                style={
+                                    'height': '80px',
+                                    'border-radius': '15px',
+                                    'border': '2px solid #0d6efd',
+                                    'transition': 'all 0.2s ease-in-out',  # Smooth hover effect
+                                    'cursor': 'pointer'
+                                }
+                            ),
+                            href='/analysis',
+                            id='logo-link'
                         ), 
                         width=3
                     ),

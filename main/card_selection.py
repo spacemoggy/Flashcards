@@ -1,6 +1,7 @@
 import pandas as pd
 import random
 from datetime import datetime
+import os
 
 # Time thresholds (in seconds)
 TIME_GREEN = 1.5
@@ -36,6 +37,7 @@ def select_study_cards_for_testing(df):
 def select_study_cards(df):
     """
     Select cards for study session based on time ratios.
+    Avoids selecting cards already studied today.
     
     Args:
         df (pandas.DataFrame): Full flashcard dataset
@@ -48,6 +50,32 @@ def select_study_cards(df):
     """
     # Create a copy to avoid modifying original
     df = df.copy()
+    
+    # Filter out any words already studied today
+    today = datetime.now().date()
+    if os.path.exists('main/learning_history.csv'):
+        history_df = pd.read_csv('main/learning_history.csv')
+        
+        # Process timestamps into dates:
+        # 1. pd.to_datetime() converts timestamp strings to datetime objects
+        # 2. .dt accessor lets us access datetime properties of a Series
+        # 3. .date property gets just the date part of each datetime
+        datetime_series = pd.to_datetime(history_df['timestamp'])  # Convert strings to datetime objects
+        history_df['date'] = datetime_series.dt.date              # Extract just the date part
+        
+        # Get list of words studied today:
+        # 1. Filter history to just today's entries
+        todays_entries = history_df[history_df['date'] == today]
+        # 2. Get the English words from those entries (no duplicates)
+        todays_words = todays_entries['english'].unique()
+        
+        # Remove today's words from selection pool:
+        # The isin operation works like this:
+        # 1. df['English'] looks at the English column of our word list
+        # 2. .isin(todays_words) checks each word: "Is this in today's list?"
+        #    Returns True for words we've studied, False for words we haven't
+        available_words = df[~df['English'].isin(todays_words)]
+        df = available_words
     
     # Fill any missing durations
     df['Duration'] = df['Duration'].fillna(DEFAULT_TIME)

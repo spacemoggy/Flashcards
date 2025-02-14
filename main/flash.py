@@ -16,7 +16,7 @@ import dash_bootstrap_components as dbc
 import card_selection  # Add this import at the top with other imports
 import callbacks.debug_display as debug_display  # Add this import
 import callbacks.histogram_display as histogram_display  # Make sure this is here
-import callbacks.update_durations as update_durations  # Add this import
+import data_updates.update_durations as update_durations  # Change from: callbacks.update_durations as update_durations
 import callbacks.buttons_startNewRound as buttons_startNewRound  # Add this import
 
 # Load the CSV file

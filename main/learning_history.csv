@@ -1235,3 +1235,29 @@ timestamp,english,french,clue,expected_duration,actual_duration,used_clue,batch_
 2025-02-16T17:56:57.518898,to score (a goal),marquer (un but),I kick the ball so hard into the goal that it marks a boot on the ball,2.084000091,2.5746941566467285,False,29,26,2025-02-16-175549
 2025-02-16T17:57:01.326330,the tape measure,le ruban à mesurer,picture measuring one of Rubin's models,2.042161770672607,3.80843186378479,False,29,27,2025-02-16-175549
 2025-02-16T17:57:03.093850,the rudeness,la impolitesse,,2.5638000670660404,1.7675199508666992,False,29,28,2025-02-16-175549
+2025-02-16T18:04:18.635179,overloaded,surchargé,"I thought I could manage my hotel bill, but when the surcharge came in as well I realised I was overloaded",1.927897294362386,3.207758665084839,False,26,0,2025-02-16-180415
+2025-02-16T18:04:20.596565,the smoking,le tabagisme,the tabernacle-schism between catholicism & orthodoxy wasn't about theology; it was because the catholics wanted to start smoking,2.467371751924947,1.9643816947937012,False,26,1,2025-02-16-180415
+2025-02-16T18:04:27.017092,the toll,le péage,"When you're a school-child you can go over Clifton Suspension Bridge for free, but when you're an adult you've reached the pay-age",2.182399953,6.422522068023682,True,26,2,2025-02-16-180415
+2025-02-16T18:04:32.890566,the waterfall,la cascade,,2.132531050261943,5.873474597930908,False,26,3,2025-02-16-180415
+2025-02-16T18:04:34.739366,next,prochain,,2.2521773980926514,1.8497979640960693,False,26,4,2025-02-16-180415
+2025-02-16T18:04:41.452679,to beef-up,étoffer,the cow was so beefed up by all the hay that she was as large as a dining-room table; so I ate off 'er,2.617711134,6.713313817977905,True,26,5,2025-02-16-180415
+2025-02-16T18:04:46.316314,the singer,le chanteur,,2.542399809,4.864631652832031,False,26,6,2025-02-16-180415
+2025-02-16T18:04:48.830222,somewhere,quelque part,,2.508000036,2.5139079093933105,False,26,7,2025-02-16-180415
+2025-02-16T18:04:50.785569,the roller (painting),le rouleau,picture King Rollo painting his house,1.841599976,1.9563398361206055,False,26,8,2025-02-16-180415
+2025-02-16T18:04:54.825278,the prawn/shrimp,la crevette,Imagine wearing a beautiful paisley-style cravatte covered in pictures of prawns,2.005999986,4.040706634521484,False,26,9,2025-02-16-180415
+2025-02-16T18:04:56.978791,the jaw,la machoire,"When I break my little brother's toy with my mighty jaws and he starts crying, it goes something like this: MASH. Wah!!",1.918800096,2.153512954711914,False,26,10,2025-02-16-180415
+2025-02-16T18:04:58.820703,the Thursday,le jeudi,,1.9457678000132244,1.8429100513458252,False,26,11,2025-02-16-180415
+2025-02-16T18:05:03.499331,the paddle,la palette,"I lose my paddle going down a rapid, but manage to grab a palette off an artist painting by the side of the river",2.173600011,4.6796252727508545,True,26,12,2025-02-16-180415
+2025-02-16T18:05:05.495510,to chat,bavarder,"the father comes home and can hear his children chatting and splashing, and says to his wife ""they're in the bath, are they?""",1.878000026,1.997178554534912,False,26,13,2025-02-16-180415
+2025-02-16T18:05:07.649365,the neck,le cou,"Imagine a pigeon clinging to the back of your neck, going ""Coo!"" in your ear all day",2.277826836303609,2.1548542976379395,False,26,14,2025-02-16-180415
+2025-02-16T18:05:13.184605,the coffee table,la table basse,,2.0,5.536241292953491,False,26,15,2025-02-16-180415
+2025-02-16T18:05:14.838214,to criss-cross,sillonner,I criss-cross C&A trying to find the ideal clothes,2.4401520969487507,1.653609037399292,False,26,16,2025-02-16-180415
+2025-02-16T18:05:16.783268,the wallet,le portefeuille,"we're freezing in the snowstorm and have nothing to burn, but Loadzamoney gets out his wallet and burns all the notes, and says ""I have a porta-fire""",2.625255435,1.946052074432373,False,26,17,2025-02-16-180415
+2025-02-16T18:05:18.666821,New Year’s Eve,la Saint-Sylvestre,"Picture Sylvester Stallone, in a white robe with a halo, carrying an M60, saying ""Happy New Year everyone"", then firing the machine-gun into the air",2.556946752727661,1.8849644660949707,False,26,18,2025-02-16-180415
+2025-02-16T18:05:22.050718,in a hurry,pressé,"the best kind of lift has a button marked ""A"", and a sign saying ""If you're in a hurry, press A""",2.519371984,3.383897304534912,False,26,19,2025-02-16-180415
+2025-02-16T18:05:27.624800,the paint pot,le pot de peinture,,2.0321393872157625,5.577072381973267,False,26,20,2025-02-16-180415
+2025-02-16T18:05:29.035958,nervous,nerveux,,1.876640105,1.4121549129486084,False,26,21,2025-02-16-180415
+2025-02-16T18:05:30.995483,the moth,la mite,,2.244694744,1.9605255126953125,False,26,22,2025-02-16-180415
+2025-02-16T18:05:32.518886,the hot-air balloon,la montgolfière,,2.0587542944132484,1.5234029293060303,False,26,23,2025-02-16-180415
+2025-02-16T18:05:35.094487,the guest,l'invité,"""Come in for tea!""",1.845999973,2.575601577758789,False,26,24,2025-02-16-180415
+2025-02-16T18:05:36.582709,the dormitory,le dortoir,the family have so many dortoirs (daughters) they need a dormitory,2.610280983977848,1.4882221221923828,False,26,25,2025-02-16-180415

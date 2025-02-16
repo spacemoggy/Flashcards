@@ -1,6 +1,7 @@
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 import callbacks_home.progress_chart  # Absolute import
+import callbacks_home.learning_time   # Add this import
 
 def create_layout():
     """Create the home/splash screen layout"""
@@ -45,6 +46,14 @@ def create_layout():
                             html.H3("Word Categories", className="mt-4"),
                             dcc.Graph(id='categories-chart')
                         ], label="Analysis"),
+                        
+                        dbc.Tab([
+                            html.H3("Daily Learning Time", className="mt-4"),
+                            dcc.Graph(
+                                id='learning-time-chart',
+                                style={'height': '600px'}
+                            )
+                        ], label="Learning Time"),
                         
                         dbc.Tab([
                             html.H3("Settings", className="mt-4"),

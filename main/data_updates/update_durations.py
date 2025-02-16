@@ -19,7 +19,7 @@ def update_durations(study_df):
         old_duration = full_df.loc[mask, 'Duration'].iloc[0]
         latest_timing = row['session_time']
         # Calculate new duration using the formula
-        new_duration = ((old_duration * 5) + latest_timing) / 6
+        new_duration = ((old_duration * 2) + latest_timing) / 3
         full_df.loc[mask, 'Duration'] = new_duration
     
     # Prepare DataFrame for saving with only original columns

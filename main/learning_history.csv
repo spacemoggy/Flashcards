@@ -393,3 +393,845 @@ timestamp,english,french,clue,expected_duration,actual_duration,used_clue,batch_
 2025-02-14T21:53:06.153635,the ring (jewellery),la bague,"""Secure the bag!"" says Andrew Yang, flashing everyone his handful of expensive rings to show he knows about getting money",1.853199969,10.0,True,29,26,2025-02-14-215144
 2025-02-14T21:53:08.192270,the rowing boat,le bateau d'aviron,,2.0,2.0396320819854736,False,29,27,2025-02-14-215144
 2025-02-14T21:53:10.302085,hard-working,travailleur,I'm very hard-working during work-hour (travaille-hour),2.26944564125468,2.1098155975341797,False,29,28,2025-02-14-215144
+2025-02-15T22:45:15.022346,the oyster,l’huître (f),"for the sea-side folk of Brittany, their version of wheat fields is oyster-beds",2.630240546677653,2.6621670722961426,False,21,0,2025-02-15-224511
+2025-02-15T22:45:17.258825,the bridegroom,l'époux,"The bantering father-in-law introduces the groom by saying ""This is the ape who wants to marry my daughter""",2.603013377914124,2.24153470993042,False,21,1,2025-02-15-224511
+2025-02-15T22:45:19.048474,stingy,avare ,"the stingy man never, ever buys his round",3.0529692530443966,1.7916417121887207,False,21,2,2025-02-15-224511
+2025-02-15T22:45:21.233624,the bank holiday,le jour férié,"Imagine your alarm goes off, and at that moment your fairy godmother appears to grant a wish - you wish it was a Bank Holiday (a fairy day)",2.9346683871471133,2.1851532459259033,False,21,3,2025-02-15-224511
+2025-02-15T22:45:23.544915,the trolley,le chariot,picture Ben-Hur races around Asda,3.223365902900696,2.312286138534546,False,21,4,2025-02-15-224511
+2025-02-15T22:45:24.953909,the wolf,le loup,wolves don't run they lope,1.9403606571972656,1.4089934825897217,False,21,5,2025-02-15-224511
+2025-02-15T22:45:26.788762,the attic,le grenier,"the soldier searching an uncooperative peasant village puts his head up in the attic & calls out ""Grain 'ere!""",2.100240109,1.834853172302246,False,21,6,2025-02-15-224511
+2025-02-15T22:45:28.315969,the changing room,le vestiaire,"Everyone in the changing rooms is keen to get in the pool so change really quickly, throwing their clothes off - all you can see is a vest in the air",3.333333333333333,1.5282034873962402,False,21,7,2025-02-15-224511
+2025-02-15T22:45:29.962763,the saw,la scie,Picture Moses sawing the red sea before he can divide it,2.8012179319929,1.6477923393249512,False,21,8,2025-02-15-224511
+2025-02-15T22:45:31.518222,in turn,à tour de rôle,"in a board game where we take turns, the dice does a tour of roll around the players",3.3248172402381897,1.5554587841033936,False,21,9,2025-02-15-224511
+2025-02-15T22:45:33.058354,scary/frightening,effrayant,"a soldier ant, a.k.a. a fray ant, is very frightening for a termite",1.898000043,1.5555672645568848,False,21,10,2025-02-15-224511
+2025-02-15T22:45:38.502176,the ticket machine,l'horodateur,I turn up to a date and the person I'm meeting is a ticket machine. She is a horror-dater.,2.290755724025676,5.443822383880615,True,21,11,2025-02-15-224511
+2025-02-15T22:45:41.392604,the hairbrush,la brosse à cheveux,,4.067685818891455,2.8904271125793457,False,21,12,2025-02-15-224511
+2025-02-15T22:45:42.801380,the clay,l'argile,"Picture Rob Roy shouting ""Argyle!"" as he pelts him with a handful of clay off the potters wheel, while fighting his way out of the castle",3.5075647429202608,1.409773349761963,False,21,13,2025-02-15-224511
+2025-02-15T22:45:44.400316,the chess,les échecs (m),"The brilliant chess-player from Prague has a reputation for being amazing in spite of never practicing - he is known world-wide as ""The Lazy Czech""",3.236666703333333,1.5989367961883545,False,21,14,2025-02-15-224511
+2025-02-15T22:45:54.731880,next day/following day,le lendemain,"Lend a man some money, and the next day you won't see him",2.0,10.0,True,21,15,2025-02-15-224511
+2025-02-15T22:45:57.022504,the stable,l'écurie,"I ask why the stable is glowing green. I'm told ""that's not a stable…that's a Curie laboratory shed""",1.941082274009908,2.30602765083313,False,21,16,2025-02-15-224511
+2025-02-15T22:45:59.821577,to water (plants),arroser,"the garderner's apprentice is getting instruction in plant recognition as he waters - picture him replying ""that's a rose, eh?""",3.4179468600234983,2.7990732192993164,False,21,17,2025-02-15-224511
+2025-02-15T22:46:01.705626,the make-up,le maquillage,"the little boys are playing make-up by putting mud all over their faces, and their mothers says ""they're at a mucky age""",2.7772599377703853,1.885047197341919,False,21,18,2025-02-15-224511
+2025-02-15T22:46:03.394776,the toast,le toast,,3.3858894242180715,1.6891496181488037,False,21,19,2025-02-15-224511
+2025-02-15T22:46:04.740583,the cucumber,le concombre,,2.19644013,1.3468031883239746,False,21,20,2025-02-15-224511
+2025-02-15T22:48:34.342330,the basket,le panier,,2.338403088,3.4765465259552,False,22,0,2025-02-15-224830
+2025-02-15T22:48:36.156298,the vacuum cleaner,l'aspirateur,,1.9917247692743936,1.8219537734985352,False,22,1,2025-02-15-224830
+2025-02-15T22:48:37.598760,the oven,le four,the oven is like a really strong thaw,2.853232339627866,1.4434614181518555,False,22,2,2025-02-15-224830
+2025-02-15T22:48:40.972600,the bus driver,le chauffeur de bus,,3.208637515703837,3.3748395442962646,False,22,3,2025-02-15-224830
+2025-02-15T22:48:45.045149,the day before yesterday,avant-hier,,2.8575156132380166,4.073541879653931,False,22,4,2025-02-15-224830
+2025-02-15T22:48:47.722422,welcoming,chaleureux,"the hostess is a bit over-enthusiastic, and we all wonder, shall 'er err on the side of being too welcoming?",2.528286468286048,2.6772735118865967,False,22,5,2025-02-15-224830
+2025-02-15T22:48:49.661212,the corridor,le couloir,"I run up so slide along the corridor in my socks, but it's much slipperier than I imagine and slightly downhill, so I shout ""Cool - waaaaaah!""",2.354721607801355,1.9397873878479004,False,22,6,2025-02-15-224830
+2025-02-15T22:48:54.262150,the french-windows,la porte-fenetre,,3.0965291261672974,4.600938320159912,False,22,7,2025-02-15-224830
+2025-02-15T22:48:56.126094,to tear (up/apart),déchirer,"The robot-maker is showing his new sheep-shearing robots. The farmer watches the massive robots grab the sheep and tear them up, and says ""They shear, eh?""",2.792683283487956,1.8639440536499023,False,22,8,2025-02-15-224830
+2025-02-15T22:48:58.175286,the slipper,la pantoufle,"As the dog walks up carrying my slippers, I hear pant, the 'oof' as he drops them, then 'leeeeeeagh' as he tries to get the taste out of his mouth",3.3016666858333337,2.065431833267212,False,22,9,2025-02-15-224830
+2025-02-15T22:49:09.243156,the belt,la ceinture,"I realize I've left my belt at home, but my colleague has brought a spare one. I shout ""A saint you are!""",2.026799935,10.0,True,22,10,2025-02-15-224830
+2025-02-15T22:49:10.816458,the spider,l'araignée,a cloud is a rainer; incy-wincy-spider is a rainee,2.004206580594584,1.5733015537261963,False,22,11,2025-02-15-224830
+2025-02-15T22:49:12.430425,to switch on,allumer,"Sophie switches on the light in her parents' holiday home, and I remark ""A loom, eh?""",3.333333333333333,1.6149649620056152,False,22,12,2025-02-15-224830
+2025-02-15T22:49:14.077763,to fail,échouer,"the failed detective spots a foot-print, and says ""Aha!"" ""What does it tell you?"" asks someone. ""A shoe, eh!"" says the detective.",3.241666718333333,1.6483354568481445,False,22,13,2025-02-15-224830
+2025-02-15T22:49:15.894207,the wastepaper bin,la corbeille à papier,"I look in the wastepaper bin and it's full of Michael Bay DVD's - I say ""Cor, Bay!""",3.136903829044765,1.8174381256103516,False,22,14,2025-02-15-224830
+2025-02-15T22:49:20.372450,the cleaner,la femme de ménage,,2.37800008,4.479243040084839,False,22,15,2025-02-15-224830
+2025-02-15T22:49:22.032737,the jam,la confiture,I eat jam & crumpets while sitting in the comfy chair,2.214348333,1.6602873802185059,False,22,16,2025-02-15-224830
+2025-02-15T22:49:27.426050,the snack,le casse-croûte,the break-crust,3.0276394609976194,5.392314434051514,False,22,17,2025-02-15-224830
+2025-02-15T22:49:30.605979,the fridge,le frigo,,3.014946093684387,3.18092679977417,False,22,18,2025-02-15-224830
+2025-02-15T22:49:36.873771,"the fog (dense, v < 1km)",le brouillard,I can't see anything in the courtyard of the brewery (the brew-yard) because the fogging from the vats is so thick,3.003108660380045,6.26879096031189,False,22,19,2025-02-15-224830
+2025-02-15T22:49:39.888475,the file,le fichier,"I work at EA in the filing department, which consists of a big ball-pool filled with files, and retrieving one consist of doing a 'fish-EA'",2.59400009,3.015693187713623,False,22,20,2025-02-15-224830
+2025-02-15T22:49:42.043756,the birthday,l'anniversaire,,1.942000006,2.1542835235595703,False,22,21,2025-02-15-224830
+2025-02-16T00:00:09.839013,the hand,la main,,2.591236631204478,2.6065096855163574,False,21,0,2025-02-16-000001
+2025-02-16T00:00:12.704349,the shape,la forme,,2.513656087989553,2.8673312664031982,False,21,1,2025-02-16-000001
+2025-02-16T00:00:14.416038,the tide,la marée,"After having an illicit affair with King Canute's daughter, he buries me up to my neck in the sand while the tide comes in, until I agree to marry her",3.1126907168528235,1.7126867771148682,False,21,2,2025-02-16-000001
+2025-02-16T00:00:16.988753,(coming) from,en provenance de,,2.902911045094706,2.5727145671844482,False,21,3,2025-02-16-000001
+2025-02-16T00:00:21.881621,the bus driver,le chauffeur de bus,,3.2640381919013124,4.892868280410767,False,21,4,2025-02-16-000001
+2025-02-16T00:00:29.310840,the riffraff/scum,la racaille,"The constable brings the criminal before the Judge, and says ""What about this scum? Shall we give him the rack?"" ""Aye!"" answers the judge.",2.0,7.429219007492065,True,21,5,2025-02-16-000001
+2025-02-16T00:00:35.872647,the rake,le râteau,"I'm raking up the leaves in the garden so I can find the elusive rodent, all the time calling out ""rat-oh!""",1.85199999,6.562804937362671,True,21,6,2025-02-16-000001
+2025-02-16T00:00:37.762850,to make a mistake,se tromper,"In the orchestra, the room goes silent as the conductor raises his batton and counts us in. I trump my trumpet a bar too early. Everyone looks at me, and I say ""I made a mistake ok??!""",2.710855976119202,1.890204668045044,False,21,7,2025-02-16-000001
+2025-02-16T00:00:39.574194,stingy,avare ,"the stingy man never, ever buys his round",2.842747996235117,1.8133277893066406,False,21,8,2025-02-16-000001
+2025-02-16T00:00:42.096210,to be wrong/incorrect,avoir tort,,3.333333333333333,2.5230140686035156,False,21,9,2025-02-16-000001
+2025-02-16T00:00:44.728215,nowhere,nulle part,,1.966479966,2.6175625324249268,False,21,10,2025-02-16-000001
+2025-02-16T00:00:50.005178,the butterfly,le papillon,,2.1669486606476847,5.291405916213989,False,21,11,2025-02-16-000001
+2025-02-16T00:00:51.662180,the changing room,le vestiaire,"Everyone in the changing rooms is keen to get in the pool so change really quickly, throwing their clothes off - all you can see is a vest in the air",3.032478359010484,1.658003330230713,False,21,12,2025-02-16-000001
+2025-02-16T00:00:53.666380,the hairbrush,la brosse à cheveux,,3.871476034506104,2.0042004585266113,False,21,13,2025-02-16-000001
+2025-02-16T00:00:55.511577,the nursery school,la maternelle,,3.685752813369412,1.846191167831421,False,21,14,2025-02-16-000001
+2025-02-16T00:00:57.636518,the (fruit) stallholder,le marchand (de fruit),"the fruit-stall holder is shouting ""it's March annnnnnnd, get your lovely spring greens""",2.237246312643025,2.124940872192383,False,21,15,2025-02-16-000001
+2025-02-16T00:00:59.843352,old (feminine),vieille,,2.080512315352581,2.2058370113372803,False,21,16,2025-02-16-000001
+2025-02-16T00:01:01.681008,the baker,le boulanger,,3.3330390977596704,1.8396496772766113,False,21,17,2025-02-16-000001
+2025-02-16T00:01:03.857375,the survey,le sondage,the sounding of public opinion,2.8548914194107056,2.1763670444488525,False,21,18,2025-02-16-000001
+2025-02-16T00:01:05.875839,"the fog (dense, v < 1km)",le brouillard,I can't see anything in the courtyard of the brewery (the brew-yard) because the fogging from the vats is so thick,4.0916694270239935,2.019460439682007,False,21,19,2025-02-16-000001
+2025-02-16T00:01:07.193332,the July,le Juillet,,1.609625215,1.3178684711456299,False,21,20,2025-02-16-000001
+2025-02-16T00:01:45.672294,the hand,la main,,2.591236631204478,2.1820156574249268,False,21,0,2025-02-16-000001
+2025-02-16T00:01:47.137790,the shape,la forme,,2.513656087989553,1.467494249343872,False,21,1,2025-02-16-000001
+2025-02-16T00:01:48.526915,the tide,la marée,"After having an illicit affair with King Canute's daughter, he buries me up to my neck in the sand while the tide comes in, until I agree to marry her",3.1126907168528235,1.3891243934631348,False,21,2,2025-02-16-000001
+2025-02-16T00:01:51.233578,(coming) from,en provenance de,,2.902911045094706,2.7056667804718018,False,21,3,2025-02-16-000001
+2025-02-16T00:01:59.333559,the bus driver,le chauffeur de bus,,3.2640381919013124,8.100977897644043,False,21,4,2025-02-16-000001
+2025-02-16T00:02:00.819337,the riffraff/scum,la racaille,"The constable brings the criminal before the Judge, and says ""What about this scum? Shall we give him the rack?"" ""Aye!"" answers the judge.",2.0,1.485764741897583,False,21,5,2025-02-16-000001
+2025-02-16T00:02:02.271624,the rake,le râteau,"I'm raking up the leaves in the garden so I can find the elusive rodent, all the time calling out ""rat-oh!""",1.85199999,1.4594013690948486,False,21,6,2025-02-16-000001
+2025-02-16T00:02:03.736320,to make a mistake,se tromper,"In the orchestra, the room goes silent as the conductor raises his batton and counts us in. I trump my trumpet a bar too early. Everyone looks at me, and I say ""I made a mistake ok??!""",2.710855976119202,1.464695930480957,False,21,7,2025-02-16-000001
+2025-02-16T00:02:05.124772,stingy,avare ,"the stingy man never, ever buys his round",2.842747996235117,1.3884518146514893,False,21,8,2025-02-16-000001
+2025-02-16T00:02:13.194394,to be wrong/incorrect,avoir tort,,3.333333333333333,8.068625211715698,False,21,9,2025-02-16-000001
+2025-02-16T00:02:15.051064,nowhere,nulle part,,1.966479966,1.8576667308807373,False,21,10,2025-02-16-000001
+2025-02-16T00:02:16.566728,the butterfly,le papillon,,2.1669486606476847,1.5156636238098145,False,21,11,2025-02-16-000001
+2025-02-16T00:02:17.691818,the changing room,le vestiaire,"Everyone in the changing rooms is keen to get in the pool so change really quickly, throwing their clothes off - all you can see is a vest in the air",3.032478359010484,1.1250898838043213,False,21,12,2025-02-16-000001
+2025-02-16T00:02:19.967210,the hairbrush,la brosse à cheveux,,3.871476034506104,2.276388645172119,False,21,13,2025-02-16-000001
+2025-02-16T00:02:21.450237,the nursery school,la maternelle,,3.685752813369412,1.483027458190918,False,21,14,2025-02-16-000001
+2025-02-16T00:02:22.809895,the (fruit) stallholder,le marchand (de fruit),"the fruit-stall holder is shouting ""it's March annnnnnnd, get your lovely spring greens""",2.237246312643025,1.3586559295654297,False,21,15,2025-02-16-000001
+2025-02-16T00:02:23.849123,old (feminine),vieille,,2.080512315352581,1.0402297973632812,False,21,16,2025-02-16-000001
+2025-02-16T00:02:25.317201,the baker,le boulanger,,3.3330390977596704,1.4680778980255127,False,21,17,2025-02-16-000001
+2025-02-16T00:02:26.415413,the survey,le sondage,the sounding of public opinion,2.8548914194107056,1.099207878112793,False,21,18,2025-02-16-000001
+2025-02-16T00:02:27.981975,"the fog (dense, v < 1km)",le brouillard,I can't see anything in the courtyard of the brewery (the brew-yard) because the fogging from the vats is so thick,4.0916694270239935,1.5665621757507324,False,21,19,2025-02-16-000001
+2025-02-16T00:02:29.519624,the July,le Juillet,,1.609625215,1.537649393081665,False,21,20,2025-02-16-000001
+2025-02-16T00:02:33.716061,to develop (a building),aménager,the architect has completed developing the building with a topiary bush in the form of a lion - a mane 'edge,2.151600005,4.195438861846924,False,22,0,2025-02-16-000231
+2025-02-16T00:02:35.320847,typical,typique ,,1.738530517,1.606787919998169,False,22,1,2025-02-16-000231
+2025-02-16T00:02:36.926674,the ankle,la cheville,If you are on slippery ice & someone shoves your ankle you will become ill (shove-ill),3.10675786507721,1.6058270931243896,False,22,2,2025-02-16-000231
+2025-02-16T00:02:38.673414,the dressing table,la coiffeuse,"a cat on the dressing table, throws up a hair-ball then indignantly points at it and says ""Cough! Whose?""",2.7857285202514643,1.7477376461029053,False,22,3,2025-02-16-000231
+2025-02-16T00:02:40.157687,the puppy,le chiot,"picture a circus ring-master who is a puppy and likes to really enunciate - ""and now, on with the sheeeee-ow""",3.1499766668269857,1.4842727184295654,False,22,4,2025-02-16-000231
+2025-02-16T00:02:41.685801,awful,affreux,"that's an awful affro, I say to my 70's friend",1.707628695,1.5291087627410889,False,22,5,2025-02-16-000231
+2025-02-16T00:02:43.311170,the bicycle,la bicyclette,,2.491154937722806,1.6264011859893799,False,22,6,2025-02-16-000231
+2025-02-16T00:02:45.464594,to fail,échouer,"the failed detective spots a foot-print, and says ""Aha!"" ""What does it tell you?"" asks someone. ""A shoe, eh!"" says the detective.",2.71055629783827,2.1544227600097656,False,22,7,2025-02-16-000231
+2025-02-16T00:02:47.110678,the spanner,la clé,,3.4174814611982565,1.6470868587493896,False,22,8,2025-02-16-000231
+2025-02-16T00:02:48.649518,to water (plants),arroser,"the garderner's apprentice is getting instruction in plant recognition as he waters - picture him replying ""that's a rose, eh?""",3.314801253236135,1.5398380756378174,False,22,9,2025-02-16-000231
+2025-02-16T00:02:50.189657,the arrow,la flèche,"I complain to the battle-field doctor that I've been wounded. He looks at the arrow stuck in me, and quips ""It's just a fleche-wound""",2.140491788327942,1.5411350727081299,False,22,10,2025-02-16-000231
+2025-02-16T00:02:51.571749,the tile,la tuile,,1.949351757798767,1.3820912837982178,False,22,11,2025-02-16-000231
+2025-02-16T00:02:53.314546,the vending machine/cash point,le distributeur automatique,automatic distributor,2.735640048980713,1.7427978515625,False,22,12,2025-02-16-000231
+2025-02-16T00:02:55.561273,the tail,la queue,,3.5843330825,2.2477235794067383,False,22,13,2025-02-16-000231
+2025-02-16T00:02:56.990867,the basket,le panier,,2.7177842339850664,1.4439473152160645,False,22,14,2025-02-16-000231
+2025-02-16T00:03:05.612010,the guinea pig,le cochon d'Inde,,2.2880190561026,8.62313723564148,False,22,15,2025-02-16-000231
+2025-02-16T00:03:07.413756,(me) neither,(moi) non plus,,2.060226856,1.8017466068267822,False,22,16,2025-02-16-000231
+2025-02-16T00:03:13.831587,the trolley,le chariot,picture Ben-Hur races around Asda,3.0715192755063376,6.418829679489136,False,22,17,2025-02-16-000231
+2025-02-16T00:03:15.518681,to switch on,allumer,"Sophie switches on the light in her parents' holiday home, and I remark ""A loom, eh?""",2.760543876224094,1.6880912780761719,False,22,18,2025-02-16-000231
+2025-02-16T00:03:20.190733,the day before yesterday,avant-hier,,3.262857702043321,4.672045469284058,False,22,19,2025-02-16-000231
+2025-02-16T00:03:22.121872,the brush,la brosse,,2.2126192381266274,1.932138204574585,False,22,20,2025-02-16-000231
+2025-02-16T00:03:24.941148,the breakdown lorry,le camion de dépannage,I've slid off the road into a giant frying pan! I need a lorry of de-pannage,2.127549807230632,2.820270299911499,False,22,21,2025-02-16-000231
+2025-02-16T00:03:30.066828,the wasp,la guêpe,"The wasp lands on my jar of jam, but has to do battle with the animal I've set to guard it - a tiny, jam-loving gorilla called a goo-ape",2.6284743682119145,5.125679016113281,False,22,0,2025-02-16-000328
+2025-02-16T00:03:31.675254,the ham,le jambon,,1.692706478404541,1.610421895980835,False,22,1,2025-02-16-000328
+2025-02-16T00:03:33.267387,to taste,goûter,"I taste the maple syrup, and my Canadian host says ""Good, eh?""",2.705390530793108,1.5931317806243896,False,22,2,2025-02-16-000328
+2025-02-16T00:03:35.681694,the basement,le sous-sol,"In spite of paying our taxes to the sun, those of us who live in a basement get no sunlight whatsoever, so we are going to sue Sol",2.899848946874068,2.413311004638672,False,22,3,2025-02-16-000328
+2025-02-16T00:03:37.493764,the flower bed,le parterre de fleurs,"the flower-bed keeps the flowers apart and stops them all being in one place, so it is the parter of flowers",3.0079851653441536,1.813066005706787,False,22,4,2025-02-16-000328
+2025-02-16T00:03:38.941972,the pepper,le poivre,a pepper is a true pear (poire-vrai),2.341709197118836,1.4482076168060303,False,22,5,2025-02-16-000328
+2025-02-16T00:03:40.233117,sensational,sensass,,1.9601474477638752,1.2921421527862549,False,22,6,2025-02-16-000328
+2025-02-16T00:03:42.439760,the lawn,la pelouse,At St Pauls carnival some enterprising soul let's people use his lawn as pay-loos,2.982833110767874,2.207639217376709,False,22,7,2025-02-16-000328
+2025-02-16T00:03:45.440499,the cleaner,la femme de ménage,,3.07841440002828,3.000739336013794,False,22,8,2025-02-16-000328
+2025-02-16T00:03:47.930953,the chess,les échecs (m),"The brilliant chess-player from Prague has a reputation for being amazing in spite of never practicing - he is known world-wide as ""The Lazy Czech""",2.96371171880917,2.4914541244506836,False,22,9,2025-02-16-000328
+2025-02-16T00:03:49.114318,frankly,franchement,,1.960548505894165,1.1823666095733643,False,22,10,2025-02-16-000328
+2025-02-16T00:03:50.556141,the strawberry,la fraise,,2.0659177621094766,1.4428207874298096,False,22,11,2025-02-16-000328
+2025-02-16T00:03:52.178600,to meet (up),(se) rencontrer,"whenever I meet up with my friend Ron, he does the cups-and-balls game with me on a tray and I always lose. It's a con - a Ron-con-tray",3.0402009455622547,1.6234562397003174,False,22,12,2025-02-16-000328
+2025-02-16T00:03:54.166732,the bank holiday,le jour férié,"Imagine your alarm goes off, and at that moment your fairy godmother appears to grant a wish - you wish it was a Bank Holiday (a fairy day)",2.809749196943578,1.9891302585601807,False,22,13,2025-02-16-000328
+2025-02-16T00:03:56.141785,the living conditions,le cadre de vie,,3.333333333333333,1.9760513305664062,False,22,14,2025-02-16-000328
+2025-02-16T00:04:05.636340,the electric socket,la prise,"I ask the Chinese guy if he knows where I can plug-in my phone. He indicates his own socket, and says ""Preeze""",1.977919851,9.495554685592651,True,22,15,2025-02-16-000328
+2025-02-16T00:04:07.658017,the shell,la coquille,the barnacle shells under the keel of the ship think they are helping because they are a co-keel,2.633231971,2.0216763019561768,False,22,16,2025-02-16-000328
+2025-02-16T00:04:10.104406,anyway,d'ailleurs,"In Aliens, imagine Hicks saying ""we've got to try to contact the ship"" and Hudson saying ""why bother? We're going to die 'ere anyway""",3.333333333333333,2.4473867416381836,False,22,17,2025-02-16-000328
+2025-02-16T00:04:12.123512,gifted/talented,doué,Douai gifted several communities of monks to England,3.3200836541666665,2.019105911254883,False,22,18,2025-02-16-000328
+2025-02-16T00:04:13.559149,the clay,l'argile,"Picture Rob Roy shouting ""Argyle!"" as he pelts him with a handful of clay off the potters wheel, while fighting his way out of the castle",3.1579328440605443,1.4356372356414795,False,22,19,2025-02-16-000328
+2025-02-16T00:04:15.259920,to devote/dedicate,consacrer,consecrate….but not holy,1.9484000205993648,1.7017686367034912,False,22,20,2025-02-16-000328
+2025-02-16T00:04:17.924277,the archery,le tir a l'arc,Noah's kids practice archery after the flood by shooting at an old tyre that they lean against the ark - the tyre at the ark,1.862000063,2.6643567085266113,False,22,21,2025-02-16-000328
+2025-02-16T00:05:13.716061,the hand,la main,,2.591236631204478,4.419107437133789,False,21,0,2025-02-16-000001
+2025-02-16T00:05:14.863918,the shape,la forme,,2.513656087989553,1.148857831954956,False,21,1,2025-02-16-000001
+2025-02-16T00:05:16.102082,the tide,la marée,"After having an illicit affair with King Canute's daughter, he buries me up to my neck in the sand while the tide comes in, until I agree to marry her",3.1126907168528235,1.2391610145568848,False,21,2,2025-02-16-000001
+2025-02-16T00:05:17.661571,(coming) from,en provenance de,,2.902911045094706,1.5594890117645264,False,21,3,2025-02-16-000001
+2025-02-16T00:05:19.916231,the bus driver,le chauffeur de bus,,3.2640381919013124,2.254659652709961,False,21,4,2025-02-16-000001
+2025-02-16T00:05:21.120234,the riffraff/scum,la racaille,"The constable brings the criminal before the Judge, and says ""What about this scum? Shall we give him the rack?"" ""Aye!"" answers the judge.",2.0,1.2040033340454102,False,21,5,2025-02-16-000001
+2025-02-16T00:05:22.342255,the rake,le râteau,"I'm raking up the leaves in the garden so I can find the elusive rodent, all the time calling out ""rat-oh!""",1.85199999,1.2076120376586914,False,21,6,2025-02-16-000001
+2025-02-16T00:05:23.794074,to make a mistake,se tromper,"In the orchestra, the room goes silent as the conductor raises his batton and counts us in. I trump my trumpet a bar too early. Everyone looks at me, and I say ""I made a mistake ok??!""",2.710855976119202,1.4672255516052246,False,21,7,2025-02-16-000001
+2025-02-16T00:05:25.483172,stingy,avare ,"the stingy man never, ever buys his round",2.842747996235117,1.690096378326416,False,21,8,2025-02-16-000001
+2025-02-16T00:05:26.891658,to be wrong/incorrect,avoir tort,,3.333333333333333,1.4094843864440918,False,21,9,2025-02-16-000001
+2025-02-16T00:05:27.960217,nowhere,nulle part,,1.966479966,1.0838732719421387,False,21,10,2025-02-16-000001
+2025-02-16T00:05:29.001338,the butterfly,le papillon,,2.1669486606476847,1.0421245098114014,False,21,11,2025-02-16-000001
+2025-02-16T00:05:30.459663,the changing room,le vestiaire,"Everyone in the changing rooms is keen to get in the pool so change really quickly, throwing their clothes off - all you can see is a vest in the air",3.032478359010484,1.4583241939544678,False,21,12,2025-02-16-000001
+2025-02-16T00:05:33.159002,the hairbrush,la brosse à cheveux,,3.871476034506104,2.699338912963867,False,21,13,2025-02-16-000001
+2025-02-16T00:05:34.425467,the nursery school,la maternelle,,3.685752813369412,1.2674627304077148,False,21,14,2025-02-16-000001
+2025-02-16T00:05:35.741968,the (fruit) stallholder,le marchand (de fruit),"the fruit-stall holder is shouting ""it's March annnnnnnd, get your lovely spring greens""",2.237246312643025,1.3165009021759033,False,21,15,2025-02-16-000001
+2025-02-16T00:05:36.794460,old (feminine),vieille,,2.080512315352581,1.0524919033050537,False,21,16,2025-02-16-000001
+2025-02-16T00:05:38.003235,the baker,le boulanger,,3.3330390977596704,1.2097716331481934,False,21,17,2025-02-16-000001
+2025-02-16T00:05:39.016581,the survey,le sondage,the sounding of public opinion,2.8548914194107056,1.0143458843231201,False,21,18,2025-02-16-000001
+2025-02-16T00:05:40.254911,"the fog (dense, v < 1km)",le brouillard,I can't see anything in the courtyard of the brewery (the brew-yard) because the fogging from the vats is so thick,4.0916694270239935,1.2393262386322021,False,21,19,2025-02-16-000001
+2025-02-16T00:05:41.757426,the July,le Juillet,,1.609625215,1.5035154819488525,False,21,20,2025-02-16-000001
+2025-02-16T00:05:47.696961,the railway track,la voie ferrée,"Looking at the SNCF rail-track, one rail enthusiast says, ""It's pretty good isn't it?"". The other replies ""Phwoar! Very!""",2.0,5.93953800201416,False,21,0,2025-02-16-000545
+2025-02-16T00:05:49.613399,the task,la tâche,General Melchett's main task is to care for his 'tache,1.985767979367269,1.9174370765686035,False,21,1,2025-02-16-000545
+2025-02-16T00:05:51.039553,the squirrel,l'écureuil,Ache-you're-A,2.8718988691581724,1.4271519184112549,False,21,2,2025-02-16-000545
+2025-02-16T00:05:56.992818,the ticket machine,l'horodateur,I turn up to a date and the person I'm meeting is a ticket machine. She is a horror-dater.,2.8162668340015,5.954272985458374,True,21,3,2025-02-16-000545
+2025-02-16T00:05:59.021299,the jacket,la veste,"I turn up at the athletics meeting in France having told them I need a vest to run in, and have to run in a massive parka",3.1025766928990683,2.0284805297851562,False,21,4,2025-02-16-000545
+2025-02-16T00:06:09.449127,the mop,la vadrouille,"Newby storm-trooper gets told to do a better job of mopping or Darth Vader will hear about it. Replies - ""Vader? 'Oo 'ee?""",2.222844776,10.0,True,21,5,2025-02-16-000545
+2025-02-16T00:06:16.273657,the hob,les plaques,"picture how grimy my hob gets, kind of like teeth get plaque",1.948000024,6.825525522232056,True,21,6,2025-02-16-000545
+2025-02-16T00:06:18.121349,the fridge,le frigo,,3.0702729957143142,1.8486895561218262,False,21,7,2025-02-16-000545
+2025-02-16T00:06:19.641852,the rubbish,les ordures,"Aristocrat looking at a mob says to his friend ""What rubbish they are!"", then turns to the mob and shouts ""A horde you are!""",3.333333333333333,1.5215015411376953,False,21,8,2025-02-16-000545
+2025-02-16T00:06:22.257192,the exhaust fumes,le gaz d’échappement,"in escaping the exhaust fumes through hill-walking, I don't so much have an ace up my sleeve, as an ace-up-mount",2.9388162626181704,2.6163313388824463,False,21,9,2025-02-16-000545
+2025-02-16T00:06:24.407875,the sticks,les bâtons,,2.422000165,2.151683807373047,False,21,10,2025-02-16-000545
+2025-02-16T00:06:26.309649,the shower,la douche,,2.6929594273163944,1.902768611907959,False,21,11,2025-02-16-000545
+2025-02-16T00:06:28.100405,the snack,le casse-croûte,the break-crust,3.815864452015584,1.7907557487487793,False,21,12,2025-02-16-000545
+2025-02-16T00:06:31.039458,the house-wife,la femme au foyer,picture a house-wife waiting for her husband at the foyer,3.14261814625675,2.954458475112915,False,21,13,2025-02-16-000545
+2025-02-16T00:06:32.775530,the handkerchief,le mouchoir,"the dandy waves his handkerchief at the dog-sled team and says ""Mush!"", then ""Wah!"" as they accelerate and he falls off the back",2.777615050104268,1.7360725402832031,False,21,14,2025-02-16-000545
+2025-02-16T00:06:34.541943,the door,la porte,,2.0,1.765416145324707,False,21,15,2025-02-16-000545
+2025-02-16T00:06:36.813344,the pet,l'animal de compagnie,,2.327623094664103,2.272397041320801,False,21,16,2025-02-16-000545
+2025-02-16T00:06:38.366973,the toast,le toast,,3.1030994565398604,1.5546269416809082,False,21,17,2025-02-16-000545
+2025-02-16T00:06:40.252862,the belt,la ceinture,"I realize I've left my belt at home, but my colleague has brought a spare one. I shout ""A saint you are!""",4.68453329,1.8848917484283447,False,21,18,2025-02-16-000545
+2025-02-16T00:06:42.548990,to skate,patiner,,3.023105974429801,2.2971253395080566,False,21,19,2025-02-16-000545
+2025-02-16T00:06:45.559147,the disadvantage,l’inconvénient,,2.201665638,3.0101571083068848,False,21,20,2025-02-16-000545
+2025-02-16T08:34:22.547504,the fancy dress,la robe de fantaisie,,2.066152154108277,2.3700695037841797,False,22,0,2025-02-16-083420
+2025-02-16T08:34:24.693877,the tin opener,l’ouvre-boîte (m),open-box,2.6403789033131915,2.149364709854126,False,22,1,2025-02-16-083420
+2025-02-16T08:34:34.126062,the lawn mower,la tondeuse à gazon,"Tony Blair is switching on his lawn-mower, and says to himself ""Tone does a gas-on!""",2.869782256217448,9.433181762695312,False,22,2,2025-02-16-083420
+2025-02-16T08:34:38.774479,the ring (jewellery),la bague,"""Secure the bag!"" says Andrew Yang, flashing everyone his handful of expensive rings to show he knows about getting money",3.2109999741666666,4.6494152545928955,False,22,3,2025-02-16-083420
+2025-02-16T08:34:40.437451,addicted,accro,when dealing with junkies there's always a lot of aggro,3.1973967288452148,1.6649558544158936,False,22,4,2025-02-16-083420
+2025-02-16T08:34:42.528250,the firework,le feu d'artifice,Picture throwing lots of pretentious artworks on the bonfire during Fireworks Night - it is a fire of artifice,2.172001552,2.09079909324646,False,22,5,2025-02-16-083420
+2025-02-16T08:34:44.139014,to save/protect,sauvegarder,,2.491638481,1.610764741897583,False,22,6,2025-02-16-083420
+2025-02-16T08:34:46.069763,alone,seul,"Imagine Godzilla has killed everyone in Seoul, so I am alone there",2.720254917123413,1.9317452907562256,False,22,7,2025-02-16-083420
+2025-02-16T08:34:49.853938,next day/following day,le lendemain,"Lend a man some money, and the next day you won't see him",3.333333333333333,3.784174919128418,False,22,8,2025-02-16-083420
+2025-02-16T08:34:52.759479,the slipper,la pantoufle,"As the dog walks up carrying my slippers, I hear pant, the 'oof' as he drops them, then 'leeeeeeagh' as he tries to get the taste out of his mouth",2.8895884016446267,2.907533884048462,False,22,9,2025-02-16-083420
+2025-02-16T08:34:54.703333,the birthday,l'anniversaire,,2.0127611785198565,1.9448516368865967,False,22,10,2025-02-16-083420
+2025-02-16T08:34:56.536743,the garlic,l’ail (m),"""this is a pearl that I bought for you"" I say to the vampire as I pass him the garlic. ""That's a lie!"" he shrieks as he takes it and bursts into flame.",1.791714494,1.8344051837921143,False,22,11,2025-02-16-083420
+2025-02-16T08:35:00.105646,the freezer,le congelateur,"open the freezer and it's full of frozen racing-cyclists, because it can congeal-a-tour",3.531982681666667,3.569897174835205,False,22,12,2025-02-16-083420
+2025-02-16T08:35:06.020562,in turn,à tour de rôle,"in a board game where we take turns, the dice does a tour of roll around the players",3.0299241642157235,5.9159159660339355,False,22,13,2025-02-16-083420
+2025-02-16T08:35:08.732874,the french-windows,la porte-fenetre,,3.597998857498169,2.713310480117798,False,22,14,2025-02-16-083420
+2025-02-16T08:35:11.371234,the mastery,la maîtrise,the way to master kung-fu is in the practice Matrices,2.206645226848043,2.6383562088012695,False,22,15,2025-02-16-083420
+2025-02-16T08:35:12.848250,the Wednesday,le mercredi,,1.6813052506935628,1.4629039764404297,False,22,16,2025-02-16-083420
+2025-02-16T08:35:14.690716,the file,le fichier,"I work at EA in the filing department, which consists of a big ball-pool filled with files, and retrieving one consist of doing a 'fish-EA'",2.734564455904541,1.8580904006958008,False,22,17,2025-02-16-083420
+2025-02-16T08:35:17.953164,the chick,le poussin,The chick is trying to get out of the shell so he is pushin',3.14418782790502,3.262449026107788,False,22,18,2025-02-16-083420
+2025-02-16T08:35:20.582209,the railway carriage,le transport ferroviaire,Riding on top of the railway carriage you feel like the Pharaoh of the air,3.492471963333333,2.63004207611084,False,22,19,2025-02-16-083420
+2025-02-16T08:35:23.265219,the diver,le plongeur,the plunger,2.307447924,2.6830098628997803,False,22,20,2025-02-16-083420
+2025-02-16T08:35:25.433743,the path,le chemin,,2.053401535,2.1685233116149902,False,22,21,2025-02-16-083420
+2025-02-16T08:35:31.285073,the Friday,le vendredi,,2.114518354,5.849335670471191,False,26,0,2025-02-16-083529
+2025-02-16T08:35:35.914145,the wardrobe,l'armoire,,2.0,4.6310670375823975,False,26,1,2025-02-16-083529
+2025-02-16T08:35:37.318496,the actress,l'actrice,,3.5582947210471256,1.4033539295196533,False,26,2,2025-02-16-083529
+2025-02-16T08:35:38.857583,to clean,nettoyer,"The house-owner is trying to incentivize his cleaner, and so has an array of nerdy toys, and says, ""If you get it reeeeally clean, you could net toy A""",2.9860151443125407,1.5390863418579102,False,26,3,2025-02-16-083529
+2025-02-16T08:35:40.545957,the castle,le château,,2.122533253,1.6893713474273682,False,26,4,2025-02-16-083529
+2025-02-16T08:35:42.323334,friendly,amical,"Some friendly Irish people meet, and say ""Ah you're a Michael - I'm a Michael too!""",2.126412994,1.7773776054382324,False,26,5,2025-02-16-083529
+2025-02-16T08:35:45.511041,following/next,suivant,"I am in Berlin meeting a german secret-agent; he notices someone following us, and mutters ""So 'e vant to follow us, eh?""",2.0835967375960283,3.188704252243042,False,26,6,2025-02-16-083529
+2025-02-16T08:35:47.562135,the tip (monetary),le pourboire,for drink,2.060576617322388,2.051093816757202,False,26,7,2025-02-16-083529
+2025-02-16T08:35:50.883252,unemployment,le chômage,"The unemployed man's wife says ""Make sure you don't buy butter at the shops - buy something cheaper"" He says ""sure - marge""",2.05228553,3.3211164474487305,False,26,8,2025-02-16-083529
+2025-02-16T08:35:54.343992,the grass (not necessarily a lawn),l’herbe,,2.132112054,3.461737632751465,False,26,9,2025-02-16-083529
+2025-02-16T08:35:57.260997,the star (of the show),la vedette,"Al Capone gets a liking for AmDram, but gets cast in a small part - he wants to be the star of the show, so he starts a vendetta against the other actors",2.48176135,2.916008234024048,False,26,10,2025-02-16-083529
+2025-02-16T08:35:59.319611,the candy floss,les barbe à papa,,2.4789965422879026,2.0596110820770264,False,26,11,2025-02-16-083529
+2025-02-16T08:36:02.526892,the beehive,la ruche,"I'm interrogating James Bond (Sean Connery) to find the documents. He points to a box. I open it - bees fly out and sting me. Bond says ""A ruse!""",1.820079939,3.208282232284546,False,26,12,2025-02-16-083529
+2025-02-16T08:36:04.276662,the TV,la tele,,2.338802566,1.750770092010498,False,26,13,2025-02-16-083529
+2025-02-16T08:36:11.159053,the tightrope walker,le funambule,"it's all fun, until the ambulance",2.2269341548283896,6.88503623008728,False,26,14,2025-02-16-083529
+2025-02-16T08:36:16.408460,"the laundry (act, not place)",la lessive,imagine trying to do the laundry in the sieve (in french maybe le sieve),1.870000044,5.2504096031188965,False,26,15,2025-02-16-083529
+2025-02-16T08:36:18.157809,I like that,ça me plaît,"I like that, I simply like that",2.055997429184265,1.7503535747528076,False,26,16,2025-02-16-083529
+2025-02-16T08:36:19.706323,the shark,le requin,"I taunt the shark by saying he can't get in the sea on a cold day. He tip-toes in, and says ""You see? I - brrrr - can""",2.6501446212443605,1.5497736930847168,False,26,17,2025-02-16-083529
+2025-02-16T08:36:27.260053,the trade show,la foire d’exposition,think of Basil Exposition showing off his time-travelling mini at a fair,2.6569376227630617,7.553731203079224,False,26,18,2025-02-16-083529
+2025-02-16T08:36:31.116500,the son,le fils,,2.066422355721029,3.857447624206543,False,26,19,2025-02-16-083529
+2025-02-16T08:36:32.581984,the tablecloth,la nappe,picture the waiter having a nap in the middle of the table,2.0920885188988243,1.4664816856384277,False,26,20,2025-02-16-083529
+2025-02-16T08:36:36.491828,the tv channel,la chaîne,the tv channel is so addictive I feel like it's a chain that binds me to the tv,2.143040023,3.909843921661377,False,26,21,2025-02-16-083529
+2025-02-16T08:36:38.049081,the May,le Mai,,1.620589166828308,1.558251142501831,False,26,22,2025-02-16-083529
+2025-02-16T08:36:40.387434,not yet,pas encore,,2.446226435035299,2.3393547534942627,False,26,23,2025-02-16-083529
+2025-02-16T08:36:41.598340,the lizard,le lézard,like a lizard but lazy,1.6540368280459088,1.2109065055847168,False,26,24,2025-02-16-083529
+2025-02-16T08:36:43.755772,annoying/irritating,embêtant,camping gets irritating when an ember lands on your tent and it catches fire,2.203372557957968,2.158428192138672,False,26,25,2025-02-16-083529
+2025-02-16T08:38:11.524164,light (in weight),léger,the best kind of light is a laser,2.348912318547566,2.281331777572632,False,29,0,2025-02-16-083809
+2025-02-16T08:38:13.243113,the ticket office,le guichet,"At the stage-coach ticket-office, the cowboy outside says ""Don't be shy, just go i' and shay you wan' a ticket""",2.612546326262961,1.7199487686157227,False,29,1,2025-02-16-083809
+2025-02-16T08:38:14.807780,the lung,le poumon,"The scotsman gets out into the countryside, takes a deep breath into his lungs, and says ""I can smell poo, mon!""",1.776038288,1.5646662712097168,False,29,2,2025-02-16-083809
+2025-02-16T08:38:16.591342,the tyre,le pneu,pneu-matic,2.132864336,1.7983548641204834,False,29,3,2025-02-16-083809
+2025-02-16T08:38:18.279938,the drawing,le dessin,,2.604761942,1.6885960102081299,False,29,4,2025-02-16-083809
+2025-02-16T08:38:19.925664,the Tuesday,le mardi,,1.791501332997233,1.6467225551605225,False,29,5,2025-02-16-083809
+2025-02-16T08:38:21.993167,the knee,le genou,genuflect = flex/bend the knee,1.937378066,2.0675036907196045,False,29,6,2025-02-16-083809
+2025-02-16T08:38:23.614474,the juggler,le jongleur,,1.682635439,1.6222975254058838,False,29,7,2025-02-16-083809
+2025-02-16T08:38:26.352326,the screwdriver,le tournevis,"I'm screwing something with a screwdriver but I need to do loads of turns. I say, ""It's a bit turn-heavy!""",2.0,2.7388508319854736,False,29,8,2025-02-16-083809
+2025-02-16T08:38:27.825025,the cockerel,le coquelet,the hen who's posing as a rooster laughs at her clever plan before laying a secret egg - cackle-lay,1.5975000318315633,1.4716997146606445,False,29,9,2025-02-16-083809
+2025-02-16T08:38:32.063526,the wheelchair,le fauteuil roulant,picture Roland from Grange Hill in a wheel-chair that is actually an armchair on wheels,2.074000019,4.244598388671875,False,29,10,2025-02-16-083809
+2025-02-16T08:38:34.272183,already,déjà,,2.211005611,2.209653854370117,False,29,11,2025-02-16-083809
+2025-02-16T08:38:36.205978,the fly,la mouche,when a fly hits the windscreen it becomes mush,2.0,1.9327912330627441,False,29,12,2025-02-16-083809
+2025-02-16T08:38:38.066709,the spinach,les épinards,Ape-innards. (Because gorillas are vegetarian),2.291600012,1.8617355823516846,False,29,13,2025-02-16-083809
+2025-02-16T08:38:40.881053,the sailor,le marin,"think of a French navy ship manned entirely by marines in red jackets, carrying muskets as they climb the rigging",1.703600096,2.8153421878814697,False,29,14,2025-02-16-083809
+2025-02-16T08:38:43.188004,the bowls,les bols,,1.822175727,2.3079469203948975,False,29,15,2025-02-16-083809
+2025-02-16T08:38:47.339888,the spaceship,le vaisseau spatial,At the children's hospital when they need to give stitches on a kid's face they use a special needle that looks like a rocket,2.055583889,4.15188455581665,False,29,16,2025-02-16-083809
+2025-02-16T08:38:50.557610,the penknife,le canif,"I can open the can, if I have a pen-knife",2.367706414,3.2177212238311768,False,29,17,2025-02-16-083809
+2025-02-16T08:38:52.423563,the shoelace,le lacet,"""How can I fasten my shoe?"" I ask. He replies ""Lace it!""",1.9924670590294733,1.8659536838531494,False,29,18,2025-02-16-083809
+2025-02-16T08:38:54.212322,the step (i.e. a stage or section),la étape,"as he descends the giant curving stairway in the middle of the stage, on each step the dancer does a tap",2.0,1.7897560596466064,False,29,19,2025-02-16-083809
+2025-02-16T08:38:55.894751,the bottom,le fond,,1.861815538679912,1.6834263801574707,False,29,20,2025-02-16-083809
+2025-02-16T08:38:57.435593,the duvet,la couette,"The pigeon, looking at my duvet stuffed with pigeon feathers, asks me what I did with the rest of his friends. Coo? Et.",2.663028745223873,1.540841817855835,False,29,21,2025-02-16-083809
+2025-02-16T08:38:59.191451,the wood-burner,le poele,It's an Edgar Allan Poe-Hell - resembles the real thing but is smaller and contained,1.881759987,1.771068811416626,False,29,22,2025-02-16-083809
+2025-02-16T08:39:01.123438,the seaweed,les algues,,1.90579191,1.9329869747161865,False,29,23,2025-02-16-083809
+2025-02-16T08:39:02.693916,selfish,égoïste,,2.29504824393158,1.5704779624938965,False,29,24,2025-02-16-083809
+2025-02-16T08:39:04.226060,the whistle,le sifflet,the note my whistle makes is C-flat,2.276611272023925,1.5331416130065918,False,29,25,2025-02-16-083809
+2025-02-16T08:39:05.759926,the sky,le ciel,,1.886667867041626,1.5348670482635498,False,29,26,2025-02-16-083809
+2025-02-16T08:39:07.171649,narrow,étroit,so narrow even a trout would struggle to get through,1.797230215386108,1.4117226600646973,False,29,27,2025-02-16-083809
+2025-02-16T08:39:09.592552,the test,l’épreuve (f),"the lisping ape says ""the ape rurrrrve the test""",1.8692799,2.421900510787964,False,29,28,2025-02-16-083809
+2025-02-16T08:39:18.826770,the smoke,la fumée,,2.023163318634033,9.23271107673645,False,28,0,2025-02-16-083917
+2025-02-16T08:39:20.603048,the throat,la gorge,As Jonah is going down the whale's throat it seems like he is falling into a gorge,2.073116799,1.777785301208496,False,28,1,2025-02-16-083917
+2025-02-16T08:39:22.649231,pouring with rain,pleut à verse,"the poet's poems are so sad, when he says a verse people cry so much it's like it's raining",1.830399952,2.0461831092834473,False,28,2,2025-02-16-083917
+2025-02-16T08:39:28.283334,the deer,le cerf,picture a medieval manor where all the serfs are deer,2.082399943,5.649109363555908,True,28,3,2025-02-16-083917
+2025-02-16T08:39:30.701870,the shoe,la chaussure,"To keep noise down on the submarine I give the men special shoes, which I announce will do the trick. The Captain (Sean Connery) asks ""How can you be so sure?""",2.2214048494634,2.4200892448425293,False,28,4,2025-02-16-083917
+2025-02-16T08:39:32.564919,the shoulder,l'épaule,There's half a dozen chimps sitting on my shoulders so I've got ape all over me,1.9007174515859984,1.863049030303955,False,28,5,2025-02-16-083917
+2025-02-16T08:39:34.619756,the stable,l'écurie,"I ask why the stable is glowing green. I'm told ""that's not a stable…that's a Curie laboratory shed""",2.0019065034804453,2.0548369884490967,False,28,6,2025-02-16-083917
+2025-02-16T08:39:52.959799,the kennel,le chenil,combine the start of 'chien' with the end of 'kennel',2.284784167,10.0,True,28,7,2025-02-16-083917
+2025-02-16T08:39:54.500888,the crutch,la béquille,"The wizard as a favour lets the cripple fly like a bird - he points his wand at the cripple's crutch and says ""Be quill!"", and it turns into wings",2.20079995,1.5420854091644287,False,28,8,2025-02-16-083917
+2025-02-16T08:39:58.278695,the bathroom,la salle de bain,,2.295588154679057,3.7778029441833496,False,28,9,2025-02-16-083917
+2025-02-16T08:40:00.412590,since (causal),puisque,,2.0556853524398804,2.134896755218506,False,28,10,2025-02-16-083917
+2025-02-16T08:40:02.583150,the sheep,le mouton,,2.051161674,2.1736698150634766,False,28,11,2025-02-16-083917
+2025-02-16T08:40:04.995815,the trailer (movie),la bande-annonce,"A band have been paid to announce upcoming movies at their gig, and have to act out the trailers",2.2811420361200967,2.413665533065796,False,28,12,2025-02-16-083917
+2025-02-16T08:40:06.585491,sorry [formal],navré,"The WW2 bomber crew phone up base & say ""Hey, we're lost - you switched off the radio nav-ray!"". ""Sorry…"" say Base.",2.189633939,1.5906753540039062,False,28,13,2025-02-16-083917
+2025-02-16T08:40:09.403949,the hiking,la randonnée,"to go hiking, just go out of the house and start walking randomly",1.845999973,2.81845760345459,False,28,14,2025-02-16-083917
+2025-02-16T08:40:11.162214,the hedgehog,le hérisson,"Prince Harry has a son, but there are fears it is illegitimate, as it is a hedgehog",1.916000096,1.7592623233795166,False,28,15,2025-02-16-083917
+2025-02-16T08:40:22.902159,the blind,le volet,"I tell my inept blind friend that I got a new thing for my living room. He touches the blind, and says ""aha! It's a pet vole, eh?""",2.041999966,10.0,True,28,16,2025-02-16-083917
+2025-02-16T08:40:25.537113,to land [aeroplane],atterrir,"The hijacker leaves it too late in the day. Just as he jumps up with his gun, a passenger gets as far as shouting ""A terror-"" …and the plane lands",2.0,2.634953260421753,False,28,17,2025-02-16-083917
+2025-02-16T08:40:29.630354,the cabin crew,le personnel de cabine,,2.5088287194569907,4.094237565994263,False,28,18,2025-02-16-083917
+2025-02-16T08:40:31.866641,the chest (part of body),la poitrine,,1.772663768,2.237290382385254,False,28,19,2025-02-16-083917
+2025-02-16T08:40:33.524130,the sail,la voile,Picture Eliza Doolittle enunciating,2.6284976987411945,1.6564857959747314,False,28,20,2025-02-16-083917
+2025-02-16T08:40:40.917504,to lend,prêter,"""Prey take it""",2.5273372729619346,7.394928693771362,True,28,21,2025-02-16-083917
+2025-02-16T08:40:46.388729,the stool,le tabouret,"The barman says ""It's time to pay your tab""; I fall off my stool, and trying to put a brave face on it say ""Tab - hurray!""",2.403835689,5.4722230434417725,False,28,22,2025-02-16-083917
+2025-02-16T08:40:48.307894,eldest/oldest/older,aîné,the ainu are the eldest of the Japanese people,1.603999849,1.9191648960113525,False,28,23,2025-02-16-083917
+2025-02-16T08:40:51.606051,the meat,la viande,"the Alien lizard person is eating human meat. Someone asks ""who do you think you are to be eating people?"". He answers ""V. And?""",1.87690045,3.299152135848999,False,28,24,2025-02-16-083917
+2025-02-16T08:40:57.566334,the food,la nourriture,,1.913599938,5.9634294509887695,False,28,25,2025-02-16-083917
+2025-02-16T08:41:01.713787,the racing car,la voiture de course,,2.0,4.14844822883606,False,28,26,2025-02-16-083917
+2025-02-16T08:41:03.377284,the grape,le raisin,,2.453712434,1.6644964218139648,False,28,27,2025-02-16-083917
+2025-02-16T14:34:56.845261,the winter,l'hiver,,2.514620141,1.7733445167541504,False,28,0,2025-02-16-143454
+2025-02-16T14:34:58.356896,the bone,l'os,pr: loss (i.e. don't drop the s),2.343379652643781,1.5136299133300781,False,28,1,2025-02-16-143454
+2025-02-16T14:35:00.033197,to wrap-up [an object],emballer,"picture an ancient egyptian Pharoah being embalmed, but he is wrapped up with layer after layer of gift wrapping, until he is a giant paper ball",1.841023911,1.6782948970794678,False,28,2,2025-02-16-143454
+2025-02-16T14:35:01.914192,the farmer,l'agriculteur,,2.526302059491476,1.8815295696258545,False,28,3,2025-02-16-143454
+2025-02-16T14:35:11.223630,tedious,barbant,the bar-banter gets more tedious as the customers get more drunk,2.503921147,9.311931133270264,True,28,4,2025-02-16-143454
+2025-02-16T14:35:13.329707,the floor,le plancher,picture d'Artagnan's servant Planchet sleeping on the floor,2.0,2.1070780754089355,False,28,5,2025-02-16-143454
+2025-02-16T14:35:15.058695,to catch up,rattraper,"I'm in a rat-catching contest with a cat, and obviously miles behind, so to catch up I resort to using a rat-trap",2.082168221473694,1.7289884090423584,False,28,6,2025-02-16-143454
+2025-02-16T14:35:16.998409,the abduction/kidnapping,l’enlèvement (m),"the rich man has been kidnapped by a gang of working-class communists, who are holding him in their machining factory, on Lathe Mount",2.0,1.940711498260498,False,28,7,2025-02-16-143454
+2025-02-16T14:35:19.055100,the calf (of the leg),le mollet,think of a Victorian music-hall performer called Molly who is scandalously revealing her calves,2.2775178241297405,2.0566906929016113,False,28,8,2025-02-16-143454
+2025-02-16T14:35:22.706652,the nut (for bolts),l'écrou,"I'm putting together a fence, but I have run out of nuts for the last bolt, so I find a crow & persuade him to hold it with his beak",2.167731894,3.652547836303711,False,28,9,2025-02-16-143454
+2025-02-16T14:35:25.239682,the fairground,le champ de foire,,2.0,2.534027576446533,False,28,10,2025-02-16-143454
+2025-02-16T14:35:27.154102,the climbing,l'escalade,"For the keen ones there is a wall to climb, for the lazy there is an escalator next to it",2.0,1.9154181480407715,False,28,11,2025-02-16-143454
+2025-02-16T14:35:29.499779,again,de nouveau,,2.0,2.3456778526306152,False,28,12,2025-02-16-143454
+2025-02-16T14:35:32.711381,I don’t mind,ça m’est égal,"A friend tells a girl about her old boyfriend, ""Sam met a girl""; she's over him so she replies ""I don't mind""",2.113776644070944,3.212599754333496,False,28,13,2025-02-16-143454
+2025-02-16T14:35:34.567706,the dress,la robe,,1.698000119,1.8563246726989746,False,28,14,2025-02-16-143454
+2025-02-16T14:35:37.401859,the shirt,la chemise,"The wife wears her absent husbands shirt, because she miss him",2.018448213,2.834153413772583,False,28,15,2025-02-16-143454
+2025-02-16T14:35:39.743488,the bridesmaid,la demoiselle d'honneur,,2.0,2.342623233795166,False,28,16,2025-02-16-143454
+2025-02-16T14:35:42.482605,of course/naturally,bien entendu,,2.023135963,2.739116907119751,False,28,17,2025-02-16-143454
+2025-02-16T14:35:44.576193,the water skiing,le ski nautique,,2.041599998,2.0935826301574707,False,28,18,2025-02-16-143454
+2025-02-16T14:35:46.552058,the saucepan,la casserole,,2.146959905,1.9909870624542236,False,28,19,2025-02-16-143454
+2025-02-16T14:35:48.128723,to tear (up/apart),déchirer,"The robot-maker is showing his new sheep-shearing robots. The farmer watches the massive robots grab the sheep and tear them up, and says ""They shear, eh?""",2.483103540208605,1.576664924621582,False,28,20,2025-02-16-143454
+2025-02-16T14:35:54.214244,the saddle,la selle,Why are you so sore after you decided you were going to turn down the pony-trekking? The pony-manager gave me the hard sell.,2.01171826,6.086517810821533,True,28,21,2025-02-16-143454
+2025-02-16T14:35:58.342068,the homeless,les sans/abri (m/f),"the homeless are so poor they can't even afford a brie, and have to have plain cheddar on their biscuits",1.940000042,4.127825975418091,False,28,22,2025-02-16-143454
+2025-02-16T14:36:30.010610,the drink,la boisson,,2.0,10.0,False,28,23,2025-02-16-143454
+2025-02-16T14:36:32.658894,to show,montrer,"I tell my guests I want to show them something, and come out with an empty tray. They say ""What did you want to show us?"" I say ""Well…mon tray!""",2.0,2.649278402328491,False,28,24,2025-02-16-143454
+2025-02-16T14:36:38.762452,the hedge,la haie,"Picture all the woodland creatures jumping up from behind the hedge shouting ""Hey!""",2.11833997,6.10355806350708,True,28,25,2025-02-16-143454
+2025-02-16T14:36:44.153041,the calf,le veau,"The calf is only young so he can't yet vote, he can only vo",2.21200005,5.391587972640991,True,28,26,2025-02-16-143454
+2025-02-16T14:36:53.849927,the rent,le loyer,if you don't pay your rent they will take you to court & you'll need a lawyer,2.0,9.696885585784912,True,28,27,2025-02-16-143454
+2025-02-16T14:36:56.717801,disgusting,dégoûtant,"I think it's disgusting when someone mocks spanish people with a ""Dago!"" taunt",2.357266121777235,2.8668766021728516,False,28,0,2025-02-16-143655
+2025-02-16T14:36:58.299711,steep/stiff,raide,,1.9332724809646609,1.583909511566162,False,28,1,2025-02-16-143655
+2025-02-16T14:37:05.599403,the pram,la poussette,"I ask how to drive a pram, and I'm just told ""Push it!""",2.125999963,7.299691915512085,True,28,2,2025-02-16-143655
+2025-02-16T14:37:07.526394,the toothpaste,le dentifrice,"after brushing his teeth, the little boy goes to his den in the tree for a midnight feast",1.906000025,1.9259991645812988,False,28,3,2025-02-16-143655
+2025-02-16T14:37:08.931750,the butcher,le boucher,,1.9870209453501384,1.4058384895324707,False,28,4,2025-02-16-143655
+2025-02-16T14:37:10.478007,the trowel,la truelle,,2.070149416,1.5623879432678223,False,28,5,2025-02-16-143655
+2025-02-16T14:37:11.965846,the rule,le règlement,"the snakes are forever breaking the rules, so they all get thrown out of Eden, so many of them that it makes a wriggler-mount",2.2730414231937663,1.4878392219543457,False,28,6,2025-02-16-143655
+2025-02-16T14:37:13.531835,the necklace,le collier,think of a coal-miner (a collier) wearing a beautiful diamond necklace,1.785663075,1.5659890174865723,False,28,7,2025-02-16-143655
+2025-02-16T14:37:15.942073,the ironing board,la planche à repasser,imagine falling asleep (having a repast) while the iron burns a hole in my shirt,2.0,2.4102375507354736,False,28,8,2025-02-16-143655
+2025-02-16T14:37:17.613554,the wheel,la roue,picture an australian car with 'roos instead of wheels,2.261199994,1.6724786758422852,False,28,9,2025-02-16-143655
+2025-02-16T14:37:25.784684,the rocking horse,le cheval à bascule,"It is Christmas time in North-West Spain, and a child has been bought a rocking horse to celebrate Basque Yule",1.927999905,8.17112922668457,True,28,10,2025-02-16-143655
+2025-02-16T14:37:27.971759,the plane,l'avion,,1.957999969,2.187075614929199,False,28,11,2025-02-16-143655
+2025-02-16T14:37:29.463448,the saucers,les soucoupes,,2.26932416,1.492682933807373,False,28,12,2025-02-16-143655
+2025-02-16T14:37:34.785718,the goldfish,le poisson rouge,,2.0,5.3222692012786865,False,28,13,2025-02-16-143655
+2025-02-16T14:37:36.234393,the cycling,le cyclisme,,1.8750815098019409,1.4496734142303467,False,28,14,2025-02-16-143655
+2025-02-16T14:37:37.799858,the party,la fête,,2.367159035470751,1.566462755203247,False,28,15,2025-02-16-143655
+2025-02-16T14:37:39.694128,the bee,l'abeille,"I wonder why so many tourists want to go to Bath, then I find out the abbey has been replaced with a giant humming bee",1.7104479,1.8952703475952148,False,28,16,2025-02-16-143655
+2025-02-16T14:37:41.570034,the cobweb,la toile d'araignée,toil of spider,2.637778704179835,1.8759052753448486,False,28,17,2025-02-16-143655
+2025-02-16T14:37:43.454087,well equipped,bien équipé,,2.0,1.8850538730621338,False,28,18,2025-02-16-143655
+2025-02-16T14:37:45.367522,the autumn,l'automne,,2.133196479,1.9144346714019775,False,28,19,2025-02-16-143655
+2025-02-16T14:37:47.621224,the candle,la bougie,"Picture shrek picking a giant bogie out of his nose, putting one of his ear-hairs in it, and lighting it",2.033889539146932,2.2547013759613037,False,28,20,2025-02-16-143655
+2025-02-16T14:37:53.069509,the riding,la équitation,,2.366000019,5.449284315109253,False,28,21,2025-02-16-143655
+2025-02-16T14:37:56.759402,the shelf,le rayon,the shelf is what the fish-monger puts his ray on,2.0,3.6898932456970215,False,28,22,2025-02-16-143655
+2025-02-16T14:37:58.583459,the parrot,le perroquet,"debt collector comes to my door….it's Rocky with a  parrot on his shoulder….the parrot shouts ""Pay Rocky!""",1.9490752243758136,1.8319647312164307,False,28,23,2025-02-16-143655
+2025-02-16T14:38:00.858809,the watch,la montre,"To meditate you need to focus on something….you can either use your mantra, or your montre",2.069200054,2.2763476371765137,False,28,24,2025-02-16-143655
+2025-02-16T14:38:07.231407,to pick up,ramasser,picture an Egyptian pharaoh (Ramases) going round his bedroom picking up his socks,2.582000055,6.372598171234131,True,28,25,2025-02-16-143655
+2025-02-16T14:38:09.107839,the comb,le peigne,just imagine the pain of combing out a really tough tangle,2.2559539726706945,1.8774292469024658,False,28,26,2025-02-16-143655
+2025-02-16T14:38:12.184979,the locker,le casier,,2.264607317781372,3.0771403312683105,False,28,27,2025-02-16-143655
+2025-02-16T14:38:25.305371,the (driving) licence,le permis (de conduire),When you become a permie at Lloyds you get your car allowance so now you can drive,2.116000018,10.0,True,28,0,2025-02-16-143816
+2025-02-16T14:38:28.498239,the engine,le moteur,,2.118298127,3.2083957195281982,False,28,1,2025-02-16-143816
+2025-02-16T14:38:31.189021,the hairdresser,le coiffeur,,2.06000002,2.6917788982391357,False,28,2,2025-02-16-143816
+2025-02-16T14:38:33.097241,the budgerigar,la perruche,"the budgie in Iljana's house is biting my finger, and muttering ""Pay! Rush!""",2.0,1.9082205295562744,False,28,3,2025-02-16-143816
+2025-02-16T14:38:35.096415,the clock,l'horloge,"It's getting really late; the inn-keeper says to me that I'm either going to have to leave, or lodge",1.773679896,1.9991745948791504,False,28,4,2025-02-16-143816
+2025-02-16T14:38:37.308821,to relax,(se) détendre,the relaxation of hostilities between England and France was détente,2.1643795054584074,2.2134010791778564,False,28,5,2025-02-16-143816
+2025-02-16T14:38:39.678880,the diving,la plongée sous-marine,plunging under the sea,2.256497552004394,2.3710520267486572,False,28,6,2025-02-16-143816
+2025-02-16T14:38:41.463282,to warn,avertir,"the warning is the place where, if you're going to avert disaster anywhere, you will avert 'ere",1.892000026,1.7844016551971436,False,28,7,2025-02-16-143816
+2025-02-16T14:38:43.594549,the plum,la prune,,2.030442766,2.131267547607422,False,28,8,2025-02-16-143816
+2025-02-16T14:38:45.542560,the information,les renseignements (m),"The Spanish peasants are so impressed by all the information that the English tourist knows that they give him the village donkey and say ""Ron Senor - mount!""",2.5120686465382893,1.9480109214782715,False,28,9,2025-02-16-143816
+2025-02-16T14:38:47.435318,sad,triste,,1.8881361661560057,1.8937559127807617,False,28,10,2025-02-16-143816
+2025-02-16T14:38:49.208250,the sun loungers,les chaises longues,,2.55738901169442,1.7879414558410645,False,28,11,2025-02-16-143816
+2025-02-16T14:38:50.950603,the syringe,la seringue,"to distract me from the seringue, the doctor gives me a meringue",2.162726447897949,1.7433507442474365,False,28,12,2025-02-16-143816
+2025-02-16T14:39:13.074093,used/old,usagé,,1.836000028,10.0,False,28,13,2025-02-16-143816
+2025-02-16T14:39:15.333563,the hot chocolate,le chocolat chaud,,1.9212813509474007,2.261462688446045,False,28,14,2025-02-16-143816
+2025-02-16T14:39:16.507690,the journey,le voyage,,2.477475535451221,1.1741266250610352,False,28,15,2025-02-16-143816
+2025-02-16T14:39:24.882021,annoyed,ennuyé,"I'm about suggest we continue with the activity when someone does something that really annoys me & I object to: ""On we…hey!""",2.2822598497910254,8.37433123588562,True,28,16,2025-02-16-143816
+2025-02-16T14:39:30.574537,the lighter,le briquet,picture lighting a cigarette with a brick,2.081599907,5.693521976470947,True,28,17,2025-02-16-143816
+2025-02-16T14:39:33.298570,the scarf,l'écharpe,"I put on the scarf and ask my friend how I'm looking. ""Hey, sharp!""",1.891501926,2.725029945373535,False,28,18,2025-02-16-143816
+2025-02-16T14:39:45.983840,the tadpole,le têtard,"On the downside tea is tardy; on the plus side, it is full of tadpoles",2.11450744,10.0,True,28,19,2025-02-16-143816
+2025-02-16T14:39:48.472186,the lady,la dame,,2.243337884271749,2.4903359413146973,False,28,20,2025-02-16-143816
+2025-02-16T14:39:49.908379,the honey,le miel,It's a bee's meal,1.9054835770579024,1.436192274093628,False,28,21,2025-02-16-143816
+2025-02-16T14:39:51.661183,enough/sufficient,suffisamment,,2.0,1.75380277633667,False,28,22,2025-02-16-143816
+2025-02-16T14:39:53.576768,the road,la route,,2.125999963,1.9175810813903809,False,28,23,2025-02-16-143816
+2025-02-16T14:39:55.409525,"great, terrific",super,,2.190720088,1.8337526321411133,False,28,24,2025-02-16-143816
+2025-02-16T14:39:57.132777,the knowledge,la connaissance,,2.544152491107178,1.7382583618164062,False,28,25,2025-02-16-143816
+2025-02-16T14:39:59.312466,the arm,le bras,"Picture a bunch of South African rugby players comparing biceps going ""Bra! Look at my arm!""",1.844000009,2.1796884536743164,False,28,26,2025-02-16-143816
+2025-02-16T14:40:00.829378,the sheepdog,le berger,picture a crowd of sheep being chased round by a Big Mac,2.102716565132141,1.5169119834899902,False,28,27,2025-02-16-143816
+2025-02-16T14:41:16.000393,the bus station,la gare routière,the National Express station is the station where they are rude-to-ya (remember Dave & my experience in London),2.002000058,10.0,True,29,0,2025-02-16-144003
+2025-02-16T14:41:18.073283,the submarine,le sous-marin,,1.6465238705611165,2.072890520095825,False,29,1,2025-02-16-144003
+2025-02-16T14:41:20.102082,food/diet,l’alimentation (f),"I'm hungry, so I'm buying illicit imported polos from the Alley Mint Asian",1.533359916,2.027804374694824,False,29,2,2025-02-16-144003
+2025-02-16T14:41:25.458743,the money box,la boîte de l'argent,,2.246657135369873,5.357655048370361,False,29,3,2025-02-16-144003
+2025-02-16T14:41:27.505191,the nurse,l'infirmière,,2.115622282,2.0464484691619873,False,29,4,2025-02-16-144003
+2025-02-16T14:41:32.906717,the tap,le robinet,"To fight off the robber I turn on the tap and spray it at him, shouting ""Robber - Nay!""",1.961999897,5.40152645111084,True,29,5,2025-02-16-144003
+2025-02-16T14:41:35.230781,the seesaw,la bascule,like a big rocking horse,1.923888,2.3250598907470703,False,29,6,2025-02-16-144003
+2025-02-16T14:41:41.696007,the iron,le fer à repasser,imagine falling asleep (having a repast) while the iron burns a hole in my shirt,2.416921763,6.46623158454895,False,29,7,2025-02-16-144003
+2025-02-16T14:41:52.129024,the sandpaper,le papier de verre,Picture trying to get a super-fine polish on a french table using a glass,2.0,10.0,True,29,8,2025-02-16-144003
+2025-02-16T14:41:56.235026,abroad,à l'étranger,,2.0878685315450034,4.106001853942871,False,29,9,2025-02-16-144003
+2025-02-16T14:41:58.480783,ginger (colour),roux,Picture a ginger kangaroo,1.934192535,2.245757579803467,False,29,10,2025-02-16-144003
+2025-02-16T14:42:05.792927,the boiled egg,l'œuf à la coque,the egg from the cockerel,1.919999899,7.313143491744995,False,29,11,2025-02-16-144003
+2025-02-16T14:42:10.808649,to be sleepy,avoir sommeil,"""Have some May"" the sleep-fairy says, throwing blossom-petals in my face, and making me magically fall asleep",2.101599999,5.015722274780273,False,29,12,2025-02-16-144003
+2025-02-16T14:42:15.675843,the pocket,la poche,"I consider going for the cheap trousers, but instead opt for the posh ones with a pocket",2.0892812572579955,4.882547855377197,False,29,13,2025-02-16-144003
+2025-02-16T14:42:17.367655,to guess/work out,deviner,"easy, just think of divining rods",1.8496084959114072,1.6928207874298096,False,29,14,2025-02-16-144003
+2025-02-16T14:42:19.236110,the back,le dos,I'm coming back from hunting carrying a doe on my back (pr: doe),1.9113618727160644,1.8684542179107666,False,29,15,2025-02-16-144003
+2025-02-16T14:42:20.969179,the motorbike,la moto,,2.606880594,1.7340669631958008,False,29,16,2025-02-16-144003
+2025-02-16T14:42:22.998272,the armchair,le fauteuil,"""That's not a toy"" Mum shouts as I'm trampolining on the armchair. So, it must be a faux-toy…",2.13680007,2.0300893783569336,False,29,17,2025-02-16-144003
+2025-02-16T14:42:37.389705,the drug addict,le/la toxicomane,he fools people that he's not a drug-addict by dressing extremely sharply - he is a tuxedo-man,1.8115902534667967,10.0,True,29,18,2025-02-16-144003
+2025-02-16T14:42:39.346142,the slope,la pente,"On the cross-country run, we get to the bottom of the slope, and the trainer says ""Right it's up the slope, so a chance to release all your pent-up energy""",2.067199965,1.956437587738037,False,29,19,2025-02-16-144003
+2025-02-16T14:42:42.541713,the feather,la plume,,2.577718437,3.195571184158325,False,29,20,2025-02-16-144003
+2025-02-16T14:42:44.263790,the mouse,la souris,,1.932942303,1.722076654434204,False,29,21,2025-02-16-144003
+2025-02-16T14:42:46.023624,the reindeer,le renne,"I ask a frenchman to paint me a Christmas card, a winter scene with a wren in it. He paints me a reindeer.",2.057899315256144,1.7608308792114258,False,29,22,2025-02-16-144003
+2025-02-16T14:42:47.788749,together,ensemble,,2.3243439062850952,1.7661230564117432,False,29,23,2025-02-16-144003
+2025-02-16T14:42:49.673150,the rainbow,l'arc-en-ciel,,2.0,1.8844008445739746,False,29,24,2025-02-16-144003
+2025-02-16T14:42:51.644915,the bottles,les bouteilles,,2.033775971,1.9727635383605957,False,29,25,2025-02-16-144003
+2025-02-16T14:42:53.789264,the bride,la mariée,,1.9927278757095337,2.144351005554199,False,29,26,2025-02-16-144003
+2025-02-16T14:42:56.010680,the accountant,le comptable,The accountant is replaced with a computer table like the one out of James Bond,2.278117928338013,2.2224137783050537,False,29,27,2025-02-16-144003
+2025-02-16T14:42:58.592643,the police station,le commissariat,"I go into the Soviet WW2 police station, and say to the desk sergeant ""the commisar, he at….?"" and point down the hall",2.119599928,2.5819671154022217,False,29,28,2025-02-16-144003
+2025-02-16T14:43:04.573198,the teapot,la théière,The french host asks if I'd like tea by holding up the tea-pot. Tea? Yeah!,2.005999986,5.980552911758423,False,28,0,2025-02-16-144302
+2025-02-16T14:43:07.384160,the band,le groupe,,1.814495876,2.8119587898254395,False,28,1,2025-02-16-144302
+2025-02-16T14:43:09.903843,the frying pan,la poêle,,2.036000074,2.5326907634735107,False,28,2,2025-02-16-144302
+2025-02-16T14:43:12.150582,the cabbage,le chou,,2.415928107190145,2.247736692428589,False,28,3,2025-02-16-144302
+2025-02-16T14:43:13.600370,the eagle,l'aigle,,1.688880237,1.4650611877441406,False,28,4,2025-02-16-144302
+2025-02-16T14:43:15.201765,the weighlifting,la musculation,,2.391049071970317,1.616800308227539,False,28,5,2025-02-16-144302
+2025-02-16T14:43:16.945262,the swimming,la nage,,1.942480140750529,1.7434968948364258,False,28,6,2025-02-16-144302
+2025-02-16T14:43:19.484391,the vacuum cleaner,l'aspirateur,,1.9351344373491075,2.5401270389556885,False,28,7,2025-02-16-144302
+2025-02-16T14:43:21.208168,the mushroom,le champignon,,2.032400096,1.7237772941589355,False,28,8,2025-02-16-144302
+2025-02-16T14:43:34.039069,the mole,la taupe,"If you make a mountain out of a molehill, you will never reach the top",2.1237642963208008,10.0,True,28,9,2025-02-16-144302
+2025-02-16T14:43:37.114420,the towel,la serviette,,2.3411318107676187,3.076348066329956,False,28,10,2025-02-16-144302
+2025-02-16T14:43:38.577828,the cushion,le coussin,,1.9567091912493888,1.4624054431915283,False,28,11,2025-02-16-144302
+2025-02-16T14:43:39.984299,the toaster,le grille-pain,,2.443233645391845,1.40647554397583,False,28,12,2025-02-16-144302
+2025-02-16T14:43:41.269455,the children,les enfants,,1.56117122,1.2861545085906982,False,28,13,2025-02-16-144302
+2025-02-16T14:44:12.186086,the concrete,le béton,the concrete of the pier is what I put my bait on while I'm fishing,1.862800082,10.0,True,28,14,2025-02-16-144302
+2025-02-16T14:44:15.336722,the course (of studies),la formation,,2.0,3.1516318321228027,False,28,15,2025-02-16-144302
+2025-02-16T14:44:21.492622,the traineeship,le stage,,2.0,6.155900001525879,False,28,16,2025-02-16-144302
+2025-02-16T14:44:22.742485,the June,le Juin,,2.342351609,1.250868320465088,False,28,17,2025-02-16-144302
+2025-02-16T14:44:24.932479,the runway,la piste,,1.899280059,2.1900060176849365,False,28,18,2025-02-16-144302
+2025-02-16T14:44:33.666671,to win [formal],remporter,"The prize for winning the REM competition is the chance to carry their kit when they're next on tour, i.e. to be an REM porter",2.0,8.735190391540527,True,28,19,2025-02-16-144302
+2025-02-16T14:44:36.357816,the whale,la baleine,a whale pirouetting on it's tale looks like a ballet-plane - a balane,2.0654809248241004,2.6911447048187256,False,28,20,2025-02-16-144302
+2025-02-16T14:44:37.810901,the scissors,les ciseaux,,2.203199632,1.453084945678711,False,28,21,2025-02-16-144302
+2025-02-16T14:44:39.881507,the bosom,le sein,The Seine river is the bosom of France,2.192680323777568,2.071605682373047,False,28,22,2025-02-16-144302
+2025-02-16T14:44:41.522364,surprised,etonné,"Tony Blair turns up at my desk - I say ""Hey Tony!""",2.4052789212343346,1.6408569812774658,False,28,23,2025-02-16-144302
+2025-02-16T14:44:43.439251,the attic,le grenier,"the soldier searching an uncooperative peasant village puts his head up in the attic & calls out ""Grain 'ere!""",2.056008952883708,1.9322047233581543,False,28,24,2025-02-16-144302
+2025-02-16T14:44:46.225527,unfashionable,démodé,the fashion designer is demoted because his work is unfashionable,1.930880074,2.7862753868103027,False,28,25,2025-02-16-144302
+2025-02-16T14:44:49.439315,the farm,la ferme,,2.0,3.2147860527038574,False,28,26,2025-02-16-144302
+2025-02-16T14:44:52.437958,"the mist (light, v > 1km)",la brume,"Far off in the moonlit valley, skimming just above the mist, I see the witch flying on her broom",2.336592378,2.998643159866333,False,28,27,2025-02-16-144302
+2025-02-16T14:46:02.187524,to slow down,ralentir,relent,1.824959913,3.6691367626190186,False,30,0,2025-02-16-144558
+2025-02-16T14:46:06.813384,the snowboarding,la planche à neige,,2.0,4.625864744186401,False,30,1,2025-02-16-144558
+2025-02-16T14:46:08.265092,the April,le Avril,,2.6792470409151954,1.4527032375335693,False,30,2,2025-02-16-144558
+2025-02-16T14:46:10.312080,the clothes-peg,la pince a linge,picture fencing on a tight-rope (or a washing line) with an acrobat armed with pincers - he does a pincer-lunge,1.910880067,2.046988010406494,False,30,3,2025-02-16-144558
+2025-02-16T14:46:13.578631,washing machine,la machine a laver,,1.814319966,3.2665510177612305,False,30,4,2025-02-16-144558
+2025-02-16T14:46:15.703496,the fox cub,le renardeau,it is the raw material that foxes are made out of - renard-dough,2.313463052113851,2.125938892364502,False,30,5,2025-02-16-144558
+2025-02-16T14:46:17.311977,the dolphin,le dauphin,,1.764958225278015,1.6094794273376465,False,30,6,2025-02-16-144558
+2025-02-16T14:46:18.993024,the thigh,la cuisse,As I sit in the chair waiting for the interview I look down at my thigh and am reassured to see the crease in my smartly ironed trousers,1.941200045,1.682041883468628,False,30,7,2025-02-16-144558
+2025-02-16T14:46:22.010495,the map,la carte,,1.7138094883455404,3.0328705310821533,False,30,8,2025-02-16-144558
+2025-02-16T14:46:24.223106,the tightrope,la corde raide,We carry out a daring raid on a bank using a tightrope to get over from the building across the street,1.854000081,2.2126104831695557,False,30,9,2025-02-16-144558
+2025-02-16T14:46:33.911855,naive,naïf,,1.858800167,9.688749313354492,False,30,10,2025-02-16-144558
+2025-02-16T14:46:35.730626,the sausage,la saucisse,,2.233600086,1.8197686672210693,False,30,11,2025-02-16-144558
+2025-02-16T14:46:38.866103,the hay,le foin,imagine having fun in the hay in Cinder Hill's loft,1.967766551,3.136472702026367,False,30,12,2025-02-16-144558
+2025-02-16T14:46:41.595140,the fire (blaze),L’incendie (m),"Jack Dee goes round committing arson, but when he is caught he gets let off by the jury because he is such an 'andsome Dee",2.363413836,2.730036973953247,False,30,13,2025-02-16-144558
+2025-02-16T14:46:44.148780,the lorry driver,le chauffeur de camion,,2.0,2.5546369552612305,False,30,14,2025-02-16-144558
+2025-02-16T14:46:50.263644,the nappy,la couche-culotte,"after changing the nappy, how to get the baby to sleep? Don't use a cosh, just coo-a-lot",2.051999886,6.1158599853515625,True,30,15,2025-02-16-144558
+2025-02-16T14:46:58.557606,the paintbrush,le pinceau,"imagine painting a tiny picture on a tiny easel with a tiny paintbrush, held using pincers",2.0,8.293967723846436,True,30,16,2025-02-16-144558
+2025-02-16T14:47:01.144619,the owl,le hibou,picture an owl very courteously bowing,2.153779794,2.5880093574523926,False,30,17,2025-02-16-144558
+2025-02-16T14:47:03.057016,the circus,le cirque,,1.965999951,1.9133946895599365,False,30,18,2025-02-16-144558
+2025-02-16T14:47:04.675504,the bath,le bain,Picture Bane washing his hair in the bath,2.53399991,1.6194822788238525,False,30,19,2025-02-16-144558
+2025-02-16T14:47:07.187815,confident,assuré,,1.66077422,2.51230525970459,False,30,20,2025-02-16-144558
+2025-02-16T14:47:10.116050,one way,sens unique,"I'm driving a speeder with ObiWan and there's no signs but he says ""I sense this road allows only a unique way…""",2.027999967,2.944528818130493,False,30,21,2025-02-16-144558
+2025-02-16T14:47:11.652461,the swan,le cygne,"the swan is looking for a place to land, but knows it doesn't like the salt water, so says ""Sea? Nay.""",1.9604836707957969,1.5374104976654053,False,30,22,2025-02-16-144558
+2025-02-16T14:47:13.893900,the wife,l'épouse,"The bantering husband introduces his wife by saying ""This is the ape whose hand I took in marriage""",1.981999915,2.242436170578003,False,30,23,2025-02-16-144558
+2025-02-16T14:47:16.086658,everywhere,partout,"the first film was mildly successful, but Part 2 is just everywhere!",2.0,2.1937572956085205,False,30,24,2025-02-16-144558
+2025-02-16T14:47:18.496374,ill,malade,,1.5010428225975885,2.410719871520996,False,30,25,2025-02-16-144558
+2025-02-16T14:47:20.030695,scared,effrayé,"A fight breaks out, so I am scared the affray",1.6332878293933106,1.5353200435638428,False,30,26,2025-02-16-144558
+2025-02-16T14:47:23.619381,the building,le bâtiment,think battlement,2.373657771,3.589686632156372,False,30,27,2025-02-16-144558
+2025-02-16T14:47:32.175870,the hoop,le cerceau,picture Cersei from GoT playing with a hoop,1.9743560949961343,8.556488513946533,True,30,28,2025-02-16-144558
+2025-02-16T14:47:34.639279,to relieve,soulager,I have a terrible hangover - I would sue lager if it would relieve the pain,1.841738231,2.4644064903259277,False,30,29,2025-02-16-144558
+2025-02-16T14:47:43.309218,the milk,le lait,,1.7241426559750366,8.669937133789062,False,29,0,2025-02-16-144741
+2025-02-16T14:47:49.648361,the broom,le balai,Think of a magician's apprentice-style situation with brooms doing ballet,2.00799995,6.340140104293823,True,29,1,2025-02-16-144741
+2025-02-16T14:47:53.311478,the lorry,le camion,"Imagine Iain Todd can disguise himself as a lorry because he is a chameon (chameleon, geddit?)",2.4091685877905955,3.6631174087524414,False,29,2,2025-02-16-144741
+2025-02-16T14:47:54.836630,the summer,l'été,,2.463118225453695,1.5251524448394775,False,29,3,2025-02-16-144741
+2025-02-16T14:47:56.534475,the pill,la pilule,"The snake-oil salesman says ""This is the pill you'll always rely on!""",2.3419410186702474,1.6978447437286377,False,29,4,2025-02-16-144741
+2025-02-16T14:47:59.532019,the Christmas tree,l'arbre de Noël,,1.86903999,2.9975435733795166,False,29,5,2025-02-16-144741
+2025-02-16T14:48:02.147952,the hippopotamus,l'hippopotame,,1.713328146,2.6169309616088867,False,29,6,2025-02-16-144741
+2025-02-16T14:48:03.665155,the saw,la scie,Picture Moses sawing the red sea before he can divide it,2.6089803332149084,1.517202377319336,False,29,7,2025-02-16-144741
+2025-02-16T14:48:05.116743,the sponge,l'éponge,,1.585828709,1.452584981918335,False,29,8,2025-02-16-144741
+2025-02-16T14:48:10.722893,the cherry,la cerise,,1.542921022,5.606980800628662,False,29,9,2025-02-16-144741
+2025-02-16T14:48:13.716804,the deck-chair,le transat,someone has no deck-chair so he drives his transit van onto the lawn & sits in that,2.0277385314305625,2.992912530899048,False,29,10,2025-02-16-144741
+2025-02-16T14:48:15.046133,the tea,le thé,,2.151999869,1.3303272724151611,False,29,11,2025-02-16-144741
+2025-02-16T14:48:16.638826,the salt,le sel,the salter is the salt sel-er,1.628005265,1.5916955471038818,False,29,12,2025-02-16-144741
+2025-02-16T14:48:21.080231,the rope ladder,l'échelle de corde,,2.523217554,4.442402362823486,False,29,13,2025-02-16-144741
+2025-02-16T14:48:24.094850,the keyboard,le clavier,"my dog can woof on command, but my friend's dog can play Mozart on the piano keyboard, so his dog is cleverer",2.0,3.015601396560669,False,29,14,2025-02-16-144741
+2025-02-16T14:48:25.695269,the writer,l’écrivain (m),the writers unreliable income gives him constant money worries about his camper - he has an ache re van,1.5545122044304402,1.6004188060760498,False,29,15,2025-02-16-144741
+2025-02-16T14:48:27.249098,the toilet,les toilettes,,2.297294566202715,1.5538289546966553,False,29,16,2025-02-16-144741
+2025-02-16T14:48:44.435173,the sailing boat,le voilier,"Picture Eliza Doolittle practicing her vowels with the ""Vowelier"" device - a sailing ship that she has to propel by aspirating",2.111478329,10.0,False,29,17,2025-02-16-144741
+2025-02-16T14:48:48.025062,the advert,la publicité,,2.109337577111613,3.590886354446411,False,29,18,2025-02-16-144741
+2025-02-16T14:48:50.358121,the swimsuit,le maillot de bain,"The swimsuit she's wearing is a knock-out, just like a mallet.",2.324733504,2.3330585956573486,False,29,19,2025-02-16-144741
+2025-02-16T14:48:53.023565,to print out,imprimer,"After Theresa May revolutionised the Tory party's relationship with technology, people stopped printing out. One old hand still does - people say ""him pre-May""",2.110800036,2.6654443740844727,False,29,20,2025-02-16-144741
+2025-02-16T14:48:55.696428,disappointed/disillusioned,déçu,"they sue, because they are disappointed",1.946278294,2.6728627681732178,False,29,21,2025-02-16-144741
+2025-02-16T14:48:57.884496,the deforestation,le déboisement,,2.0,2.188068151473999,False,29,22,2025-02-16-144741
+2025-02-16T14:49:02.089922,the snake,le serpent,,1.728119534,4.206423282623291,False,29,23,2025-02-16-144741
+2025-02-16T14:49:05.889358,the lunch,le déjeuner,,1.699344049,3.799436569213867,False,29,24,2025-02-16-144741
+2025-02-16T14:49:10.244638,the barrel,le baril,,1.95599988,4.355279922485352,False,29,25,2025-02-16-144741
+2025-02-16T14:49:12.430634,the upstairs,à l'étage,"think ""at the stage""",2.225420681,2.1859960556030273,False,29,26,2025-02-16-144741
+2025-02-16T14:49:16.795693,the appartment building,le immeuble,a building is immobile,2.0,4.366058349609375,True,29,27,2025-02-16-144741
+2025-02-16T14:49:24.310559,the poster,l'affiche,"I put up a poster for the new fish & chip shop - it is just a fish, stuck to the wall",2.0,7.51486611366272,True,29,28,2025-02-16-144741
+2025-02-16T14:50:22.665583,the sting,la piqûre,"I'm trying to ignore a wasp, which he takes exception to. He stings me, and says ""Did that pique your interest?""",1.992000112,10.0,True,28,0,2025-02-16-145016
+2025-02-16T14:50:25.014178,the window,la fenêtre,,2.550000034,2.3495936393737793,False,28,1,2025-02-16-145016
+2025-02-16T14:50:27.086064,the downstairs,le bas,,2.351158914,2.071885824203491,False,28,2,2025-02-16-145016
+2025-02-16T14:50:28.685429,the living room,le salon,,2.633596925712687,1.6003642082214355,False,28,3,2025-02-16-145016
+2025-02-16T14:50:31.302684,to evince,faire preuve de,to make proof of,2.101165807,2.618252992630005,False,28,4,2025-02-16-145016
+2025-02-16T14:50:33.862040,dark (light level),sombre,,2.613787968,2.5593552589416504,False,28,5,2025-02-16-145016
+2025-02-16T14:50:36.081429,old (masculine),vieux,,1.578718596,2.2203879356384277,False,28,6,2025-02-16-145016
+2025-02-16T14:50:38.209946,the plaster cast,le plâtre,"after removing the plaster cast from my broken leg, the (male) nurse brings it out on a platter for me",1.904827386977336,2.129514455795288,False,28,7,2025-02-16-145016
+2025-02-16T14:50:39.978341,to replace,remplacer,"I play Michael Stipe a few chords on the guitar; he gets really excited and says ""You're good enough to play in the REM place at the festival""",1.681200044,1.7683947086334229,False,28,8,2025-02-16-145016
+2025-02-16T14:50:42.160274,the face paints,les peintures pour le visage,,2.637464019987318,2.1829307079315186,False,28,9,2025-02-16-145016
+2025-02-16T14:50:44.377679,the tenant,le locataire,"the landlord had a cat with very short legs - when the new tenant moves in, he inherits it, and becomes the low-cat-heir",2.0,2.217405080795288,False,28,10,2025-02-16-145016
+2025-02-16T14:50:49.072018,the buckle,la boucle,,1.9360435406366985,4.69433856010437,False,28,11,2025-02-16-145016
+2025-02-16T14:50:50.764830,the signpost,le panneau,"Pa is a bit short-sighted, so doesn't see the sign-post saying ""Cliff Ahead"" - we all shout ""Pa, no!""",2.091999947,1.693805456161499,False,28,12,2025-02-16-145016
+2025-02-16T14:50:52.715680,the wastepaper bin,la corbeille à papier,"I look in the wastepaper bin and it's full of Michael Bay DVD's - I say ""Cor, Bay!""",2.6970819278999607,1.950850486755371,False,28,13,2025-02-16-145016
+2025-02-16T14:50:56.967037,the couch,le canapé,"while I'm sitting on the couch, the host brings out the canapes",2.0,4.251357078552246,False,28,14,2025-02-16-145016
+2025-02-16T14:50:58.900124,the island,l'Ile,,1.594524864,1.9340832233428955,False,28,15,2025-02-16-145016
+2025-02-16T14:51:00.839885,freezing,gèle,,1.918400028,1.9397611618041992,False,28,16,2025-02-16-145016
+2025-02-16T14:51:02.492670,sturdy (of a person),costaud,"think of that sturdy Frenchman, Jacques Cousteau",2.3405039204759723,1.6579203605651855,False,28,17,2025-02-16-145016
+2025-02-16T14:51:04.524753,the tins,les moules,tins carry small provisions just like mules carry large provisions,1.829999884,2.033071517944336,False,28,18,2025-02-16-145016
+2025-02-16T14:51:07.167062,the garden fork,la fourche de jardin,,2.6426093089624025,2.643312931060791,False,28,19,2025-02-16-145016
+2025-02-16T14:51:11.446497,the day after tomorrow,après-demain,,2.238975358561503,4.279433250427246,False,28,20,2025-02-16-145016
+2025-02-16T14:51:18.539639,the ice cream,la glace,,1.9585151096125284,7.094141244888306,False,28,21,2025-02-16-145016
+2025-02-16T14:51:22.360790,the plate,la plaque,,2.282022285,3.822143077850342,False,28,22,2025-02-16-145016
+2025-02-16T14:51:24.338187,the wind,le vent,the wind is the weather venting its feelings,1.575687699,1.9783966541290283,False,28,23,2025-02-16-145016
+2025-02-16T14:51:26.188651,retired,à la retraite,,1.7597945030893962,1.8504638671875,False,28,24,2025-02-16-145016
+2025-02-16T14:51:29.190219,the pear,la poire,,2.0,3.0025649070739746,False,28,25,2025-02-16-145016
+2025-02-16T14:51:31.303117,the tattoo,le tatouage,,1.839326625,2.1138951778411865,False,28,26,2025-02-16-145016
+2025-02-16T14:51:32.923117,the oar,la rame,I picked what looked like the sturdiest oar but it turned out to be a battering-ram,2.022668830369975,1.6200008392333984,False,28,27,2025-02-16-145016
+2025-02-16T15:06:54.990448,the shed,le hangar,picture parking a B52 in Mum & Dad's shed,2.546611907209168,10.0,False,27,0,2025-02-16-150653
+2025-02-16T15:06:56.623590,the painter,le peintre,,2.0699374249412026,1.6331427097320557,False,27,1,2025-02-16-150653
+2025-02-16T15:07:03.289390,actually / indeed,effectivement,"Picture a french person saying it in the same obnoxious way an English might say ""Ak-choo-ally""",2.0,6.665799856185913,True,27,2,2025-02-16-150653
+2025-02-16T15:07:05.099872,tan,bronzé,,2.078808253,1.8104822635650635,False,27,3,2025-02-16-150653
+2025-02-16T15:07:06.645938,the lip,la lèvre,"A greek gets captured by the Egyptians and forced to convert, so he says ""I love Ra"" but it's just lip-service (pr: Lev as in 'left', re is just a roll of the tongue)",1.781371175114746,1.5470633506774902,False,27,4,2025-02-16-150653
+2025-02-16T15:07:10.960751,the bridegroom,l'époux,"The bantering father-in-law introduces the groom by saying ""This is the ape who wants to marry my daughter""",2.542766933250173,4.314812898635864,False,27,5,2025-02-16-150653
+2025-02-16T15:07:13.188353,funny,marrant,"At the comedy workshop Kelly did, ma rant was very funny",2.0,2.228602647781372,False,27,6,2025-02-16-150653
+2025-02-16T15:07:23.270239,the curtain,le rideau,"I come in to see my new curtains; they are no satisfactory, so I just shout ""Re-do!""",2.451502425,10.0,True,27,7,2025-02-16-150653
+2025-02-16T15:07:26.149077,the toy,le jouet,,2.107984044419556,2.878838539123535,False,27,8,2025-02-16-150653
+2025-02-16T15:07:28.928031,the cooker,la cuisiniere,,2.128000053,2.778953790664673,False,27,9,2025-02-16-150653
+2025-02-16T15:07:33.505806,the sprinkler,l'arroseur,"the manor house doesn't have a general archery evening, it just has the arrow-sir practicing. Luckily he doesn't need someone to water the grass as he has a sprinkler.",2.0,4.57777738571167,False,27,10,2025-02-16-150653
+2025-02-16T15:07:36.551818,the shopkeeper/trader,le commerçant,a shopkeeper can be thought of as a commerce-ant,2.6194791505883788,3.047008514404297,False,27,11,2025-02-16-150653
+2025-02-16T15:07:40.933184,the comic book,la bande dessinée,"We're deciding on album covers and go for the one that's a comic strip of the band. The manager says ""the band want Design A""",2.035999949,4.36594820022583,False,27,12,2025-02-16-150653
+2025-02-16T15:07:42.851871,the ladder,l'échelle,"picture a novelty ladder in the form of a giant sea-shell, with the rungs as the radiating lines. It's the biggest shell in the world so it's the A-shell",2.230399995,1.9341039657592773,False,27,13,2025-02-16-150653
+2025-02-16T15:07:44.901118,the bull,le taureau,,1.615590803572591,2.0492477416992188,False,27,14,2025-02-16-150653
+2025-02-16T15:07:47.468322,the suitcase,la valise,"Imagine Richard P turning up on his first day at work with a yokel haircut and a suitcase, because he's just come from the Valleys",2.421513344,2.5672030448913574,False,27,15,2025-02-16-150653
+2025-02-16T15:07:49.154779,to amaze,émerveiller,"in order to amaze the congregation, the priest creates a curtain of scentred smoke - a myrrh veil",2.224685496,1.686460018157959,False,27,16,2025-02-16-150653
+2025-02-16T15:07:52.969816,the ceiling,le plafond,Wendy can't think of any happy thoughts so can't fly. Peter Pan suggests she make-believe being fond (play fond) and she floats up to the ceiling. ,2.3366911,3.816035509109497,False,27,17,2025-02-16-150653
+2025-02-16T15:07:56.750828,the sock,la chaussette,Someone invents some magic socks which always find their pair - they are a sure set,2.043600088,3.7820088863372803,False,27,18,2025-02-16-150653
+2025-02-16T15:07:58.947916,the underpants,le slip,,1.877707990405952,2.1970884799957275,False,27,19,2025-02-16-150653
+2025-02-16T15:08:01.421832,the eye,l'oeil,"picture painting an eye, in oils (pr: oy-yu, with the yu being very light)",2.323414461505127,2.472918748855591,False,27,20,2025-02-16-150653
+2025-02-16T15:08:03.173608,the cup,la tasse,,2.188783909,1.7527737617492676,False,27,21,2025-02-16-150653
+2025-02-16T15:08:09.392453,the soap opera,le feuilleton,"Grant & Phil Mitchell start a punch-up and everyone gathers round and says ""Foight on!""",2.129999966,6.219841718673706,True,27,22,2025-02-16-150653
+2025-02-16T15:08:11.105454,the seal,le phoque,"Imagine a hard-bitten Pembrokeshire sailor, looking fearfully out to sea on a misty day, saying ""They come out of the fog…""",2.1008084275814483,1.7130017280578613,False,27,23,2025-02-16-150653
+2025-02-16T15:08:12.653696,the hang-gliding,le deltaplane,,2.3568632688342457,1.5492396354675293,False,27,24,2025-02-16-150653
+2025-02-16T15:08:15.280007,the screw,la vis,mentally connect a screw with a vice,2.0,2.6273088455200195,False,27,25,2025-02-16-150653
+2025-02-16T15:08:17.121748,the glove,le gant,"Going into the project review meeting, I draw the project gant chart on my glove",2.451155832,1.8417415618896484,False,27,26,2025-02-16-150653
+2025-02-16T15:08:23.512009,ugly (informal),moche,After you've been battered about in the mosh pit you look quite ugly,2.315840036,6.374815225601196,False,29,0,2025-02-16-150821
+2025-02-16T15:08:25.610775,in a bad mood,de mauvaise humeur,"movie critic's wife says to him ""The movies you murder, are the ones you've watched when in a bad mood""",2.52230792,2.1152048110961914,False,29,1,2025-02-16-150821
+2025-02-16T15:08:27.140179,confused,désorienté,,2.257107079497172,1.5448601245880127,False,29,2,2025-02-16-150821
+2025-02-16T15:08:30.894926,the brewery,la brasserie,Think of the giant brass vats of fermentation,1.953999916,3.7557408809661865,False,29,3,2025-02-16-150821
+2025-02-16T15:08:32.860799,the flipper (swimming),la palme,"I go to Egypt to go scuba-diving, and one of the local boys wants to join in, so improvises his equipment, including tying palm leaves to his feet for flippers",1.874400015,1.9658727645874023,False,29,4,2025-02-16-150821
+2025-02-16T15:08:34.912490,the school,l'école,,1.9442630697892247,2.0527021884918213,False,29,5,2025-02-16-150821
+2025-02-16T15:08:38.133240,the duster,le plumeau,,1.979999951,3.2207512855529785,False,29,6,2025-02-16-150821
+2025-02-16T15:08:43.761418,the pedestrian,le piéton,"the pedestrian is on-foot, or as they would say in French, pied-on",2.0,5.629176378250122,True,29,7,2025-02-16-150821
+2025-02-16T15:08:46.914946,the box,la boîte,,1.993648044,3.15352725982666,False,29,8,2025-02-16-150821
+2025-02-16T15:08:48.899991,depressed,déprimée,It's easy to feel depressed right up to late spring - in fact on every day pre-May,2.157929853,1.9850447177886963,False,29,9,2025-02-16-150821
+2025-02-16T15:08:52.051780,the haystack,la botte de foin,picture a hay-stack created by filling up a giant water-butt and then tipping it over like a sand-castle,2.430277946,3.1527867317199707,False,29,10,2025-02-16-150821
+2025-02-16T15:08:55.410912,at the end,au bout,"just as you get to the end of the ghost train and think you're in the clear, another skeleton leans over and says ""Oh boo!""",1.884240084,3.3601272106170654,False,29,11,2025-02-16-150821
+2025-02-16T15:08:59.785895,paramount,primordial,"Assume the Lost World, about primordial wildlife, was made by Paramount",2.046986663,4.3759825229644775,True,29,12,2025-02-16-150821
+2025-02-16T15:09:02.194343,the carpet,la moquette,I take off my shoes when I walk on the new carpet so I don't mark it,1.961999897,2.408447504043579,False,29,13,2025-02-16-150821
+2025-02-16T15:09:04.139567,the twin,le jumeau,"the twins understand each other so well they don't even need a single word to communicate - they say ""shoo mot!"" to the word",2.245999941,1.9462220668792725,False,29,14,2025-02-16-150821
+2025-02-16T15:09:05.896111,alive,vivant,,1.6240004746751913,1.7565443515777588,False,29,15,2025-02-16-150821
+2025-02-16T15:09:11.877383,the nail,le clou,"Picture the game Clue, in which the murder is done with a nail",1.771415646,5.981271505355835,True,29,16,2025-02-16-150821
+2025-02-16T15:09:16.995358,the target,la cible,I'm staring into the distance to try & spot the target but I can just see-bleu (french for blue),2.151199911,5.117974519729614,False,29,17,2025-02-16-150821
+2025-02-16T15:09:21.121250,the tray,le plateau,"the waiter comes out with tray, containing a cake made in an exact replica of the tibetan plateau",2.586239975,4.124884843826294,False,29,18,2025-02-16-150821
+2025-02-16T15:09:22.964253,the nostril,la narine,"Think of a marine who whenever he's asked to do something, he gets angry, his nostrils flare, and he says ""Nah!"". So he's called the Nah-rine.",1.894239417,1.8594491481781006,False,29,19,2025-02-16-150821
+2025-02-16T15:09:27.472364,the seed,la graine,the Gran is the seed of the family tree,2.534089552,4.509109735488892,False,29,20,2025-02-16-150821
+2025-02-16T15:09:36.958605,it happens,il se passe,,2.284557478,9.486255407333374,False,29,21,2025-02-16-150821
+2025-02-16T15:09:39.254182,comical,rigolo,"the new colleague turns up dressed as a clown. I say ""what's this rig - 'ello!""",1.652560047,2.2965753078460693,False,29,22,2025-02-16-150821
+2025-02-16T15:09:44.303556,clean,propre,"Imagine Honky sending Kolone back with the saucepan, saying ""Do a proper job!""",2.0,5.050370454788208,False,29,23,2025-02-16-150821
+2025-02-16T15:09:46.827268,the wooden spoon,la cuillère en bois,"We taste the dubious stew with a spoon. I'm about to ask if the other guy is now feeling queasy, when he cuts in: ""Quea…? Yeah!""",2.0,2.523712158203125,False,29,24,2025-02-16-150821
+2025-02-16T15:09:49.909779,the ice skating,le patinage sur glace,"We play a game on the ice-rink where you have to pat-an-age, collecting someone of each age to win",2.0,3.0825114250183105,False,29,25,2025-02-16-150821
+2025-02-16T15:09:52.061484,odd,bizarre,,1.725853246,2.151704788208008,False,29,26,2025-02-16-150821
+2025-02-16T15:09:53.551351,the elbow,le coude,"Someone asks if I want to play tennis, but I've got tennis elbow, so I answer ""I wish I could""",2.0300704638163247,1.4898672103881836,False,29,27,2025-02-16-150821
+2025-02-16T15:09:55.906970,the washing powder,la poudre de lavage,,2.064800083,2.3566226959228516,False,29,28,2025-02-16-150821
+2025-02-16T15:42:59.092680,the bunkbeds,les lits superposés,"the new bunkbeds are pretty flash, in fact they are super-posey",2.075379921881714,10.0,False,28,0,2025-02-16-154256
+2025-02-16T15:43:00.990430,thin,mince,,1.667867398,1.8997433185577393,False,28,1,2025-02-16-154256
+2025-02-16T15:43:04.556875,the cart,le panier,"While cycling around France I volunteer on a farm, and they make me carry hay-bales in my panier",2.6593657732009888,3.5674471855163574,False,28,2,2025-02-16-154256
+2025-02-16T15:43:05.957438,the Saturday,le samedi,"from ""Sabbath day""",1.615015944,1.4005630016326904,False,28,3,2025-02-16-154256
+2025-02-16T15:43:16.341450,drunk,ivre,Turns out God didn't throw them out of the Garden of Eden because of the apple - it was because Eve got drunk,2.104898433,10.0,True,28,4,2025-02-16-154256
+2025-02-16T15:43:19.003781,the purse,le porte-monnaie,,2.6417784205967902,2.64860463142395,False,28,5,2025-02-16-154256
+2025-02-16T15:43:20.272953,the onion,l'oignon,,1.635104211770121,1.283895492553711,False,28,6,2025-02-16-154256
+2025-02-16T15:43:24.020152,the puppet,la marionnette,,1.668079948,3.748202323913574,False,28,7,2025-02-16-154256
+2025-02-16T15:43:26.779151,grateful,reconnaissant,"The ship captain who's narrowly avoided running aground on Mont St Michel says ""I'm grateful we didn't wreck on a saint"" (saint pronounced the french way)",2.402269452,2.7740113735198975,False,28,8,2025-02-16-154256
+2025-02-16T15:43:28.541716,the plough,la charrue,the plough is useful because it can shear-roo(ts),2.0,1.763561725616455,False,28,9,2025-02-16-154256
+2025-02-16T15:43:30.073006,suddenly,soudain,"I was in the Sudan innocently extending the Empire, when suddenly the Mahdi Army marched over a sand-dune",1.998050441696676,1.5312907695770264,False,28,10,2025-02-16-154256
+2025-02-16T15:43:32.806608,the birthday card,la carte d'anniversaire,,2.31142012,2.7345993518829346,False,28,11,2025-02-16-154256
+2025-02-16T15:43:34.456790,the raspberry,la framboise,Just think of the McSherry children (Fran's boys) blowing raspberries,2.6162491556351983,1.6511783599853516,False,28,12,2025-02-16-154256
+2025-02-16T15:43:36.986848,the rogue/thug,le voyou,"the Welsh policeman grabs the thug by the ear and says ""Come on now boyo""",2.004857063293457,2.5300583839416504,False,28,13,2025-02-16-154256
+2025-02-16T15:43:38.669609,the paw,la patte,picture giving a dog a pat on the head…while wearing a fake paw…,2.544947163685811,1.6814212799072266,False,28,14,2025-02-16-154256
+2025-02-16T15:43:40.007047,the uncle,l'oncle,,1.6448511841124471,1.3534045219421387,False,28,15,2025-02-16-154256
+2025-02-16T15:43:41.469555,the sheet,le drap,"I'm being hanged, but as I fall through the drop, I am caught in a sheet by my friends",2.356393097473348,1.463503360748291,False,28,16,2025-02-16-154256
+2025-02-16T15:43:48.917800,the leather,le cuir,"Imagine Herr Flic in his leather jacket, and I say 'Where's the small gestapo guy?', and he peers out from behind Herr Flic and says ""Coo! 'Ere!""",1.971999969,7.448245048522949,True,28,17,2025-02-16-154256
+2025-02-16T15:44:08.893629,the leek,le poireau,Someone has been murderd with a leek. They call in Poirot to solve the crime.,1.929199959,10.0,True,28,18,2025-02-16-154256
+2025-02-16T15:44:10.999063,the dustbin,la poubelle,,2.0,2.105433702468872,False,28,19,2025-02-16-154256
+2025-02-16T15:44:19.997083,the digger,la pelleteuse,"The other team is awarded a penalty so the Brazilians start digging up the spot, surreptitiously at first, then Pele drives out of the grandstand in a JCB - see what Pele does!",1.886000008,8.99802041053772,True,28,20,2025-02-16-154256
+2025-02-16T15:44:24.214647,the scholarship,la bourse,bursary,1.8707975670138888,4.217563629150391,False,28,21,2025-02-16-154256
+2025-02-16T15:44:27.598909,the earring,la boucle d’oreille,"picture the fussy arts student who finds out her new earrings are made of porcelain, and she says ""boo! Clay!""",1.752720026,3.384265661239624,False,28,22,2025-02-16-154256
+2025-02-16T15:44:30.851440,first of all,d’abord,"if you want to be a big-game hunter, first of all you must hunt da boar",2.2517024278640747,3.253528118133545,False,28,23,2025-02-16-154256
+2025-02-16T15:44:33.227675,the toyshop,le magasin de jouets,,2.3700576658158368,2.376235246658325,False,28,24,2025-02-16-154256
+2025-02-16T15:44:35.245455,the mouth,la bouche,The great power of Noel Fielding is his mighty bouche,1.998000004,2.0327861309051514,False,28,25,2025-02-16-154256
+2025-02-16T15:44:58.741245,to seem/appear,paraître,the parrot standing on the great-dane's shoulders with an overcoat on them appears to be human,1.966000077,10.0,True,28,26,2025-02-16-154256
+2025-02-16T15:45:01.158484,to deliver,livrer,the invitation from the duchess is delivered by a footman in livery,2.094000036,2.4322454929351807,False,28,27,2025-02-16-154256
+2025-02-16T15:46:07.820330,the furniture,le meuble,"I can't see the furniture in the hippy's house, because there's too much smoke from the incense - all I can see is myrrh-blur",2.265538075546672,8.279602527618408,True,28,0,2025-02-16-154559
+2025-02-16T15:46:15.033339,to set off,(se) mettre en route,"""I haven't got a newspaper"" my friend says. ""Never mind"" I say ""let's set off anyway - you can grab a metro en route""",2.44200006,7.215002775192261,True,28,1,2025-02-16-154559
+2025-02-16T15:46:18.957155,meanwhile,en attendant,in waiting…,1.923200042,3.923816442489624,True,28,2,2025-02-16-154559
+2025-02-16T15:46:22.246188,the rug,le tapis,,2.419980723118388,3.290029287338257,False,28,3,2025-02-16-154559
+2025-02-16T15:46:24.337838,the sweet shop,la confiserie,"whenever I fall for one of the Great Brain's cons, I have to buy him sweets as a fee, so the sweetshop is the con-fee-serry",2.0,2.0916502475738525,False,28,4,2025-02-16-154559
+2025-02-16T15:46:25.969703,the rowing,l'aviron,"rowers are very tough, they 'ave iron in their arms",1.8862678027643,1.6328630447387695,False,28,5,2025-02-16-154559
+2025-02-16T15:46:27.439372,the sun,le soleil,,2.121228945916952,1.4696691036224365,False,28,6,2025-02-16-154559
+2025-02-16T15:46:29.035391,the fountain pen,le stylo,,2.034603141262919,1.597015619277954,False,28,7,2025-02-16-154559
+2025-02-16T15:46:31.123239,the street,la rue,,2.21205537576472,2.0878474712371826,False,28,8,2025-02-16-154559
+2025-02-16T15:46:33.787573,the fried egg,l'œuf frit,,2.0,2.6653316020965576,False,28,9,2025-02-16-154559
+2025-02-16T15:46:35.575756,(shoe) size,la pointure,"Tina turned up to her graduation dressed like a clown, with huge shoes, so they said to her ""and the point you're trying to make, is…?""",1.811999957,1.789180040359497,False,28,10,2025-02-16-154559
+2025-02-16T15:46:43.029386,the thumb,le pouce,if you have green thumbs you could say your thumb is peuce,1.894000115,7.454625368118286,True,28,11,2025-02-16-154559
+2025-02-16T15:46:45.011931,the pigsty,la porcherie,"I'm a guest in a really messy house, which is an absolute pigsty. Worst of all, after dinner they offer me a very poor sherry.",1.9787469680286665,1.9835553169250488,False,28,12,2025-02-16-154559
+2025-02-16T15:46:46.568223,the worm,le ver,picture a worm in a wine-glass,1.889093658,1.555295467376709,False,28,13,2025-02-16-154559
+2025-02-16T15:46:52.220503,the wheelbarrow,la brouette,I'm operating a mobile micro-brewery in a wheel-barrow. It's so small it could be considered a brew-ette,2.272490493,5.653275966644287,True,28,14,2025-02-16-154559
+2025-02-16T15:46:58.509585,fascinating/enthralling,passionnant,,1.752800015,6.289082050323486,False,28,15,2025-02-16-154559
+2025-02-16T15:47:05.020843,the jar,le pot,,2.2075830698013306,6.511258125305176,False,28,16,2025-02-16-154559
+2025-02-16T15:47:07.832460,the kite,le cerf-volant,a flying deer (!) - picture it catching the wind with its antlers,2.120800081,2.8126134872436523,False,28,17,2025-02-16-154559
+2025-02-16T15:47:09.307788,the wolf,le loup,wolves don't run they lope,1.8517994614293416,1.4753284454345703,False,28,18,2025-02-16-154559
+2025-02-16T15:47:10.609139,the lion cub,le lionceau,"since the lion cub is so young he can't go out hunting yet, but has to stay in with his mother and sew",2.071825677,1.3013503551483154,False,28,19,2025-02-16-154559
+2025-02-16T15:47:13.074017,the toe,le doigt de pied,,2.088000019,2.464878559112549,False,28,20,2025-02-16-154559
+2025-02-16T15:47:14.892911,available,disponible,"when the spoonful of soup has grown cool enough to be tasted, we can say it is de-spoonable",1.997591070412496,1.8188936710357666,False,28,21,2025-02-16-154559
+2025-02-16T15:47:16.783211,the head,la tête,,2.26999938,1.8912928104400635,False,28,22,2025-02-16-154559
+2025-02-16T15:47:18.324685,the crisps,les chips,,2.0357444197813925,1.541473627090454,False,28,23,2025-02-16-154559
+2025-02-16T15:47:25.539390,to plug-in,brancher,"Picture a highly dangerous arrangement of extension cables where via plugging in extra extensions, one socket has branched out into dozens",2.42039997,7.214705228805542,True,28,24,2025-02-16-154559
+2025-02-16T15:47:28.115428,the March (month),le Mars,,2.019599984,2.576038360595703,False,28,25,2025-02-16-154559
+2025-02-16T15:47:30.092047,the spring,le printemps,,2.131543253,1.9766201972961426,False,28,26,2025-02-16-154559
+2025-02-16T15:47:34.025687,the leg,la jambe,I'm wading through a giant pot of jam which completely covers my legs,2.1097367355198333,3.9346365928649902,False,28,27,2025-02-16-154559
+2025-02-16T15:47:38.288649,the polar bear,l'ours polaire,,2.1488960202450222,4.2623610496521,False,28,0,2025-02-16-154736
+2025-02-16T15:47:39.699706,the ostrich,l'autruche,the ostriches are in the pen; they spot a hole in the fence and they all out-rush,1.66738239,1.4282751083374023,False,28,1,2025-02-16-154736
+2025-02-16T15:47:42.005045,the dog-lead,la laisse du chien,leash of dog,2.615466037,2.3063364028930664,False,28,2,2025-02-16-154736
+2025-02-16T15:47:44.388068,seaside/bathing,balnéaire,"I'm walking along the scottish seaside for miles & miles with the Queen, and eventually I start to ask if we're near Balmoral: ""Bal-?"" ""Near!""",2.0728953243710326,2.384018898010254,False,28,3,2025-02-16-154736
+2025-02-16T15:47:46.440672,the camel,le chameau,"I agree to let the arab car-wash clean my car. I'm just asking them to use a chammy leather when the camel spits on my windscreen. ""How about a cham…oh.""",1.917203144,2.0516088008880615,False,28,4,2025-02-16-154736
+2025-02-16T15:47:48.727869,wet,mouillé,"The car drives through the puddle, just as a cow walks between me and the road, so it splashes all over the cow & I'm fine. Cow says ""Moo!"" and I say ""Yay!""",2.457442242081876,2.2881927490234375,False,28,5,2025-02-16-154736
+2025-02-16T15:47:50.215986,the restraint/withholding,la retenue,The Hollywood star's retinue are the only restraint on his outrageous behaviour,2.670043203580729,1.48811674118042,False,28,6,2025-02-16-154736
+2025-02-16T15:47:51.785525,a rain-shower,une averse,"while we're sheltering from the rain-shower, I entertain my companions with a verse of my own poetry",1.771912806,1.5705358982086182,False,28,7,2025-02-16-154736
+2025-02-16T15:47:53.408604,renewable,renouvelable,,2.206372923982154,1.6241250038146973,False,28,8,2025-02-16-154736
+2025-02-16T15:47:55.024958,even though,bien que,"I found Eastenders boring, even though it had Bianca in it",2.100669178869742,1.61735200881958,False,28,9,2025-02-16-154736
+2025-02-16T15:47:58.043379,the tanker,le pétrolier,"the Chips guys have had their bikes confiscated for being too maverick, now they are patrollers in a tanker to refuel the other cops en-route",2.118076563,3.0194175243377686,False,28,10,2025-02-16-154736
+2025-02-16T15:47:59.711772,the fisherman,le pêcheur,"I go up to a fisherman on the docks and ask if he's got any fish: ""Peche?""  ""Sure!""",2.59613521955192,1.668393611907959,False,28,11,2025-02-16-154736
+2025-02-16T15:48:01.070264,sunny,ensoleillé,"In Spain on holiday, it's super sunny, I get to the restaurant and see we're having fish, and say ""we're dining on sole, eh? Yay!""",1.9112796529107663,1.3594894409179688,False,28,12,2025-02-16-154736
+2025-02-16T15:48:02.728755,the bolts (for nuts),les boulons,"The crowd at the Sydney cricket look on in horror as the harbour bridge starts to collapse. A passing fitter fixes it with a bolt, and says ""Bowl on!""",1.906573366401367,1.6584901809692383,False,28,13,2025-02-16-154736
+2025-02-16T15:48:04.253143,the knife,le couteau,"As a karate expert I am called on to break a concrete block. But it's just one so it's easy so I say ""cue-toe!""",2.547324856122335,1.5243887901306152,False,28,14,2025-02-16-154736
+2025-02-16T15:48:05.761984,to entrust,confier,"I finally entrust my valuable documents to a Swiss bank, and breathe a big sigh of relief - the banker says ""It's comfy, eh?""",2.057429909081014,1.508840799331665,False,28,15,2025-02-16-154736
+2025-02-16T15:48:07.252843,the pond,l'étang,"I'm visiting McSherry's garden and he gives me a bit of the pond to drink. ""It's got a bit of a tang"" I say. He says it's because it's full of whiskey.",1.9277062726790364,1.490858554840088,False,28,16,2025-02-16-154736
+2025-02-16T15:48:24.699791,the emergency exit,la sortie de secours,the emergency exit is the exit for suckers - I just jump straight out the window,2.0,10.0,True,28,17,2025-02-16-154736
+2025-02-16T15:48:25.721069,the button,le bouton,,1.888413891562805,1.0202791690826416,False,28,18,2025-02-16-154736
+2025-02-16T15:48:27.253275,shy,timide,,1.7656356191416422,1.5332040786743164,False,28,19,2025-02-16-154736
+2025-02-16T15:48:29.408933,the umbrella,le parapluie,A paratrooper does a succesful jump with just an umbrella. How did it catch as much wind as a parachute? The para blew 'e,2.179922467,2.1566526889801025,False,28,20,2025-02-16-154736
+2025-02-16T15:48:30.930390,the square,la place,,2.030831934,1.5224542617797852,False,28,21,2025-02-16-154736
+2025-02-16T15:48:41.062564,cool/great,chouette,if your shoe eat a mugger it would be pretty cool,1.986799928,10.0,True,28,22,2025-02-16-154736
+2025-02-16T15:48:43.008155,the rubbish (polite),les déchets (m),"Sean Connery is clearing out his garden, and throws away a flower. I protest, and he says ""It's just a daishy""",1.867200094,1.945591688156128,False,28,23,2025-02-16-154736
+2025-02-16T15:48:48.812737,the August,le Août,,1.7831383239494834,5.804581642150879,False,28,24,2025-02-16-154736
+2025-02-16T15:48:50.963096,to share,partager,the students share a joint by tearing it in two - they part-a-J,2.018000021,2.1503593921661377,False,28,25,2025-02-16-154736
+2025-02-16T15:48:52.467583,the pumpkin,la citrouille,"The eel thinks it is the scariest thing about halloween, but I show it a Jack O'Lantern and say ""See true, eel!""",2.21661591499054,1.504486083984375,False,28,26,2025-02-16-154736
+2025-02-16T15:48:55.329901,I'm still here,je suis toujours ici,,1.944399887,2.8633153438568115,False,28,27,2025-02-16-154736
+2025-02-16T15:49:07.033307,to overtake,doubler,"I don't want to overtake because I think it sounds like a dangerous game, but my passenger says ""oh do play!""",2.0,10.0,True,29,0,2025-02-16-154858
+2025-02-16T15:49:09.604491,rewarding,valorisante,Valorie's aunt always pays very well for doing chores - she is very rewarding,2.294588792312419,2.5711803436279297,False,29,1,2025-02-16-154858
+2025-02-16T15:49:11.931727,the sugar,le sucre,,1.992864323655904,2.3282361030578613,False,29,2,2025-02-16-154858
+2025-02-16T15:49:13.559737,the battery,la pile,a battery is like a pill for a robot that is feeling a bit run-down,2.058458981135191,1.628009557723999,False,29,3,2025-02-16-154858
+2025-02-16T15:49:15.769594,the book-case,la bibliotheque,,2.0,2.208860158920288,False,29,4,2025-02-16-154858
+2025-02-16T15:49:17.792792,the duckling,le caneton,a duckling has gone off the rails & started smoking lots of weed - he can cane-a-tonne,2.0,2.0241949558258057,False,29,5,2025-02-16-154858
+2025-02-16T15:49:19.975743,the slide,la glissière,I am scared to go down the slide in case I crash & damage my glass ear,2.047446361,2.1829514503479004,False,29,6,2025-02-16-154858
+2025-02-16T15:49:22.444945,the tea towel,le torchon,picture whipping a tea-towl so accurately that you can turn a torch on (so it's actually dark when you are aiming - amazing!),2.2175325104220582,2.4692020416259766,False,29,7,2025-02-16-154858
+2025-02-16T15:49:29.163353,the annoyance,le casse-pieds,"a broken foot - like a pain in the neck, but at the opposite end",2.0,6.719402551651001,True,29,8,2025-02-16-154858
+2025-02-16T15:49:33.541641,the factory,l'usine,"I go to audit a dodgy factory. The manager opens the door very quickly, then shuts it and says ""right, you seen!""",2.2530829105577594,4.379287481307983,False,29,9,2025-02-16-154858
+2025-02-16T15:49:47.031215,the bungalow,la maison de plein pied,"the beautiful secretary can afford a 2-story house, but the plain PA can only afford a bungalow",2.299182131,10.0,True,29,10,2025-02-16-154858
+2025-02-16T15:49:51.930955,the trousers,le pantalon,,2.471945647,4.900742769241333,False,29,11,2025-02-16-154858
+2025-02-16T15:49:53.922321,the spider,l'araignée,a cloud is a rainer; incy-wincy-spider is a rainee,1.8605715716384548,1.992365837097168,False,29,12,2025-02-16-154858
+2025-02-16T15:49:56.579946,the windmill,le moulin,,1.683728004,2.6576249599456787,False,29,13,2025-02-16-154858
+2025-02-16T15:49:58.857059,silk,la soie,think of the sound silk makes - very swashy,1.798799967,2.2771129608154297,False,29,14,2025-02-16-154858
+2025-02-16T15:50:01.215880,the bedside table,la table de chevet,as I get up the bedside table is in my way so I shove it,2.019200024,2.359818696975708,False,29,15,2025-02-16-154858
+2025-02-16T15:50:05.296485,the sleeping bag,le sac de couchage,the bag of sleepage,1.910000079,4.081601858139038,False,29,16,2025-02-16-154858
+2025-02-16T15:50:08.727376,the peach,la pêche,,1.805360224,3.430891990661621,False,29,17,2025-02-16-154858
+2025-02-16T15:50:14.157009,the pig,le cochon,"An animal is being beaten up by the pigs on Animal Farm, and says ""Ow! Please stop"". Napoleon barks ""Cosh on!""",1.957999969,5.430629730224609,False,29,18,2025-02-16-154858
+2025-02-16T15:50:16.268509,the bay window,la baie vitree,,2.099769252,2.1115007400512695,False,29,19,2025-02-16-154858
+2025-02-16T15:50:18.125246,the flour,la farine,"if you want the marine to march far, you have to provision him with flour",1.8682598914149984,1.8567373752593994,False,29,20,2025-02-16-154858
+2025-02-16T15:50:20.134390,fair,juste,,1.825999956,2.010140895843506,False,29,21,2025-02-16-154858
+2025-02-16T15:50:21.565743,the vegetables,les légumes,"I'm at a table full of vegetarians eating only vegetables, and I start carving a chicken and ask ""Leg - whom?"". No-one wants it.",1.8532340693993123,1.416057825088501,False,29,22,2025-02-16-154858
+2025-02-16T15:50:23.100932,the donkey,l'âne,Imagine the donkey talking like Arnie,2.0,1.5504846572875977,False,29,23,2025-02-16-154858
+2025-02-16T15:50:26.316940,the accomodation,le logement,My humourous flat-mate has left a giant inflatable polo - a large mint - in the bathroom as a joke,2.261754602645772,3.216007947921753,False,29,24,2025-02-16-154858
+2025-02-16T15:50:28.825305,the kidney,le rein,"If the heart is the king of the organs, the kidney is the queen (the heart is a bigamous king…)",2.029631953,2.5083649158477783,False,29,25,2025-02-16-154858
+2025-02-16T15:50:52.541012,the workshop,l'atelier,"The old man in the work-shop is always telling stories, beginning with ""I tell ya…""",2.0,10.0,True,29,26,2025-02-16-154858
+2025-02-16T15:51:00.957974,to hinder,gêner,"As the Red Viper is about to fight the Mountain, Tyrion offers him a drink. He replies ""Gin? Nay! 'twould hinder me in the performance of my duties""",2.494000004,8.417959690093994,True,29,27,2025-02-16-154858
+2025-02-16T15:51:03.260339,the car wash,le lavage de voiture,,2.034480055,2.2877490520477295,False,29,28,2025-02-16-154858
+2025-02-16T15:51:07.816461,the spade,la bêche,"As I hit David Beckham over the head with the spade I say ""Besh!"" - a cross between ""Becks!"" & ""Bash!""",2.691886961460113,4.569746255874634,False,28,0,2025-02-16-155106
+2025-02-16T15:51:09.028919,the pea,le pois,,2.071216903591804,1.213449478149414,False,28,1,2025-02-16-155106
+2025-02-16T15:51:10.212447,the liver,le foie,foie-gras. Mmmmm,2.2395760302441405,1.1835277080535889,False,28,2,2025-02-16-155106
+2025-02-16T15:51:12.546144,the rocket,la fusée,"In the NASA control room they start the ignition sequence by saying ""Ignite Fuse A!""",1.933999973,2.334688663482666,False,28,3,2025-02-16-155106
+2025-02-16T15:51:14.411048,the right,la droite,,2.191007942,1.8658993244171143,False,28,4,2025-02-16-155106
+2025-02-16T15:51:16.060838,the caterpillar,la chenille,"a yoga teacher is demonstrating how to move like a caterpillar; the first step is, she kneel",2.22895944,1.6497902870178223,False,28,5,2025-02-16-155106
+2025-02-16T15:51:18.092182,the ski pole,le bâton de ski,A marching band skiing down the hill with the majoretter twirling her ski-stick as a baton,2.0,2.031344175338745,False,28,6,2025-02-16-155106
+2025-02-16T15:51:19.567577,the skirt,la jupe,,1.848406716917928,1.4753947257995605,False,28,7,2025-02-16-155106
+2025-02-16T15:51:23.696052,the workbench,le plan de travail,,2.5,4.129462480545044,False,28,8,2025-02-16-155106
+2025-02-16T15:51:27.026943,the basin,le lavabo,think of a woman dreamily cleaning her bathroom basin while she thinks about how she love-a-beau,2.303994274,3.331888437271118,False,28,9,2025-02-16-155106
+2025-02-16T15:51:30.782549,sometimes,parfois,"when it gets really cold, sometimes I slip on the path - wah! (the wah is the sound I make as I slip)",2.362399908,3.7546067237854004,False,28,10,2025-02-16-155106
+2025-02-16T15:51:36.795162,the chest of drawers,la commode,"I'm a secret spy; when I need to contact base, I go into my bedroom & open my chest of drawers to reveal a radio-set as it goes into Com-Mode",2.1705820301889207,6.0136120319366455,False,28,11,2025-02-16-155106
+2025-02-16T15:51:38.507665,all of a sudden,tout à coup,"the trumpet player gets as far as his first toot, when all of a sudden Mr Cadbury's Parrot jumps out and says a coo",1.9080119852590944,1.713496446609497,False,28,12,2025-02-16-155106
+2025-02-16T15:51:40.124437,the stomach,l'estomac,,1.706324504,1.616771936416626,False,28,13,2025-02-16-155106
+2025-02-16T15:51:41.789873,the carpenter,le charpentier,"a carpenter has to keep his tools sharp…if he has nothing else, he will freeze a tear, then sharpen the tear",1.620640179,1.6654362678527832,False,28,14,2025-02-16-155106
+2025-02-16T15:51:42.914230,the apricot,l'abricot,,1.638022969,1.1243572235107422,False,28,15,2025-02-16-155106
+2025-02-16T15:51:44.462816,the teeth,les dents,,1.8556856,1.5485856533050537,False,28,16,2025-02-16-155106
+2025-02-16T15:51:46.366717,the rib,la côte,People on the cote d'azure are so fashionably thin that you can see their ribs,1.922912065,1.904897928237915,False,28,17,2025-02-16-155106
+2025-02-16T15:51:47.961563,the lamb,l'agneau,"I say about the lamb ""Aw, it's adorable"". The lamb turns to me & says in an exasperated, sarcastic voice, ""I KNOW!""",2.0,1.5958404541015625,False,28,18,2025-02-16-155106
+2025-02-16T15:51:56.245793,to move in,emménager,"some ancient yogis are moving into the house - I describe them to the others as ""Om-men, agé""",1.96879995,8.285224199295044,True,28,19,2025-02-16-155106
+2025-02-16T15:51:59.104097,the customs (at a border),la douane,"Picture Dwayne Dibley as the customs guard, searching through bags in a pair of ridiculous gloves",1.859999973,2.858299970626831,False,28,20,2025-02-16-155106
+2025-02-16T15:52:01.263862,the swings,les balançoires,picture trying to balance on the top-bar of some swings,2.1707707479417926,2.160766839981079,False,28,21,2025-02-16-155106
+2025-02-16T15:52:03.754522,the animal droppings,les crottes (f),presumably where 'crud' comes from,2.509135092269815,2.491656541824341,False,28,22,2025-02-16-155106
+2025-02-16T15:52:12.653524,stormy,orageux,"We look at the thunder & lightning around the spooky old castle, and comment ""It's a real horror-show""",2.534221273636853,8.899002075195312,True,28,23,2025-02-16-155106
+2025-02-16T15:52:14.687193,bitter,amer,"When paying for my goods I start to say ""American Express ok?"", but only get as far as ""Amer…"" before the bitter realization that I left my card at home",1.9939725572835287,2.0336685180664062,False,28,24,2025-02-16-155106
+2025-02-16T15:52:16.828019,the petrol pump,la pompe à essence,,2.085999929,2.1418254375457764,False,28,25,2025-02-16-155106
+2025-02-16T15:52:18.487946,the skipping rope,la corde à sauter,picture skipping really quick on a frying pan which is also sauteeing potatoes,1.9995607389517207,1.6599268913269043,False,28,26,2025-02-16-155106
+2025-02-16T15:52:20.386565,the journey/trip,le trajet,"The gypsies are forever on a trip, but their sense of fashion is very trashy",1.783199996,1.8986191749572754,False,28,27,2025-02-16-155106
+2025-02-16T16:11:32.627135,inexpensive,bon marché ,,2.681948647638448,1.7497224807739258,False,28,0,2025-02-16-161130
+2025-02-16T16:11:35.458127,the greenhouse,la serre,"I go into the greenhouse and say, ""Wow, it's hot in here - you can relly feel the sear""",1.895199967,2.831981658935547,False,28,1,2025-02-16-161130
+2025-02-16T16:11:37.161904,angry,fâché,a Fascist is an angry-ist,1.80189699,1.7047808170318604,False,28,2,2025-02-16-161130
+2025-02-16T16:11:38.911873,the bean,le haricot,,1.9296888323925785,1.7499687671661377,False,28,3,2025-02-16-161130
+2025-02-16T16:11:40.672135,however,toutefois,"the trumpet player decides he's going to knuckle down and practice, however when a pretty girl walks past he gets as far as: tooot - phwoar!",2.13730925,1.759261131286621,False,28,4,2025-02-16-161130
+2025-02-16T16:11:42.510413,the mirror,le miroir,,1.917126794585266,1.8392789363861084,False,28,5,2025-02-16-161130
+2025-02-16T16:11:44.935231,the motorboat,le bateau à moteur,,2.047693907174886,2.424818277359009,False,28,6,2025-02-16-161130
+2025-02-16T16:11:50.728513,the glue,la colle,The collie cheats at one-man-and-his-dog by gluing all the sheep together,1.842380857,5.7942795753479,True,28,7,2025-02-16-161130
+2025-02-16T16:11:53.031203,to weigh,peser,"I get on the speak-your-weight machine; it says ""Pay!"", I give it 10p and tell it ""Say!""",2.18538756,2.3036863803863525,False,28,8,2025-02-16-161130
+2025-02-16T16:11:56.126247,the rain,la pluie,"I look outside & it's raining, so I say, ""Ah, pluey!""",1.9617426339987185,3.095043897628784,False,28,9,2025-02-16-161130
+2025-02-16T16:11:57.727584,the Sunday,le dimanche,"from Latin 'dies Dominicus', 'Day of the Lord'",1.886831826,1.6013376712799072,False,28,10,2025-02-16-161130
+2025-02-16T16:12:08.373640,the fish,le poisson,,2.369759903,10.0,False,28,11,2025-02-16-161130
+2025-02-16T16:12:10.158259,the bat (animal),la chauve-souris,picture a Transylvanian mouse (so obviously with wings & fangs) that hates foreigners; it is a chauvinist-mouse,2.244251809804179,1.785613775253296,False,28,12,2025-02-16-161130
+2025-02-16T16:12:17.989596,the seagull,la mouette,"I'm taking my cow to market. It says ""moo"" -- and then it is et by a thieving voracious seagull",1.667017647,7.83233380317688,True,28,13,2025-02-16-161130
+2025-02-16T16:12:19.768058,to overflow,déborder,"during the night the school is mostly empty, but during the day it overflows with day-boarders",2.6794111728668213,1.7794642448425293,False,28,14,2025-02-16-161130
+2025-02-16T16:12:22.083363,to swallow,avaler,ave a lait = swallow a milk,2.131737452107578,2.316300392150879,False,28,15,2025-02-16-161130
+2025-02-16T16:12:24.384134,the fireplace,la cheminee,imagine Becky sitting on the mantlepiece - she mini!,1.808479958,2.3007712364196777,False,28,16,2025-02-16-161130
+2025-02-16T16:12:26.612027,the bathtub,la baignoire,Ben needs to have a bath because he's so dirty he's black: Ben-noir,1.924883233,2.228889226913452,False,28,17,2025-02-16-161130
+2025-02-16T16:12:28.695208,the starfish,l'étoile de mer,,2.535494365,2.083181619644165,False,28,18,2025-02-16-161130
+2025-02-16T16:12:30.429302,the jigsaw,le puzzle,,2.238263337,1.7340939044952393,False,28,19,2025-02-16-161130
+2025-02-16T16:12:31.930052,the ribbon,le ruban,Imagine a Rubin model wearing a ribbon in her hair,1.811863062,1.4997515678405762,False,28,20,2025-02-16-161130
+2025-02-16T16:12:33.797447,the button hole,le trou de bouton,you throw the button into the hole,1.989434654,1.8683931827545166,False,28,21,2025-02-16-161130
+2025-02-16T16:12:35.704564,the nose,le nez,,1.934000024,1.908116102218628,False,28,22,2025-02-16-161130
+2025-02-16T16:12:37.208770,hard-working,travailleur,I'm very hard-working during work-hour (travaille-hour),2.2428406339679303,1.5042057037353516,False,28,23,2025-02-16-161130
+2025-02-16T16:12:38.704581,sweet,doux,"""Shall I put in several more sugar-cubes?"" ""Do.""",2.008390716720886,1.4968085289001465,False,28,24,2025-02-16-161130
+2025-02-16T16:12:40.437745,the season,la saison,,2.042356494,1.734161376953125,False,28,25,2025-02-16-161130
+2025-02-16T16:12:42.390453,the crane,la grue,"Imagine a river-barge, with the crew made up entirely of cranes",2.22557003495814,1.953714370727539,False,28,26,2025-02-16-161130
+2025-02-16T16:12:50.532702,indeed / even,voire,"imagine the noise a light-saber makes (vwoire!!!) and Darth Vader saying ""You have constructed a new light-saber…indeed you have even changed the colour""",2.426226502,8.142249584197998,True,28,27,2025-02-16-161130
+2025-02-16T16:12:55.432051,the flag,le drapeau,"The old French soldier looks up at the flag, and has a tear in his eye - a drap of eau",1.614288101,4.899348020553589,False,28,0,2025-02-16-161253
+2025-02-16T16:12:57.976726,it doesn't appeal to me,ça ne me dit rien,,2.1521063645680747,2.545673131942749,False,28,1,2025-02-16-161253
+2025-02-16T16:13:00.587441,the piglet,le porcelet,"Imagine Pooh thinking about Piglet and shaking his head and saying ""Poor, silly piglet""",2.5768632,2.611712694168091,False,28,2,2025-02-16-161253
+2025-02-16T16:13:02.934342,the felt-tip pens,les feutres,picture a giant whose felt-tips are fir-trees,2.140589297,2.3478968143463135,False,28,3,2025-02-16-161253
+2025-02-16T16:13:05.307088,the finger,le doigt,"I hit my finger with a hammer and say ""Dwat!""",1.831728082,2.372746467590332,False,28,4,2025-02-16-161253
+2025-02-16T16:13:07.538199,to fly,voler,if you kick a ball as a volley you kick it while it is flying,1.985344953,2.2311108112335205,False,28,5,2025-02-16-161253
+2025-02-16T16:13:09.212613,the rowing boat,le bateau d'aviron,,2.006605346997579,1.675419807434082,False,28,6,2025-02-16-161253
+2025-02-16T16:13:10.539825,the market,le marché,,2.275049015959507,1.3282098770141602,False,28,7,2025-02-16-161253
+2025-02-16T16:13:12.294596,the tights,les collants,"I tell someone I've given things up for Lent. She says she will join me, and do a co-lent, by giving up tights even thought it's still quite cold outside",1.772911973,1.755768060684204,False,28,8,2025-02-16-161253
+2025-02-16T16:13:14.216048,the camera,l'appareil photo,apparatus photo,2.3828879423477174,1.9224481582641602,False,28,9,2025-02-16-161253
+2025-02-16T16:13:19.555264,the grapefruit,le pamplemousse,,2.205064145887451,5.339215993881226,False,28,10,2025-02-16-161253
+2025-02-16T16:13:21.657992,the sawdust,la sciure,"I go into the pub. There is literally sawdust on the floor. I say ""I see you're not gentrified yet then"".",1.812000082,2.101731300354004,False,28,11,2025-02-16-161253
+2025-02-16T16:13:23.964822,to have a lie in,faire la grasse matinée,do a big morning,2.5555668401756795,2.307826042175293,False,28,12,2025-02-16-161253
+2025-02-16T16:13:28.107215,take off [aeroplane],décoller,"The plane is towed on take-off by bats at night, and during the day by a very strong dog, the day-colly",2.640123070394516,4.142393112182617,False,28,13,2025-02-16-161253
+2025-02-16T16:13:30.097145,the racquet,la raquette,,2.1562266501167806,1.9909284114837646,False,28,14,2025-02-16-161253
+2025-02-16T16:13:37.302968,the playing card,la carte à jouer,,2.0,7.205822467803955,False,28,15,2025-02-16-161253
+2025-02-16T16:13:40.321862,the waiting room,la salle d'attente,Picture a doctors waiting room with a tent in the middle of it,2.0,3.0198938846588135,False,28,16,2025-02-16-161253
+2025-02-16T16:13:42.966930,the glass,le verre,,2.0,2.6460626125335693,False,28,17,2025-02-16-161253
+2025-02-16T16:13:44.920651,to manage,gérer,"In the Good Life, Jerry managed his company while Tom was gardening",2.4946275749957274,1.9547183513641357,False,28,18,2025-02-16-161253
+2025-02-16T16:13:46.802804,the plank,la planche,,1.870579002,1.8831510543823242,False,28,19,2025-02-16-161253
+2025-02-16T16:13:50.286209,ugly (formal),laid,The farmer in his dinner jacket is so ugly that it scares his chickens so much they won't lay,1.965999951,3.4834046363830566,False,28,20,2025-02-16-161253
+2025-02-16T16:13:52.162082,the cupboard,le placard,get the marmite out of the cupboard; as I close it there is a protestor with a placard chanting 'down with marmite!',1.768400011,1.8758749961853027,False,28,21,2025-02-16-161253
+2025-02-16T16:13:54.333093,the ear,l'oreille,I'm at a football match and someone shouts 'urray! Right in my ear,2.337199959,2.1720077991485596,False,28,22,2025-02-16-161253
+2025-02-16T16:14:02.512457,the goat,la chèvre,the goat climbs so high up the mountain he can shove-Ra (Ra being the sun),2.0,8.17936372756958,False,28,23,2025-02-16-161253
+2025-02-16T16:14:05.045479,the left,la gauche,,2.2560744279364013,2.533022403717041,False,28,24,2025-02-16-161253
+2025-02-16T16:14:06.447241,the oil,l'huile,,1.722134681,1.4027597904205322,False,28,25,2025-02-16-161253
+2025-02-16T16:14:13.709277,the pillow,l'oreiller,at a nice hotel instead of a mint they leave an oreo on the pillow,1.93280002,7.263031244277954,False,28,26,2025-02-16-161253
+2025-02-16T16:14:14.890136,the January,le Janvier,,1.96440902166396,1.1665902137756348,False,28,27,2025-02-16-161253
+2025-02-16T17:21:06.263000,bad,mauvais,,2.5,2.927243232727051,False,28,0,2025-02-16-172103
+2025-02-16T17:21:07.970091,the car-boot,le coffre,The guy accidentally locked in the boot coughs politely to alert the driver - he is the cougher,2.29977205369739,1.711082935333252,False,28,1,2025-02-16-172103
+2025-02-16T17:21:09.931117,the bush,la brousse,In the African bush there are quite a lot of obnoxious animals - picture a buffalo being quite brusque when I ask the way to the watering-hole,2.062399976,1.962024450302124,False,28,2,2025-02-16-172103
+2025-02-16T17:21:12.722740,the canal lock,l'écluse du canal,"I can't figure out how the canal works, until I study les clues (the clues)",2.045466687,2.791623115539551,False,28,3,2025-02-16-172103
+2025-02-16T17:21:15.333089,the corridor,le couloir,"I run up so slide along the corridor in my socks, but it's much slipperier than I imagine and slightly downhill, so I shout ""Cool - waaaaaah!""",2.216410201150204,2.6113455295562744,False,28,4,2025-02-16-172103
+2025-02-16T17:21:17.732792," last, final",dernier ,,1.709504424,2.3997037410736084,False,28,5,2025-02-16-172103
+2025-02-16T17:21:20.535386,the blackboard,le tableau,Imagine the difference between giving a presentation in the 1950's using a blackboard & today using,2.0,2.8035898208618164,False,28,6,2025-02-16-172103
+2025-02-16T17:21:24.956485,the light bulb,l'ampoule,,2.0902352531751,4.421098947525024,False,28,7,2025-02-16-172103
+2025-02-16T17:21:26.612676,the wave,la vague,when you are being vague you are hand-waving,1.910530973,1.6558277606964111,False,28,8,2025-02-16-172103
+2025-02-16T17:21:29.916537,the dew,la rosée,think Homer: rosy-fingered dawn,1.9791122568791708,3.305222511291504,False,28,9,2025-02-16-172103
+2025-02-16T17:21:32.645567,the session/sitting/performance,la séance,picture a whole audience of ghosts politely watching a séance,2.222704035,2.729030132293701,False,28,10,2025-02-16-172103
+2025-02-16T17:21:36.618274,the teacher,l'enseignant,the teacher is so busy she is running around like an insane ant,2.0623393164820354,3.9727072715759277,False,28,11,2025-02-16-172103
+2025-02-16T17:21:38.842025,the sales (i.e. reductions),les soldes (m),"picture the shop-owner shouting ""And that's sold! And that's sold! And that's sold!""",1.787503869,2.2237555980682373,False,28,12,2025-02-16-172103
+2025-02-16T17:21:44.816643,the labourer,l’ouvrier (m),"the labourer exhibits his ditch in the Tate Modern, and says ""It is my ouvre""",2.131999981,5.975614309310913,True,28,13,2025-02-16-172103
+2025-02-16T17:21:47.825373,the shelf (in a house),l’étagère (f),"My room-mate says he needs the only shelf to himself for now. I hopefully say ""But later share?""",2.0721486806869507,3.009727716445923,False,28,14,2025-02-16-172103
+2025-02-16T17:21:52.619300,the traffic jam,l’embouteillage (m),"I'm in a traffic jam, meditating, when Taylor Swift knocks on my window and says boo. In my shock I drive off the bridge: Ommmm. Boo! Tay! Yaaarghe!",2.0,4.792937278747559,False,28,15,2025-02-16-172103
+2025-02-16T17:21:56.142459,the husband,le mari,,2.136950313,3.5241482257843018,False,28,16,2025-02-16-172103
+2025-02-16T17:22:02.392654,the ruler,la règle,,2.684466491,6.249202728271484,False,28,17,2025-02-16-172103
+2025-02-16T17:22:04.423958,half,moitié,"On the SAS selection course I only do half as well as the others. The sergeant asks what regiment I come from, and I say ""Moi? T.A.""",1.844000009,2.0322961807250977,False,28,18,2025-02-16-172103
+2025-02-16T17:22:14.950988,the lemon,le citron,,2.339837414112956,10.0,False,28,19,2025-02-16-172103
+2025-02-16T17:22:16.528190,the foot,le pied,,2.356315665224304,1.5772013664245605,False,28,20,2025-02-16-172103
+2025-02-16T17:22:18.677888,the hen house,le poulailler,"A hen-house is where new chickens are laid, so it is the poule-layer",2.024000039,2.150696277618408,False,28,21,2025-02-16-172103
+2025-02-16T17:22:20.381663,the moon,la lune,"the moon makes people crazy, i.e. it turns them into a loon",2.1144402,1.7037742137908936,False,28,22,2025-02-16-172103
+2025-02-16T17:22:21.806827,the orchard,le verger,picture an orchard on the verge of the road,2.263695906060994,1.4261553287506104,False,28,23,2025-02-16-172103
+2025-02-16T17:22:23.315599,to complain,se plaindre,"Dr Dre is complaining that the house we're getting in for holiday is very small. I say "" 's a plane, Dre…""",2.169445236993069,1.5097663402557373,False,28,24,2025-02-16-172103
+2025-02-16T17:22:24.798998,the checkout,la caisse,I go in & stand by the check-out because I want to case the joint,1.8837458167802936,1.483398199081421,False,28,25,2025-02-16-172103
+2025-02-16T17:22:27.070210,the coat,le manteau,"It's cold so I put a coat on, but because I'm a MAN I just put it on my TOE",1.966799911,2.272214412689209,False,28,26,2025-02-16-172103
+2025-02-16T17:22:28.957865,to last (persist),durer,,1.771604329,1.8876550197601318,False,28,27,2025-02-16-172103
+2025-02-16T17:23:03.606396,hardly/barely/scarcely,à peine,Il peut à peine lire sans ses lunettes,1.847600044,2.8845760822296143,False,28,0,2025-02-16-172300
+2025-02-16T17:23:05.401158,the clothes,les vetements,,1.8826380277773536,1.7947571277618408,False,28,1,2025-02-16-172300
+2025-02-16T17:23:10.531137,the bait,l'appât,the poor fisherman has to use a cow-pat (a pat) for bait,2.0,5.1309814453125,True,28,2,2025-02-16-172300
+2025-02-16T17:23:17.859578,the screen,le écran,I spend all Sunday slumped in front of the screen - I ache because I ran on Saturday,2.420231909,7.330437660217285,False,28,3,2025-02-16-172300
+2025-02-16T17:23:26.946794,the cheek,la joue,"I'm boxing but I get hit on the cheek, so I say ""I don't want to play/joue""",2.15999998,9.087215900421143,False,28,4,2025-02-16-172300
+2025-02-16T17:23:32.521423,the wall,le mur,,2.181945357038964,5.574628829956055,False,28,5,2025-02-16-172300
+2025-02-16T17:23:34.298327,thick,épais,"the french fencer turns up with an enormous broadsword. ""I thought you said your sword was an epée.."" ""No, I said it's thick""",2.5469904188162507,1.7779006958007812,False,28,6,2025-02-16-172300
+2025-02-16T17:23:35.965887,the dice,les dés,I play dice so long that now it is day,2.528912261,1.6685559749603271,False,28,7,2025-02-16-172300
+2025-02-16T17:23:37.511653,open,ouvert,,2.084247184443156,1.5457658767700195,False,28,8,2025-02-16-172300
+2025-02-16T17:23:39.163425,the toy soldiers,les soldats de plomb,,2.326957378704072,1.6517720222473145,False,28,9,2025-02-16-172300
+2025-02-16T17:23:46.566504,the bottle opener,le tire-bouchon,"I'm trying so hard to open the bottle with my eye-socket that I get a tear, but I push on",2.145999981,7.404076337814331,True,28,10,2025-02-16-172300
+2025-02-16T17:23:50.472133,the teddy bear,l'ours en peluche,"if you pay, you get it more lush (pay-lush)",2.071999929,3.906620979309082,False,28,11,2025-02-16-172300
+2025-02-16T17:23:52.744079,the kettle,la bouilloire,"the kettle says 'you're it'. But I'm hiding behind it….I jump out and say ""Boo! You are"".",2.558532427,2.271946430206299,False,28,12,2025-02-16-172300
+2025-02-16T17:23:54.586102,the beaver,le castor,a beaver is happily fly-fishing by the river - he is a caster,1.864438647,1.8420231342315674,False,28,13,2025-02-16-172300
+2025-02-16T17:23:56.130906,idealistic,idéaliste ,,1.9825373736911007,1.5448040962219238,False,28,14,2025-02-16-172300
+2025-02-16T17:23:59.580482,the crossword,les mots croisés (m),"I'm not doing the cryptic crossword, I'm doing the quick one, so it's a quasi-crossword",2.0,3.4505715370178223,False,28,15,2025-02-16-172300
+2025-02-16T17:24:01.515335,at the same time,en même temps,,2.4136294567495726,1.9358501434326172,False,28,16,2025-02-16-172300
+2025-02-16T17:24:03.372828,the fruit juice,le jus de fruit,,2.103936055,1.858494758605957,False,28,17,2025-02-16-172300
+2025-02-16T17:24:05.040914,the field,le champ,,2.074928850804952,1.669593334197998,False,28,18,2025-02-16-172300
+2025-02-16T17:24:07.020022,the toolbox,la boîte à outils,,2.0,1.97910737991333,False,28,19,2025-02-16-172300
+2025-02-16T17:24:12.231437,the rollercoaster,les montagnes russes,Russian (rushin') Mountains,1.956800015,5.2124104499816895,True,28,20,2025-02-16-172300
+2025-02-16T17:24:15.472933,the ground floor,le rez-de-chaussée,the ground-floor of school is Infant 1…the sort of thing you do here is Show-and-say,1.967999915,3.2424941062927246,False,28,21,2025-02-16-172300
+2025-02-16T17:24:26.382139,the job application,la demande d’emploi,a job application is a demand to be employed,2.013999967,10.0,True,28,22,2025-02-16-172300
+2025-02-16T17:24:28.405464,the jam,la confiture,I eat jam & crumpets while sitting in the comfy chair,2.0296613487395017,2.0233254432678223,False,28,23,2025-02-16-172300
+2025-02-16T17:24:30.171868,the penguin,le pingouin,,2.141770835,1.7664036750793457,False,28,24,2025-02-16-172300
+2025-02-16T17:24:35.446535,the goose,l'oie,"The child gets his finger bitten by a goose, so says ""Wah""",1.776799936,5.274667024612427,True,28,25,2025-02-16-172300
+2025-02-16T17:24:37.677534,the DIY,le bricolage,"""You're going to build a wall yourself?"" ""Yup, I'm going to brick a large wall""",2.234548946,2.2299976348876953,False,28,26,2025-02-16-172300
+2025-02-16T17:24:40.537061,the barn,la grange,Grange Hill was like a barn full of animals,2.10799991,2.860527992248535,False,28,27,2025-02-16-172300
+2025-02-16T17:55:51.869671,the windsurfing,la planche à voile,"Eliza Doolittle is learning to pronounce her vowels correctly by balancing on a windsurfer then shouting ""Aaaaaaargh!"" every time she falls in",2.0,2.619750738143921,False,29,0,2025-02-16-175549
+2025-02-16T17:55:55.267519,the fishing boat,le bateau de pêche,,2.5623926465579223,3.3988499641418457,False,29,1,2025-02-16-175549
+2025-02-16T17:55:57.068274,the sum,la somme,,1.642723943,1.8163721561431885,False,29,2,2025-02-16-175549
+2025-02-16T17:55:58.707142,to care for/treat/tend,soigner,"Picture nurses dressed as angels, with giant swan wings, caring for the sick",2.0,1.6388683319091797,False,29,3,2025-02-16-175549
+2025-02-16T17:56:00.178440,the horn,la corne,"Think of little boy blue in the corn, playing on his horn",1.678588432,1.4712975025177002,False,29,4,2025-02-16-175549
+2025-02-16T17:56:02.870331,the monkey,le singe,,2.0793145434855145,2.6928884983062744,False,29,5,2025-02-16-175549
+2025-02-16T17:56:06.257196,to window shop,faire du lèche-vitrine,lick shop-windows,2.49128005,3.3868658542633057,False,29,6,2025-02-16-175549
+2025-02-16T17:56:08.701404,the rock,la roche,,1.994000076,2.445204734802246,False,29,7,2025-02-16-175549
+2025-02-16T17:56:10.186006,the judge,le juge,,1.9026378254616287,1.4846022129058838,False,29,8,2025-02-16-175549
+2025-02-16T17:56:12.253166,the light,la lumière,,1.976000023,2.0671603679656982,False,29,9,2025-02-16-175549
+2025-02-16T17:56:13.868880,the receipt,le reçu,past participle of receive,2.2393600828191125,1.616715669631958,False,29,10,2025-02-16-175549
+2025-02-16T17:56:15.533289,the petrol,l'essence,,1.805241028131816,1.6644093990325928,False,29,11,2025-02-16-175549
+2025-02-16T17:56:17.214818,the aunt,la tante,,1.861060853,1.6821377277374268,False,29,12,2025-02-16-175549
+2025-02-16T17:56:18.947958,the pipe,le tuyau,"I've got a job carrying pipes. The foreman gives me an extra one to carry. I say ""Two? Yow!""",2.174586834,1.7342045307159424,False,29,13,2025-02-16-175549
+2025-02-16T17:56:20.795294,to tidy,ranger,"picture Aragorn ranging around the northern wastelands, tidying up",2.04399993,1.8623433113098145,False,29,14,2025-02-16-175549
+2025-02-16T17:56:23.871831,the roof,le toit,"The chimney sweep up on the roof has a strong cockney twang. I start to comment on it but get as far as ""He's got a pronounced twa…"" before getting elbowed in the ribs",1.989395199,3.0775325298309326,False,29,15,2025-02-16-175549
+2025-02-16T17:56:25.914726,the chalk,la craie,Imagine if your teacher was Ronnie Cray,2.463083543,2.0438899993896484,False,29,16,2025-02-16-175549
+2025-02-16T17:56:27.513132,the poodle,le caniche,"As the Queen is walking in her garden at Balmoral, she sees a poodle terrorising her corgis. ""Whose poodle is that?"" she asks. ""It'sh Kenny'sh"", says the gardener.",2.5395524106672096,1.5984070301055908,False,29,17,2025-02-16-175549
+2025-02-16T17:56:28.961644,the fork,la fourchette,"I'm trying to get my fork into quite a tough steak, so someone says ""Force it!""",2.0440983786727904,1.4637038707733154,False,29,18,2025-02-16-175549
+2025-02-16T17:56:30.954718,the calendar,le calendrier,,1.7437622251949056,1.9930739402770996,False,29,19,2025-02-16-175549
+2025-02-16T17:56:44.051562,the pancake,la galette,"the waitress who serves the pancake is so girly, she is like a gal-ette",1.873999972,10.0,True,29,20,2025-02-16-175549
+2025-02-16T17:56:47.372138,the wrist,le poignet,like a door-handle,1.965684613302917,3.3215749263763428,False,29,21,2025-02-16-175549
+2025-02-16T17:56:49.316350,the grocer’s,la épicerie,the spicery,1.903199974,1.9442124366760254,False,29,22,2025-02-16-175549
+2025-02-16T17:56:51.325079,the lettuce,la laitue,"I turn up at the barbecue with nothing but a lettuce. The host looks at me disapprovingly and says ""And you're late too""",2.0341713240690105,2.0097193717956543,False,29,23,2025-02-16-175549
+2025-02-16T17:56:53.276423,the frost,le givre,"The frost is not Good for my lIVER. (Neither is drinking whiskey, which is a masculine thing to do)",2.0,1.9523417949676514,False,29,24,2025-02-16-175549
+2025-02-16T17:56:54.944204,the tortoise,la tortue,"I ask the tortoise why he is being so slow at writing his letter. He replies ""I already tore two""",1.527200009,1.6830859184265137,False,29,25,2025-02-16-175549
+2025-02-16T17:56:57.518898,to score (a goal),marquer (un but),I kick the ball so hard into the goal that it marks a boot on the ball,2.084000091,2.5746941566467285,False,29,26,2025-02-16-175549
+2025-02-16T17:57:01.326330,the tape measure,le ruban à mesurer,picture measuring one of Rubin's models,2.042161770672607,3.80843186378479,False,29,27,2025-02-16-175549
+2025-02-16T17:57:03.093850,the rudeness,la impolitesse,,2.5638000670660404,1.7675199508666992,False,29,28,2025-02-16-175549

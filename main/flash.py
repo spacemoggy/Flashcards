@@ -18,10 +18,12 @@ import callbacks.debug_display as debug_display  # Add this import
 import callbacks.histogram_display as histogram_display  # Make sure this is here
 import data_updates.update_durations as update_durations  # Change from: callbacks.update_durations as update_durations
 import callbacks.buttons_startNewRound as buttons_startNewRound  # Add this import
+import layouts.home_layout as home_layout  # Keep this
 
 # Load the CSV file
 full_df = utils.load_word_list('main/wordList 2024-10-07.csv')
-study_df = card_selection.select_study_cards(full_df)  # Normal version
+# Load initial study cards
+study_df = card_selection.select_study_cards()
 # study_df = card_selection.select_study_cards_for_testing(full_df)  # Testing version
 
 # Initialize the Dash app
@@ -33,8 +35,23 @@ app = dash.Dash(__name__,
     ]
 )
 
-# Use the new layout with word data
-app.layout = game_layout.create_layout(study_df)
+# Add container layout with Location
+app.layout = html.Div([
+    dcc.Location(id='url'),                    # Tracks which screen we're on
+    html.Div(id='current-screen')              # Will hold home or game layout
+])
+
+# Start with home layout
+@callback(
+    Output('current-screen', 'children'),
+    Input('url', 'pathname')
+)
+def display_screen(pathname):
+    if pathname == '/study':
+        # Select new study cards each time we go to study screen
+        study_df = card_selection.select_study_cards()
+        return game_layout.create_layout(study_df)
+    return home_layout.create_layout()
 
 server = app.server
 

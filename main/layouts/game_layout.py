@@ -27,8 +27,7 @@ def create_layout(df):
                                     'cursor': 'pointer'
                                 }
                             ),
-                            href='/analysis',
-                            id='logo-link'
+                            href='/'
                         ), 
                         width=3
                     ),

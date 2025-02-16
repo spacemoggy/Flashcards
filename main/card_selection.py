@@ -2,6 +2,7 @@ import pandas as pd
 import random
 from datetime import datetime
 import os
+import utils
 
 # Time thresholds (in seconds)
 TIME_GREEN = 1.5
@@ -34,22 +35,19 @@ def select_study_cards_for_testing(df):
     # Just return first 3 cards
     return df.head(3)
 
-def select_study_cards(df):
+def select_study_cards():
     """
     Select cards for study session based on time ratios.
     Avoids selecting cards already studied today.
     
-    Args:
-        df (pandas.DataFrame): Full flashcard dataset
-        
     Returns:
         pandas.DataFrame: Selected subset of cards for study, with added columns:
             - used_clue: Tracks if clue was used
             - session_id: Unique ID for this study session
             - timestamp: When each card was completed
     """
-    # Create a copy to avoid modifying original
-    df = df.copy()
+    # Load the word list
+    df = utils.load_word_list('main/wordList 2024-10-07.csv')
     
     # Filter out any words already studied today
     today = datetime.now().date()

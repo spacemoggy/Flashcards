@@ -17,8 +17,7 @@ from datetime import datetime
 )
 def start_new_round(n_clicks, completion_style):
     # Load and select new cards
-    full_df = utils.load_word_list('main/wordList 2024-10-07.csv')
-    new_df = card_selection.select_study_cards(full_df)
+    new_df = card_selection.select_study_cards()
     
     # Initialize tracking columns
     new_df['used_clue'] = False
